@@ -1,4 +1,5 @@
 import "./App.css";
+import Minesweeper from "./components/Minesweeper";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
             🥝
           </a>
         </h1>
+        <Minesweeper />
       </div>
     </>
   );
