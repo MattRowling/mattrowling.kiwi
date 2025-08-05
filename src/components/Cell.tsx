@@ -1,24 +1,35 @@
-import { useState } from "react";
-
 interface CellProps {
   row: number;
   col: number;
   hasMine: boolean;
   adjacentMines: number;
+  isRevealed: boolean;
+  onClick?: (row: number, col: number) => void;
 }
 
 function Cell(props: CellProps) {
-  const [isMined, setIsMined] = useState(false);
-
-  const getColourClass = () => {
+  const getClasses = () => {
     const isLight =
       (props.row % 2 === 0 && props.col % 2 === 1) ||
       (props.row % 2 === 1 && props.col % 2 === 0);
 
-    if (isMined) {
-      return isLight ? "bg-stone-200" : "bg-stone-300";
+    if (props.isRevealed) {
+      return isLight ? "bg-stone-200 " : "bg-stone-300";
+    } else {
+      return isLight
+        ? "bg-green-500 cursor-pointer hover:opacity-80 transition-opacity"
+        : "bg-green-600 cursor-pointer hover:opacity-80 transition-opacity";
     }
-    return isLight ? "bg-green-500" : "bg-green-600";
+  };
+
+  const getDisplayContent = () => {
+    if (!props.isRevealed) {
+      return "";
+    } else if (props.hasMine) {
+      return "💣";
+    } else {
+      return props.adjacentMines === 0 ? "" : props.adjacentMines;
+    }
   };
 
   return (
@@ -29,22 +40,16 @@ function Cell(props: CellProps) {
         md:w-10 md:h-10 md:text-base
         lg:w-12 lg:h-12 lg:text-lg
         inline-flex items-center justify-center 
-        text-stone-600 font-bold   
-        ${getColourClass()}
+        text-stone-600 font-bold
+        ${getClasses()}
       `}
-      key={`${props.row}-${props.col}`}
       onClick={() => {
-        setIsMined(true);
+        props.onClick?.(props.row, props.col);
       }}
     >
-      {isMined
-        ? props.hasMine
-          ? "💣"
-          : props.adjacentMines === 0
-          ? ""
-          : props.adjacentMines
-        : ""}
+      {getDisplayContent()}
     </span>
   );
 }
+
 export default Cell;
