@@ -20,6 +20,7 @@ function Minesweeper() {
               key={`${rowIndex}-${colIndex}`}
               row={rowIndex}
               col={colIndex}
+              hasMine={Math.random() < 0.2}
             />
           ))}
         </div>
