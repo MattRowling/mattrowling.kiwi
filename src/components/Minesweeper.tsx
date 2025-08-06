@@ -152,7 +152,9 @@ function Minesweeper() {
               adjacentMines={cell.adjacentMines}
               isRevealed={cell.isRevealed}
               isFlagged={cell.isFlagged}
-              onClick={cell.isRevealed ? undefined : handleCellClick}
+              onClick={
+                cell.isRevealed || cell.isFlagged ? undefined : handleCellClick
+              }
               onContextMenu={
                 cell.isRevealed ? undefined : handleCellContextMenu
               }
