@@ -4,7 +4,9 @@ interface CellProps {
   hasMine: boolean;
   adjacentMines: number;
   isRevealed: boolean;
+  isFlagged: boolean;
   onClick?: (row: number, col: number) => void;
+  onContextMenu?: (row: number, col: number) => void;
 }
 
 function Cell(props: CellProps) {
@@ -24,7 +26,7 @@ function Cell(props: CellProps) {
 
   const getDisplayContent = () => {
     if (!props.isRevealed) {
-      return "";
+      return props.isFlagged ? "🚩" : "";
     } else if (props.hasMine) {
       return "💣";
     } else {
@@ -45,6 +47,10 @@ function Cell(props: CellProps) {
       `}
       onClick={() => {
         props.onClick?.(props.row, props.col);
+      }}
+      onContextMenu={(e) => {
+        e.preventDefault();
+        props.onContextMenu?.(props.row, props.col);
       }}
     >
       {getDisplayContent()}

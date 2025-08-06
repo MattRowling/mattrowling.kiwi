@@ -9,6 +9,7 @@ interface GridCell {
   hasMine: boolean;
   adjacentMines: number;
   isRevealed: boolean;
+  isFlagged: boolean;
 }
 
 function Minesweeper() {
@@ -26,7 +27,12 @@ function Minesweeper() {
     for (let row = 0; row < NUMBER_OF_ROWS; row++) {
       const gridRow = [];
       for (let col = 0; col < NUMBER_OF_COLS; col++) {
-        gridRow.push({ hasMine: false, adjacentMines: 0, isRevealed: false });
+        gridRow.push({
+          hasMine: false,
+          adjacentMines: 0,
+          isRevealed: false,
+          isFlagged: false,
+        });
       }
       newGrid.push(gridRow);
     }
@@ -101,10 +107,6 @@ function Minesweeper() {
   };
 
   const handleCellClick = (row: number, col: number) => {
-    if (grid[row][col].isRevealed) {
-      return; // Already revealed
-    }
-
     if (grid[row][col].hasMine) {
       // Game over, reveal all mines
       const newGrid = grid.map((gridRow) =>
@@ -119,6 +121,12 @@ function Minesweeper() {
     }
   };
 
+  const handleCellContextMenu = (row: number, col: number) => {
+    const newGrid = grid.map((gridRow) => gridRow.map((cell) => ({ ...cell })));
+    newGrid[row][col].isFlagged = !newGrid[row][col].isFlagged;
+    setGrid(newGrid);
+  };
+
   return (
     <div className="m-10 w-fit">
       {grid.map((row, rowIndex) => (
@@ -131,7 +139,11 @@ function Minesweeper() {
               hasMine={cell.hasMine}
               adjacentMines={cell.adjacentMines}
               isRevealed={cell.isRevealed}
+              isFlagged={cell.isFlagged}
               onClick={cell.isRevealed ? undefined : handleCellClick}
+              onContextMenu={
+                cell.isRevealed ? undefined : handleCellContextMenu
+              }
             />
           ))}
         </div>
