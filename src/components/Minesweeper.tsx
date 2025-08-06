@@ -118,6 +118,7 @@ function Minesweeper() {
     } else {
       const updatedGrid = openAdjacentCells(row, col, grid);
       setGrid(updatedGrid);
+      checkWinCondition(updatedGrid);
     }
   };
 
@@ -125,6 +126,17 @@ function Minesweeper() {
     const newGrid = grid.map((gridRow) => gridRow.map((cell) => ({ ...cell })));
     newGrid[row][col].isFlagged = !newGrid[row][col].isFlagged;
     setGrid(newGrid);
+  };
+
+  const checkWinCondition = (currentGrid: GridCell[][]) => {
+    const allCellsRevealedOrHasMine = currentGrid.every((row) =>
+      row.every((cell) => cell.isRevealed || cell.hasMine)
+    );
+
+    if (allCellsRevealedOrHasMine) {
+      // Game won
+      initializeGrid();
+    }
   };
 
   return (
