@@ -1,5 +1,6 @@
 import "./App.css";
 import Fixtures from "./sports/Fixtures";
+import KiwiSvg from "./icons/kiwi-fruit-noto.svg";
 
 function App() {
   return (
@@ -7,7 +8,14 @@ function App() {
       <h1 className="font-sans font-bold text-black mb-10">
         mattrowling.
         <a href="https://www.hello.kiwi/why-dotkiwi" target="_blank">
-          🥝
+          <img
+            src={KiwiSvg}
+            style={{
+              width: 48,
+              height: 48,
+              display: "inline-block",
+            }}
+          />
         </a>
       </h1>
       <Fixtures />
