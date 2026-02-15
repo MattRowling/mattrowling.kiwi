@@ -1,12 +1,4 @@
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-} from "@mui/material";
+import { Card, CardContent, Box, Chip } from "@mui/material";
 
 import FixturesData from "./data/FixturesData";
 import FootballSvg from "./icons/soccer-ball-noto.svg";
@@ -26,14 +18,18 @@ const getSvgForSport = (sport: string) => {
   return null;
 };
 
-const getStartFromTimestamp = (timestamp: number) => {
-  // TODO: display year if not current year
-
+const getDateFromTimestamp = (timestamp: number) => {
   const date = new Date(timestamp * 1000);
   return date.toLocaleString("en-AU", {
     weekday: "short",
     month: "short",
     day: "numeric",
+  });
+};
+
+const getTimeFromTimestamp = (timestamp: number) => {
+  const date = new Date(timestamp * 1000);
+  return date.toLocaleString("en-AU", {
     hour: "numeric",
     minute: "numeric",
   });
@@ -43,46 +39,126 @@ const sortedFixtures = FixturesData.sort((a, b) => a.timestamp - b.timestamp);
 
 function Fixtures() {
   return (
-    <div className="w-fit">
-      <TableContainer component={Paper} sx={{ boxShadow: 3 }}>
-        <Table sx={{ minWidth: "auto" }}>
-          <TableHead
+    <Box
+      sx={{
+        display: "grid",
+        gridTemplateColumns: {
+          xs: "minmax(auto, 21rem)",
+          sm: "repeat(auto-fit, minmax(21rem, 21rem))",
+        },
+        gap: 3,
+        justifyContent: "center",
+      }}
+    >
+      {sortedFixtures.map((fixture) => (
+        <Card
+          key={fixture.id}
+          sx={{
+            boxShadow: 3,
+            transition: "transform 2s, box-shadow 0.2s",
+            height: "13rem",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <CardContent
             sx={{
-              backgroundColor: "#f5f5f5",
-              "& .MuiTableCell-root": { fontWeight: "bold", fontSize: "1rem" },
+              flex: 1,
+              display: "flex",
+              flexDirection: "column",
             }}
           >
-            <TableRow>
-              <TableCell></TableCell>
-              <TableCell>Home</TableCell>
-              <TableCell>Away</TableCell>
-              <TableCell>Start</TableCell>
-              <TableCell>Venue</TableCell>
-              <TableCell>City</TableCell>
-              <TableCell>Competition</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {sortedFixtures.map((row) => (
-              <TableRow
-                key={row.id}
+            {/* Sport Icon & Competition */}
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                marginBottom: 2,
+              }}
+            >
+              {getSvgForSport(fixture.sport)}
+              <Chip
+                label={fixture.competition}
+                size="small"
+                sx={{ fontWeight: "bold" }}
+              />
+            </Box>
+
+            {/* Teams and Match Details Side by Side */}
+            <Box
+              sx={{
+                display: "flex",
+                gap: 2,
+                flex: 1,
+              }}
+            >
+              {/* Teams */}
+              <Box
                 sx={{
-                  "&:last-child td": { border: 0 },
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
+                  flex: 1,
+                  minHeight: 0,
                 }}
               >
-                <TableCell>{getSvgForSport(row.sport)}</TableCell>
-                <TableCell>{row.home}</TableCell>
-                <TableCell>{row.away}</TableCell>
-                <TableCell>{getStartFromTimestamp(row.timestamp)}</TableCell>
-                <TableCell>{row.venue}</TableCell>
-                <TableCell>{row.city}</TableCell>
-                <TableCell>{row.competition}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </div>
+                <Box sx={{ fontSize: "1rem", fontWeight: "bold" }}>
+                  {fixture.home}
+                </Box>
+                <Box
+                  sx={{
+                    fontSize: "0.875rem",
+                    color: "text.secondary",
+                  }}
+                >
+                  vs
+                </Box>
+                <Box sx={{ fontSize: "1rem", fontWeight: "bold" }}>
+                  {fixture.away}
+                </Box>
+              </Box>
+
+              {/* Match Details */}
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  fontSize: "0.875rem",
+                  color: "text.secondary",
+                  justifyContent: "space-between",
+                  textAlign: "right",
+                }}
+              >
+                {/* Date and Time at top */}
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 0.5,
+                  }}
+                >
+                  <Box>{getDateFromTimestamp(fixture.timestamp)}</Box>
+                  <Box>{getTimeFromTimestamp(fixture.timestamp)}</Box>
+                </Box>
+
+                {/* Venue and City at bottom */}
+                <Box
+                  sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: 0.5,
+                  }}
+                >
+                  <Box>{fixture.venue}</Box>
+                  <Box>{fixture.city}</Box>
+                </Box>
+              </Box>
+            </Box>
+          </CardContent>
+        </Card>
+      ))}
+    </Box>
   );
 }
 
