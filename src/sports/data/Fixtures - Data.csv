@@ -1,0 +1,63 @@
+Sport,Competition,Home,Away,Epoch Time,Venue,City
+Rugby,Six Nations,Wales,France,1773587400,Millennium Stadium,Cardiff
+Rugby,Six Nations,England,Ireland,1771683000,Twickenham,London
+Rugby,Six Nations,Wales,Scotland,1771692000,Millennium Stadium,Cardiff
+Rugby,Six Nations,France,Italy,1771773000,Stade Pierre Mauroy,Lille
+Rugby,Six Nations,Ireland,Wales,1772827800,Aviva Stadium,Dublin
+Rugby,Six Nations,Scotland,France,1772892600,Murrayfield,Edinburgh
+Rugby,Six Nations,Italy,England,1772901600,Stadio Olimpico,Rome
+Rugby,Six Nations,Ireland,Scotland,1773497400,Aviva Stadium,Dublin
+Rugby,Six Nations,Wales,Italy,1773506400,Millennium Stadium,Cardiff
+Rugby,Six Nations,France,England,1773519000,Stade de France,Paris
+Football,A-League Men,Wellington Phoenix,Auckland FC,1771646400,Sky Stadium,Wellington
+Football,A-League Men,Wellington Phoenix,Sydney FC,1772330400,Hnry Stadium,Wellington
+Football,A-League Men,Adelaide United,Wellington Phoenix,1772786100,Coopers Stadium,Adelaide
+Football,A-League Men,Wellington Phoenix,Perth Glory,1773453600,Hnry Stadium,Wellington
+Football,A-League Men,Brisbane Roar,Wellington Phoenix,1774065600,Suncorp Stadium,Brisbane
+Football,A-League Men,Melbourne Victory,Wellington Phoenix,1775365200,AAMI Park,Melbourne
+Football,A-League Men,Melbourne City,Wellington Phoenix,1775970000,AAMI Park,Melbourne
+Football,A-League Men,Wellington Phoenix,Western Sydney Wanderers,1776484800,Hnry Stadium,Wellington
+Football,A-League Men,Wellington Phoenix,Macarthur FC,1777023300,Apollo Projects Stadium,Christchurch
+Football,A-League Women,Melbourne Victory,Wellington Phoenix,1771574400,Home of the Matildas,Melbourne
+Football,A-League Women,Wellington Phoenix,Brisbane Roar,1773464400,Hnry Stadium,Wellington
+Football,A-League Women,Sydney FC,Wellington Phoenix,1773993600,Leichhardt Oval,Sydney
+Football,A-League Women,Central Coast Mariners,Wellington Phoenix,1774425600,Central Coast Stadium,Gosford
+Football,A-League Women,Wellington Phoenix,Western Sydney Wanderers,1774753200,Porirua Park,Wellington
+Football,A-League Women,Adelaide United,Wellington Phoenix,1775195400,Coopers Stadium,Adelaide
+Rugby,Super Rugby Pacific,Hurricanes,Moana Pasifika,1771567500,Sky Stadium,Wellington
+Rugby,Super Rugby Pacific,Fijian Drua,Hurricanes,1772249700,Churchill Park,Lautoka
+Rugby,Super Rugby Pacific,NSW Waratahs,Hurricanes,1772786100,Allianz Stadium,Sydney
+Rugby,Super Rugby Pacific,Hurricanes,Western Force,1773381900,McLean Park,Napier
+Rugby,Super Rugby Pacific,Highlanders,Hurricanes,1773986700,Forsyth Barr Stadium,Dunedin
+Rugby,Super Rugby Pacific,Hurricanes,Queensland Reds,1774668900,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,Hurricanes,Blues,1775891100,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,Chiefs,Hurricanes,1776495900,Waikato Stadium,Hamilton
+Rugby,Super Rugby Pacific,Hurricanes,Brumbies,1777093500,One NZ Stadium,Christchurch
+Rugby,Super Rugby Pacific,Hurricanes,Crusaders,1777619100,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,Moana Pasifika,Hurricanes,1778310300,North Harbour Stadium,Auckland
+Rugby,Super Rugby Pacific,Blues,Hurricanes,1778915100,Eden Park,Auckland
+Rugby,Super Rugby Pacific,Hurricanes,Highlanders,1779519900,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,Crusaders,Hurricanes,1780038300,One NZ Stadium,Christchurch
+Cricket,T20 World Cup,Canada,New Zealand,1771306200,M. A. Chidambaram Stadium,Chennai
+Cricket,T20 Series,New Zealand,South Africa,1773555300,Bay Oval,Mount Maunganui
+Cricket,T20 Series,New Zealand,South Africa,1773641700,Seddon Park,Hamilton
+Cricket,T20 Series,New Zealand,South Africa,1773728100,Eden Park,Auckland
+Cricket,T20 Series,New Zealand,South Africa,1773814500,Hnry Stadium,Wellington
+Cricket,T20 Series,New Zealand,South Africa,1773900900,Hagley Oval,Christchurch
+Football,International Friendly,New Zealand,Finland,1774591200,Eden Park,Auckland
+Football,International Friendly,New Zealand,Chile,1774850400,Eden Park,Auckland
+Football,FIFA World Cup,Iran,New Zealand,1781578800,Los Angeles Stadium,Los Angeles
+Football,FIFA World Cup,New Zealand,Egypt,1782097200,BC Place,Vancouver
+Football,FIFA World Cup,New Zealand,Belgium,1782536400,BC Place,Vancouver
+Football,Premier League,West Ham,Bournemouth,1771695000,London Stadium,London
+Football,Premier League,Liverpool,West Ham,1772290800,Anfield,Liverpool
+Football,Premier League,Fulham,West Ham,1772652600,Craven Cottage,London
+Football,Premier League,West Ham,Manchester City,1773491400,London Stadium,London
+Football,Premier League,Aston Villa,West Ham,1774188900,Villa Park,Birmingham
+Football,Premier League,West Ham,Wolves,1775916000,London Stadium,London
+Football,Premier League,Crystal Palace,West Ham,1776520800,Selhurst Park,London
+Football,Premier League,West Ham,Everton,1777125600,London Stadium,London
+Football,Premier League,Brentford,West Ham,1777730400,Gtech Community Stadium,London
+Football,Premier League,West Ham,Arsenal,1778335200,London Stadium,London
+Football,Premier League,Newcastle,West Ham,1779026400,St. James' Park,Newcastle
+Football,Premier League,West Ham,Leeds United,1779634800,London Stadium,London
