@@ -1,6 +1,6 @@
 import { Card, CardContent, Box, Chip } from "@mui/material";
 
-import FixturesData from "./data/FixturesData";
+import fixtures from "./data/fixtures-data";
 import FootballSvg from "./icons/soccer-ball-noto.svg";
 import RugbySvg from "./icons/rugby-football-noto.svg";
 import CricketSvg from "./icons/cricket-game-noto.svg";
@@ -35,7 +35,7 @@ const getTimeFromTimestamp = (timestamp: number) => {
   });
 };
 
-const sortedFixtures = FixturesData.sort((a, b) => a.timestamp - b.timestamp);
+const sortedFixtures = fixtures.sort((a, b) => a.timestamp - b.timestamp);
 
 function Fixtures() {
   return (
