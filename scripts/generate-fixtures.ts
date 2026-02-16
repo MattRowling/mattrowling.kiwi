@@ -40,11 +40,13 @@ function generateFixtures() {
         id: fixtures.length + 1,
         sport: values[0],
         competition: values[1],
-        home: values[2],
-        away: values[3],
-        timestamp: parseInt(values[4]),
-        venue: values[5],
-        city: values[6],
+        name: values[2] || undefined,
+        event: values[3] || undefined,
+        home: values[4] || undefined,
+        away: values[5] || undefined,
+        timestamp: parseInt(values[6]),
+        venue: values[7],
+        city: values[8],
       });
     }
 
