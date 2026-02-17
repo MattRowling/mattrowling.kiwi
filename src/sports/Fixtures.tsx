@@ -4,6 +4,8 @@ import fixtures from "./data/fixtures-data";
 import FootballSvg from "./icons/soccer-ball-noto.svg";
 import RugbySvg from "./icons/rugby-football-noto.svg";
 import CricketSvg from "./icons/cricket-game-noto.svg";
+import Formula1Svg from "./icons/racing-car-noto.svg";
+import Contest from "./Contest";
 
 const getSvgForSport = (sport: string) => {
   const style = { width: 24, height: 24 };
@@ -14,6 +16,8 @@ const getSvgForSport = (sport: string) => {
       return <img src={RugbySvg} style={style} />;
     case "cricket":
       return <img src={CricketSvg} style={style} />;
+    case "formula 1":
+      return <img src={Formula1Svg} style={style} />;
   }
   return null;
 };
@@ -94,34 +98,17 @@ function Fixtures() {
               }}
             >
               {/* Teams */}
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
-                  flex: 1,
-                  minHeight: 0,
-                }}
-              >
-                <Box sx={{ fontSize: "1rem", fontWeight: "bold" }}>
-                  {fixture.home}
-                </Box>
-                <Box
-                  sx={{
-                    fontSize: "0.875rem",
-                    color: "text.secondary",
-                  }}
-                >
-                  vs
-                </Box>
-                <Box sx={{ fontSize: "1rem", fontWeight: "bold" }}>
-                  {fixture.away}
-                </Box>
-              </Box>
+              <Contest
+                name={fixture.name}
+                event={fixture.event}
+                home={fixture.home}
+                away={fixture.away}
+              />
 
               {/* Match Details */}
               <Box
                 sx={{
+                  flex: 1,
                   display: "flex",
                   flexDirection: "column",
                   fontSize: "0.875rem",
