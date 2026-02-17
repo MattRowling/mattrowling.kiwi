@@ -60,9 +60,9 @@ function Fixtures() {
           sx={{
             boxShadow: 3,
             transition: "transform 2s, box-shadow 0.2s",
-            height: "13rem",
             display: "flex",
             flexDirection: "column",
+            height: "13rem",
           }}
         >
           <CardContent
@@ -70,6 +70,7 @@ function Fixtures() {
               flex: 1,
               display: "flex",
               flexDirection: "column",
+              gap: 1,
             }}
           >
             {/* Sport Icon & Competition */}
@@ -78,7 +79,6 @@ function Fixtures() {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
-                marginBottom: 2,
               }}
             >
               {getSvgForSport(fixture.sport)}
@@ -89,58 +89,40 @@ function Fixtures() {
               />
             </Box>
 
-            {/* Teams and Match Details Side by Side */}
+            {/* Date & Time */}
             <Box
               sx={{
                 display: "flex",
-                gap: 2,
-                flex: 1,
+                gap: 1,
+                fontSize: "0.875rem",
+                color: "text.secondary",
+                justifyContent: "space-between",
               }}
             >
-              {/* Teams */}
-              <Contest
-                name={fixture.name}
-                event={fixture.event}
-                home={fixture.home}
-                away={fixture.away}
-              />
+              <Box>{getDateFromTimestamp(fixture.timestamp)}</Box>
+              <Box>{getTimeFromTimestamp(fixture.timestamp)}</Box>
+            </Box>
 
-              {/* Match Details */}
-              <Box
-                sx={{
-                  flex: 1,
-                  display: "flex",
-                  flexDirection: "column",
-                  fontSize: "0.875rem",
-                  color: "text.secondary",
-                  justifyContent: "space-between",
-                  textAlign: "right",
-                }}
-              >
-                {/* Date and Time at top */}
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: 0.5,
-                  }}
-                >
-                  <Box>{getDateFromTimestamp(fixture.timestamp)}</Box>
-                  <Box>{getTimeFromTimestamp(fixture.timestamp)}</Box>
-                </Box>
+            {/* Contest */}
+            <Contest
+              name={fixture.name}
+              event={fixture.event}
+              home={fixture.home}
+              away={fixture.away}
+            />
 
-                {/* Venue and City at bottom */}
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: 0.5,
-                  }}
-                >
-                  <Box>{fixture.venue}</Box>
-                  <Box>{fixture.city}</Box>
-                </Box>
-              </Box>
+            {/* Venue & City */}
+            <Box
+              sx={{
+                display: "flex",
+                gap: 1,
+                fontSize: "0.875rem",
+                color: "text.secondary",
+                justifyContent: "space-between",
+              }}
+            >
+              <Box>{fixture.venue}</Box>
+              <Box>{fixture.city}</Box>
             </Box>
           </CardContent>
         </Card>
