@@ -13,8 +13,8 @@ function Contest({ name, event, home, away }: ContestProps) {
           sx={{
             display: "flex",
             flexDirection: "column",
-            justifyContent: "space-between",
-            height: "100%",
+            alignItems: "center",
+            gap: 0.5,
           }}
         >
           <Box sx={{ fontSize: "1rem", fontWeight: "bold" }}>{home}</Box>
@@ -28,7 +28,8 @@ function Contest({ name, event, home, away }: ContestProps) {
             flexDirection: "column",
             justifyContent: "center",
             height: "100%",
-            gap: 1,
+            gap: 0.5,
+            alignItems: "center",
           }}
         >
           <Box sx={{ fontSize: "1rem", fontWeight: "bold" }}>{name}</Box>
