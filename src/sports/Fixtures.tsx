@@ -8,6 +8,7 @@ import Formula1Svg from "./icons/racing-car-noto.svg";
 import CyclingSvg from "./icons/person-biking-noto.svg";
 import DateTime from "./DateTime";
 import Contest from "./Contest";
+import { isFixtureCompleted } from "./utils/fixture-utils";
 
 const getSvgForSport = (sport: string) => {
   const style = { width: 24, height: 24 };
@@ -41,6 +42,10 @@ const sortedFixtures = fixtures.sort((a, b) => {
 });
 
 function Fixtures() {
+  const activeFixtures = sortedFixtures.filter(
+    (fixture) => !isFixtureCompleted(fixture),
+  );
+
   return (
     <Box
       sx={{
@@ -53,7 +58,7 @@ function Fixtures() {
         justifyContent: "center",
       }}
     >
-      {sortedFixtures.map((fixture) => (
+      {activeFixtures.map((fixture) => (
         <Card
           key={fixture.id}
           sx={{

@@ -1,6 +1,7 @@
 import * as fs from "fs";
 
 import type { Fixture } from "../src/sports/types.ts";
+import { isFixtureCompleted } from "../src/sports/utils/fixture-utils.ts";
 
 function parseCSVLine(line: string): string[] {
   const result: string[] = [];
@@ -36,7 +37,7 @@ function generateFixtures() {
     for (let i = 0; i < lines.length; i++) {
       const values = parseCSVLine(lines[i]);
 
-      fixtures.push({
+      const fixture: Fixture = {
         id: fixtures.length + 1,
         sport: values[0],
         competition: values[1],
@@ -49,7 +50,11 @@ function generateFixtures() {
         timestamp: parseInt(values[8]) || null,
         primaryLocation: values[9],
         secondaryLocation: values[10],
-      });
+      };
+
+      if (!isFixtureCompleted(fixture)) {
+        fixtures.push(fixture);
+      }
     }
 
     const outputContent = `
