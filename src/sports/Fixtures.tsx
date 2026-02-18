@@ -6,6 +6,7 @@ import RugbySvg from "./icons/rugby-football-noto.svg";
 import CricketSvg from "./icons/cricket-game-noto.svg";
 import Formula1Svg from "./icons/racing-car-noto.svg";
 import CyclingSvg from "./icons/person-biking-noto.svg";
+import DateTime from "./DateTime";
 import Contest from "./Contest";
 
 const getSvgForSport = (sport: string) => {
@@ -23,35 +24,6 @@ const getSvgForSport = (sport: string) => {
       return <img src={CyclingSvg} style={style} />;
   }
   return null;
-};
-
-const getDateFromTimestamp = (timestamp: number) => {
-  const date = new Date(timestamp * 1000);
-  return date.toLocaleString("en-AU", {
-    weekday: "short",
-    month: "short",
-    day: "numeric",
-  });
-};
-
-const getTimeFromTimestamp = (timestamp: number) => {
-  const date = new Date(timestamp * 1000);
-  return date.toLocaleString("en-AU", {
-    hour: "numeric",
-    minute: "numeric",
-  });
-};
-
-const getFormattedDate = (dateString: string) => {
-  const [day, month, year] = dateString.split("/");
-  const fullYear = `20${year}`; // Assumes 20xx
-  const date = new Date(`${fullYear}-${month}-${day}`);
-
-  return date.toLocaleString("en-AU", {
-    weekday: "short",
-    month: "short",
-    day: "numeric",
-  });
 };
 
 const sortedFixtures = fixtures.sort((a, b) => {
@@ -117,24 +89,11 @@ function Fixtures() {
             </Box>
 
             {/* Date & Time */}
-            <Box
-              sx={{
-                display: "flex",
-                gap: 1,
-                fontSize: "0.875rem",
-                color: "text.secondary",
-                justifyContent: "space-between",
-              }}
-            >
-              <Box>
-                {fixture.timestamp
-                  ? getDateFromTimestamp(fixture.timestamp)
-                  : getFormattedDate(fixture.date!)}
-              </Box>
-              {fixture.timestamp && (
-                <Box>{getTimeFromTimestamp(fixture.timestamp)}</Box>
-              )}
-            </Box>
+            <DateTime
+              timestamp={fixture.timestamp}
+              date={fixture.date}
+              endDate={fixture.endDate}
+            />
 
             {/* Contest */}
             <Contest
