@@ -396,16 +396,6 @@ const fixtures: Fixture[] = [
   {
     "id": 40,
     "sport": "Cricket",
-    "competition": "T20 World Cup",
-    "home": "Canada",
-    "away": "New Zealand",
-    "timestamp": 1771306200,
-    "primaryLocation": "M. A. Chidambaram Stadium",
-    "secondaryLocation": "Chennai"
-  },
-  {
-    "id": 41,
-    "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
     "away": "South Africa",
@@ -414,7 +404,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mount Maunganui"
   },
   {
-    "id": 42,
+    "id": 41,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -424,7 +414,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Hamilton"
   },
   {
-    "id": 43,
+    "id": 42,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -434,7 +424,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 44,
+    "id": 43,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -444,7 +434,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 45,
+    "id": 44,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -454,7 +444,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Christchurch"
   },
   {
-    "id": 46,
+    "id": 45,
     "sport": "Football",
     "competition": "International Friendly",
     "home": "New Zealand",
@@ -464,7 +454,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 47,
+    "id": 46,
     "sport": "Football",
     "competition": "International Friendly",
     "home": "New Zealand",
@@ -474,7 +464,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 48,
+    "id": 47,
     "sport": "Football",
     "competition": "FIFA World Cup",
     "home": "Iran",
@@ -484,7 +474,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Los Angeles"
   },
   {
-    "id": 49,
+    "id": 48,
     "sport": "Football",
     "competition": "FIFA World Cup",
     "home": "New Zealand",
@@ -494,7 +484,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Vancouver"
   },
   {
-    "id": 50,
+    "id": 49,
     "sport": "Football",
     "competition": "FIFA World Cup",
     "home": "New Zealand",
@@ -504,7 +494,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Vancouver"
   },
   {
-    "id": 51,
+    "id": 50,
     "sport": "Football",
     "competition": "Premier League",
     "home": "West Ham",
@@ -514,7 +504,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 52,
+    "id": 51,
     "sport": "Football",
     "competition": "Premier League",
     "home": "Liverpool",
@@ -524,7 +514,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Liverpool"
   },
   {
-    "id": 53,
+    "id": 52,
     "sport": "Football",
     "competition": "Premier League",
     "home": "Fulham",
@@ -534,7 +524,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 54,
+    "id": 53,
     "sport": "Football",
     "competition": "Premier League",
     "home": "West Ham",
@@ -544,7 +534,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 55,
+    "id": 54,
     "sport": "Football",
     "competition": "Premier League",
     "home": "Aston Villa",
@@ -554,7 +544,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Birmingham"
   },
   {
-    "id": 56,
+    "id": 55,
     "sport": "Football",
     "competition": "Premier League",
     "home": "West Ham",
@@ -564,7 +554,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 57,
+    "id": 56,
     "sport": "Football",
     "competition": "Premier League",
     "home": "Crystal Palace",
@@ -574,7 +564,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 58,
+    "id": 57,
     "sport": "Football",
     "competition": "Premier League",
     "home": "West Ham",
@@ -584,7 +574,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 59,
+    "id": 58,
     "sport": "Football",
     "competition": "Premier League",
     "home": "Brentford",
@@ -594,7 +584,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 60,
+    "id": 59,
     "sport": "Football",
     "competition": "Premier League",
     "home": "West Ham",
@@ -604,7 +594,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 61,
+    "id": 60,
     "sport": "Football",
     "competition": "Premier League",
     "home": "Newcastle",
@@ -614,7 +604,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Newcastle"
   },
   {
-    "id": 62,
+    "id": 61,
     "sport": "Football",
     "competition": "Premier League",
     "home": "West Ham",
@@ -624,7 +614,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 63,
+    "id": 62,
     "sport": "Football",
     "competition": "FA Cup",
     "home": "West Ham",
@@ -634,7 +624,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 64,
+    "id": 63,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Australian Grand Prix",
@@ -644,7 +634,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 65,
+    "id": 64,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Australian Grand Prix",
@@ -654,7 +644,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 66,
+    "id": 65,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Australian Grand Prix",
@@ -664,7 +654,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 67,
+    "id": 66,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Australian Grand Prix",
@@ -674,7 +664,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 68,
+    "id": 67,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Australian Grand Prix",
@@ -684,7 +674,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 69,
+    "id": 68,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Chinese Grand Prix",
@@ -694,7 +684,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Shanghai"
   },
   {
-    "id": 70,
+    "id": 69,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Chinese Grand Prix",
@@ -704,7 +694,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Shanghai"
   },
   {
-    "id": 71,
+    "id": 70,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Chinese Grand Prix",
@@ -714,7 +704,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Shanghai"
   },
   {
-    "id": 72,
+    "id": 71,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Chinese Grand Prix",
@@ -724,7 +714,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Shanghai"
   },
   {
-    "id": 73,
+    "id": 72,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Chinese Grand Prix",
@@ -734,7 +724,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Shanghai"
   },
   {
-    "id": 74,
+    "id": 73,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Japanese Grand Prix",
@@ -744,7 +734,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Suzuka"
   },
   {
-    "id": 75,
+    "id": 74,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Japanese Grand Prix",
@@ -754,7 +744,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Suzuka"
   },
   {
-    "id": 76,
+    "id": 75,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Japanese Grand Prix",
@@ -764,7 +754,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Suzuka"
   },
   {
-    "id": 77,
+    "id": 76,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Japanese Grand Prix",
@@ -774,7 +764,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Suzuka"
   },
   {
-    "id": 78,
+    "id": 77,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Japanese Grand Prix",
@@ -784,7 +774,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Suzuka"
   },
   {
-    "id": 79,
+    "id": 78,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Bahrain Grand Prix",
@@ -794,7 +784,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sakhir"
   },
   {
-    "id": 80,
+    "id": 79,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Bahrain Grand Prix",
@@ -804,7 +794,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sakhir"
   },
   {
-    "id": 81,
+    "id": 80,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Bahrain Grand Prix",
@@ -814,7 +804,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sakhir"
   },
   {
-    "id": 82,
+    "id": 81,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Bahrain Grand Prix",
@@ -824,7 +814,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sakhir"
   },
   {
-    "id": 83,
+    "id": 82,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Bahrain Grand Prix",
@@ -834,7 +824,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sakhir"
   },
   {
-    "id": 84,
+    "id": 83,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Saudi Arabian Grand Prix",
@@ -844,7 +834,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Jeddah"
   },
   {
-    "id": 85,
+    "id": 84,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Saudi Arabian Grand Prix",
@@ -854,7 +844,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Jeddah"
   },
   {
-    "id": 86,
+    "id": 85,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Saudi Arabian Grand Prix",
@@ -864,7 +854,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Jeddah"
   },
   {
-    "id": 87,
+    "id": 86,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Saudi Arabian Grand Prix",
@@ -874,7 +864,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Jeddah"
   },
   {
-    "id": 88,
+    "id": 87,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Saudi Arabian Grand Prix",
@@ -884,7 +874,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Jeddah"
   },
   {
-    "id": 89,
+    "id": 88,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Miami Grand Prix",
@@ -894,7 +884,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Miami"
   },
   {
-    "id": 90,
+    "id": 89,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Miami Grand Prix",
@@ -904,7 +894,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Miami"
   },
   {
-    "id": 91,
+    "id": 90,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Miami Grand Prix",
@@ -914,7 +904,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Miami"
   },
   {
-    "id": 92,
+    "id": 91,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Miami Grand Prix",
@@ -924,7 +914,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Miami"
   },
   {
-    "id": 93,
+    "id": 92,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Miami Grand Prix",
@@ -934,7 +924,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Miami"
   },
   {
-    "id": 94,
+    "id": 93,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Canadian Grand Prix",
@@ -944,7 +934,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Montreal"
   },
   {
-    "id": 95,
+    "id": 94,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Canadian Grand Prix",
@@ -954,7 +944,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Montreal"
   },
   {
-    "id": 96,
+    "id": 95,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Canadian Grand Prix",
@@ -964,7 +954,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Montreal"
   },
   {
-    "id": 97,
+    "id": 96,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Canadian Grand Prix",
@@ -974,7 +964,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Montreal"
   },
   {
-    "id": 98,
+    "id": 97,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Canadian Grand Prix",
@@ -984,7 +974,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Montreal"
   },
   {
-    "id": 99,
+    "id": 98,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Monaco Grand Prix",
@@ -994,7 +984,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monaco"
   },
   {
-    "id": 100,
+    "id": 99,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Monaco Grand Prix",
@@ -1004,7 +994,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monaco"
   },
   {
-    "id": 101,
+    "id": 100,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Monaco Grand Prix",
@@ -1014,7 +1004,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monaco"
   },
   {
-    "id": 102,
+    "id": 101,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Monaco Grand Prix",
@@ -1024,7 +1014,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monaco"
   },
   {
-    "id": 103,
+    "id": 102,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Monaco Grand Prix",
@@ -1034,7 +1024,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monaco"
   },
   {
-    "id": 104,
+    "id": 103,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Barcelona-Catalunya Grand Prix",
@@ -1044,7 +1034,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 105,
+    "id": 104,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Barcelona-Catalunya Grand Prix",
@@ -1054,7 +1044,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 106,
+    "id": 105,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Barcelona-Catalunya Grand Prix",
@@ -1064,7 +1054,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 107,
+    "id": 106,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Barcelona-Catalunya Grand Prix",
@@ -1074,7 +1064,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 108,
+    "id": 107,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Barcelona-Catalunya Grand Prix",
@@ -1084,7 +1074,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 109,
+    "id": 108,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Austrian Grand Prix",
@@ -1094,7 +1084,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Spielberg"
   },
   {
-    "id": 110,
+    "id": 109,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Austrian Grand Prix",
@@ -1104,7 +1094,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Spielberg"
   },
   {
-    "id": 111,
+    "id": 110,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Austrian Grand Prix",
@@ -1114,7 +1104,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Spielberg"
   },
   {
-    "id": 112,
+    "id": 111,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Austrian Grand Prix",
@@ -1124,7 +1114,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Spielberg"
   },
   {
-    "id": 113,
+    "id": 112,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Austrian Grand Prix",
@@ -1134,7 +1124,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Spielberg"
   },
   {
-    "id": 114,
+    "id": 113,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "British Grand Prix",
@@ -1144,7 +1134,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Silverstone"
   },
   {
-    "id": 115,
+    "id": 114,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "British Grand Prix",
@@ -1154,7 +1144,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Silverstone"
   },
   {
-    "id": 116,
+    "id": 115,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "British Grand Prix",
@@ -1164,7 +1154,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Silverstone"
   },
   {
-    "id": 117,
+    "id": 116,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "British Grand Prix",
@@ -1174,7 +1164,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Silverstone"
   },
   {
-    "id": 118,
+    "id": 117,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "British Grand Prix",
@@ -1184,7 +1174,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Silverstone"
   },
   {
-    "id": 119,
+    "id": 118,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Belgian Grand Prix",
@@ -1194,7 +1184,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Stavelot"
   },
   {
-    "id": 120,
+    "id": 119,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Belgian Grand Prix",
@@ -1204,7 +1194,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Stavelot"
   },
   {
-    "id": 121,
+    "id": 120,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Belgian Grand Prix",
@@ -1214,7 +1204,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Stavelot"
   },
   {
-    "id": 122,
+    "id": 121,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Belgian Grand Prix",
@@ -1224,7 +1214,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Stavelot"
   },
   {
-    "id": 123,
+    "id": 122,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Belgian Grand Prix",
@@ -1234,7 +1224,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Stavelot"
   },
   {
-    "id": 124,
+    "id": 123,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Hungarian Grand Prix",
@@ -1244,7 +1234,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mogyoród"
   },
   {
-    "id": 125,
+    "id": 124,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Hungarian Grand Prix",
@@ -1254,7 +1244,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mogyoród"
   },
   {
-    "id": 126,
+    "id": 125,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Hungarian Grand Prix",
@@ -1264,7 +1254,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mogyoród"
   },
   {
-    "id": 127,
+    "id": 126,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Hungarian Grand Prix",
@@ -1274,7 +1264,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mogyoród"
   },
   {
-    "id": 128,
+    "id": 127,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Hungarian Grand Prix",
@@ -1284,7 +1274,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mogyoród"
   },
   {
-    "id": 129,
+    "id": 128,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -1294,7 +1284,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 130,
+    "id": 129,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -1304,7 +1294,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 131,
+    "id": 130,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -1314,7 +1304,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 132,
+    "id": 131,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -1324,7 +1314,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 133,
+    "id": 132,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -1334,7 +1324,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 134,
+    "id": 133,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -1344,7 +1334,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 135,
+    "id": 134,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -1354,7 +1344,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 136,
+    "id": 135,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -1364,7 +1354,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 137,
+    "id": 136,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -1374,7 +1364,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 138,
+    "id": 137,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -1384,7 +1374,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 139,
+    "id": 138,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -1394,7 +1384,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 140,
+    "id": 139,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -1404,7 +1394,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 141,
+    "id": 140,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -1414,7 +1404,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 142,
+    "id": 141,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -1424,7 +1414,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 143,
+    "id": 142,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -1434,7 +1424,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 144,
+    "id": 143,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -1444,7 +1434,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 145,
+    "id": 144,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -1454,7 +1444,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 146,
+    "id": 145,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -1464,7 +1454,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 147,
+    "id": 146,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -1474,7 +1464,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 148,
+    "id": 147,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -1484,7 +1474,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 149,
+    "id": 148,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1494,7 +1484,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 150,
+    "id": 149,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1504,7 +1494,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 151,
+    "id": 150,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1514,7 +1504,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 152,
+    "id": 151,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1524,7 +1514,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 153,
+    "id": 152,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1534,7 +1524,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 154,
+    "id": 153,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1544,7 +1534,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 155,
+    "id": 154,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1554,7 +1544,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 156,
+    "id": 155,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1564,7 +1554,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 157,
+    "id": 156,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1574,7 +1564,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 158,
+    "id": 157,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1584,7 +1574,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 159,
+    "id": 158,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1594,7 +1584,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 160,
+    "id": 159,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1604,7 +1594,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 161,
+    "id": 160,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1614,7 +1604,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 162,
+    "id": 161,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1624,7 +1614,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 163,
+    "id": 162,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1634,7 +1624,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 164,
+    "id": 163,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1644,7 +1634,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 165,
+    "id": 164,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1654,7 +1644,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 166,
+    "id": 165,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1664,7 +1654,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 167,
+    "id": 166,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1674,7 +1664,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 168,
+    "id": 167,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1684,7 +1674,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 169,
+    "id": 168,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1694,7 +1684,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 170,
+    "id": 169,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1704,7 +1694,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 171,
+    "id": 170,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1714,7 +1704,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 172,
+    "id": 171,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1724,7 +1714,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 173,
+    "id": 172,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1734,7 +1724,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 174,
+    "id": 173,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1744,7 +1734,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 175,
+    "id": 174,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1754,7 +1744,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 176,
+    "id": 175,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1764,7 +1754,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 177,
+    "id": 176,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1774,7 +1764,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 178,
+    "id": 177,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1784,7 +1774,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 179,
+    "id": 178,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 1",
@@ -1795,7 +1785,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 180,
+    "id": 179,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 2",
@@ -1806,7 +1796,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Barcelona"
   },
   {
-    "id": 181,
+    "id": 180,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 3",
@@ -1817,7 +1807,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Les Angles"
   },
   {
-    "id": 182,
+    "id": 181,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 4",
@@ -1828,7 +1818,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Foix"
   },
   {
-    "id": 183,
+    "id": 182,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 5",
@@ -1839,7 +1829,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Pau"
   },
   {
-    "id": 184,
+    "id": 183,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 6",
@@ -1850,7 +1840,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Gavarnie-Gèdre"
   },
   {
-    "id": 185,
+    "id": 184,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 7",
@@ -1861,7 +1851,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Bordeaux"
   },
   {
-    "id": 186,
+    "id": 185,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 8",
@@ -1872,7 +1862,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Bergerac"
   },
   {
-    "id": 187,
+    "id": 186,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 9",
@@ -1883,7 +1873,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Ussel"
   },
   {
-    "id": 188,
+    "id": 187,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 10",
@@ -1894,7 +1884,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Le Lioran"
   },
   {
-    "id": 189,
+    "id": 188,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 11",
@@ -1905,7 +1895,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Nevers"
   },
   {
-    "id": 190,
+    "id": 189,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 12",
@@ -1916,7 +1906,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Chalon-sur-Saône"
   },
   {
-    "id": 191,
+    "id": 190,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 13",
@@ -1927,7 +1917,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Belfort"
   },
   {
-    "id": 192,
+    "id": 191,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 14",
@@ -1938,7 +1928,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Le Markstein Fellering"
   },
   {
-    "id": 193,
+    "id": 192,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 15",
@@ -1949,7 +1939,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Plateau de Solaison"
   },
   {
-    "id": 194,
+    "id": 193,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 16",
@@ -1960,7 +1950,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Thonon-les-Bains"
   },
   {
-    "id": 195,
+    "id": 194,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 17",
@@ -1971,7 +1961,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Voiron"
   },
   {
-    "id": 196,
+    "id": 195,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 18",
@@ -1982,7 +1972,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Orcières-Merlette"
   },
   {
-    "id": 197,
+    "id": 196,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 19",
@@ -1993,7 +1983,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Alpe d'Huez"
   },
   {
-    "id": 198,
+    "id": 197,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 20",
@@ -2004,7 +1994,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Alpe d'Huez"
   },
   {
-    "id": 199,
+    "id": 198,
     "sport": "Cycling",
     "competition": "Tour de France",
     "name": "Stage 21",
@@ -2015,7 +2005,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Paris (Champs-Élysées)"
   },
   {
-    "id": 200,
+    "id": 199,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "England",
@@ -2027,7 +2017,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 201,
+    "id": 200,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "England",
@@ -2039,7 +2029,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 202,
+    "id": 201,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "England",
