@@ -2039,6 +2039,36 @@ const fixtures: Fixture[] = [
     "timestamp": 1782381600,
     "primaryLocation": "Trent Bridge",
     "secondaryLocation": "West Bridgford"
+  },
+  {
+    "id": 202,
+    "sport": "Cricket",
+    "competition": "T20 World Cup",
+    "home": "New Zealand",
+    "away": "TBD",
+    "timestamp": 1771680600,
+    "primaryLocation": "R. Premadasa Stadium",
+    "secondaryLocation": "Colombo"
+  },
+  {
+    "id": 203,
+    "sport": "Cricket",
+    "competition": "T20 World Cup",
+    "home": "Sri Lanka",
+    "away": "New Zealand",
+    "timestamp": 1772026200,
+    "primaryLocation": "R. Premadasa Stadium",
+    "secondaryLocation": "Colombo"
+  },
+  {
+    "id": 204,
+    "sport": "Cricket",
+    "competition": "T20 World Cup",
+    "home": "England",
+    "away": "New Zealand",
+    "timestamp": 1772199000,
+    "primaryLocation": "R. Premadasa Stadium",
+    "secondaryLocation": "Colombo"
   }
 ];
 
