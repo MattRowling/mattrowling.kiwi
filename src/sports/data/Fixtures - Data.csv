@@ -1,200 +1,203 @@
-Sport,Competition,Name,Event,Home,Away,Date,Epoch Time,Primary Location,Secondary Location
-Rugby,Six Nations,,,Wales,France,,1773587400,Millennium Stadium,Cardiff
-Rugby,Six Nations,,,England,Ireland,,1771683000,Twickenham,London
-Rugby,Six Nations,,,Wales,Scotland,,1771692000,Millennium Stadium,Cardiff
-Rugby,Six Nations,,,France,Italy,,1771773000,Stade Pierre Mauroy,Lille
-Rugby,Six Nations,,,Ireland,Wales,,1772827800,Aviva Stadium,Dublin
-Rugby,Six Nations,,,Scotland,France,,1772892600,Murrayfield,Edinburgh
-Rugby,Six Nations,,,Italy,England,,1772901600,Stadio Olimpico,Rome
-Rugby,Six Nations,,,Ireland,Scotland,,1773497400,Aviva Stadium,Dublin
-Rugby,Six Nations,,,Wales,Italy,,1773506400,Millennium Stadium,Cardiff
-Rugby,Six Nations,,,France,England,,1773519000,Stade de France,Paris
-Football,A-League Men,,,Wellington Phoenix,Auckland FC,,1771646400,Sky Stadium,Wellington
-Football,A-League Men,,,Wellington Phoenix,Sydney FC,,1772330400,Hnry Stadium,Wellington
-Football,A-League Men,,,Adelaide United,Wellington Phoenix,,1772786100,Coopers Stadium,Adelaide
-Football,A-League Men,,,Wellington Phoenix,Perth Glory,,1773453600,Hnry Stadium,Wellington
-Football,A-League Men,,,Brisbane Roar,Wellington Phoenix,,1774065600,Suncorp Stadium,Brisbane
-Football,A-League Men,,,Melbourne Victory,Wellington Phoenix,,1775365200,AAMI Park,Melbourne
-Football,A-League Men,,,Melbourne City,Wellington Phoenix,,1775970000,AAMI Park,Melbourne
-Football,A-League Men,,,Wellington Phoenix,Western Sydney Wanderers,,1776484800,Hnry Stadium,Wellington
-Football,A-League Men,,,Wellington Phoenix,Macarthur FC,,1777023300,Apollo Projects Stadium,Christchurch
-Football,A-League Women,,,Melbourne Victory,Wellington Phoenix,,1771574400,Home of the Matildas,Melbourne
-Football,A-League Women,,,Wellington Phoenix,Brisbane Roar,,1773464400,Hnry Stadium,Wellington
-Football,A-League Women,,,Sydney FC,Wellington Phoenix,,1773993600,Leichhardt Oval,Sydney
-Football,A-League Women,,,Central Coast Mariners,Wellington Phoenix,,1774425600,Central Coast Stadium,Gosford
-Football,A-League Women,,,Wellington Phoenix,Western Sydney Wanderers,,1774753200,Porirua Park,Wellington
-Football,A-League Women,,,Adelaide United,Wellington Phoenix,,1775195400,Coopers Stadium,Adelaide
-Rugby,Super Rugby Pacific,,,Hurricanes,Moana Pasifika,,1771567500,Sky Stadium,Wellington
-Rugby,Super Rugby Pacific,,,Fijian Drua,Hurricanes,,1772249700,Churchill Park,Lautoka
-Rugby,Super Rugby Pacific,,,NSW Waratahs,Hurricanes,,1772786100,Allianz Stadium,Sydney
-Rugby,Super Rugby Pacific,,,Hurricanes,Western Force,,1773381900,McLean Park,Napier
-Rugby,Super Rugby Pacific,,,Highlanders,Hurricanes,,1773986700,Forsyth Barr Stadium,Dunedin
-Rugby,Super Rugby Pacific,,,Hurricanes,Queensland Reds,,1774668900,Hnry Stadium,Wellington
-Rugby,Super Rugby Pacific,,,Hurricanes,Blues,,1775891100,Hnry Stadium,Wellington
-Rugby,Super Rugby Pacific,,,Chiefs,Hurricanes,,1776495900,Waikato Stadium,Hamilton
-Rugby,Super Rugby Pacific,,,Hurricanes,Brumbies,,1777093500,One NZ Stadium,Christchurch
-Rugby,Super Rugby Pacific,,,Hurricanes,Crusaders,,1777619100,Hnry Stadium,Wellington
-Rugby,Super Rugby Pacific,,,Moana Pasifika,Hurricanes,,1778310300,North Harbour Stadium,Auckland
-Rugby,Super Rugby Pacific,,,Blues,Hurricanes,,1778915100,Eden Park,Auckland
-Rugby,Super Rugby Pacific,,,Hurricanes,Highlanders,,1779519900,Hnry Stadium,Wellington
-Rugby,Super Rugby Pacific,,,Crusaders,Hurricanes,,1780038300,One NZ Stadium,Christchurch
-Cricket,T20 World Cup,,,Canada,New Zealand,,1771306200,M. A. Chidambaram Stadium,Chennai
-Cricket,T20 Series,,,New Zealand,South Africa,,1773555300,Bay Oval,Mount Maunganui
-Cricket,T20 Series,,,New Zealand,South Africa,,1773641700,Seddon Park,Hamilton
-Cricket,T20 Series,,,New Zealand,South Africa,,1773728100,Eden Park,Auckland
-Cricket,T20 Series,,,New Zealand,South Africa,,1773814500,Hnry Stadium,Wellington
-Cricket,T20 Series,,,New Zealand,South Africa,,1773900900,Hagley Oval,Christchurch
-Football,International Friendly,,,New Zealand,Finland,,1774591200,Eden Park,Auckland
-Football,International Friendly,,,New Zealand,Chile,,1774850400,Eden Park,Auckland
-Football,FIFA World Cup,,,Iran,New Zealand,,1781578800,Los Angeles Stadium,Los Angeles
-Football,FIFA World Cup,,,New Zealand,Egypt,,1782097200,BC Place,Vancouver
-Football,FIFA World Cup,,,New Zealand,Belgium,,1782536400,BC Place,Vancouver
-Football,Premier League,,,West Ham,Bournemouth,,1771695000,London Stadium,London
-Football,Premier League,,,Liverpool,West Ham,,1772290800,Anfield,Liverpool
-Football,Premier League,,,Fulham,West Ham,,1772652600,Craven Cottage,London
-Football,Premier League,,,West Ham,Manchester City,,1773491400,London Stadium,London
-Football,Premier League,,,Aston Villa,West Ham,,1774188900,Villa Park,Birmingham
-Football,Premier League,,,West Ham,Wolves,,1775916000,London Stadium,London
-Football,Premier League,,,Crystal Palace,West Ham,,1776520800,Selhurst Park,London
-Football,Premier League,,,West Ham,Everton,,1777125600,London Stadium,London
-Football,Premier League,,,Brentford,West Ham,,1777730400,Gtech Community Stadium,London
-Football,Premier League,,,West Ham,Arsenal,,1778335200,London Stadium,London
-Football,Premier League,,,Newcastle,West Ham,,1779026400,St. James' Park,Newcastle
-Football,Premier League,,,West Ham,Leeds United,,1779634800,London Stadium,London
-Football,FA Cup,,,West Ham,Brentford,,1772895600,London Stadium,London
-Formula 1,Formula 1 World Championship,Australian Grand Prix,Practice 1,,,,1772760600,Albert Park Circuit,Melbourne
-Formula 1,Formula 1 World Championship,Australian Grand Prix,Practice 2,,,,1772773200,Albert Park Circuit,Melbourne
-Formula 1,Formula 1 World Championship,Australian Grand Prix,Practice 3,,,,1772847000,Albert Park Circuit,Melbourne
-Formula 1,Formula 1 World Championship,Australian Grand Prix,Qualifying,,,,1772859600,Albert Park Circuit,Melbourne
-Formula 1,Formula 1 World Championship,Australian Grand Prix,Race,,,,1772942400,Albert Park Circuit,Melbourne
-Formula 1,Formula 1 World Championship,Chinese Grand Prix,Practice 1,,,,1773372600,Shanghai International Circuit,Shanghai
-Formula 1,Formula 1 World Championship,Chinese Grand Prix,Sprint Qualifying,,,,1773387000,Shanghai International Circuit,Shanghai
-Formula 1,Formula 1 World Championship,Chinese Grand Prix,Sprint,,,,1773457200,Shanghai International Circuit,Shanghai
-Formula 1,Formula 1 World Championship,Chinese Grand Prix,Qualifying,,,,1773471600,Shanghai International Circuit,Shanghai
-Formula 1,Formula 1 World Championship,Chinese Grand Prix,Race,,,,1773558000,Shanghai International Circuit,Shanghai
-Formula 1,Formula 1 World Championship,Japanese Grand Prix,Practice 1,,,,1774578600,Suzuka Circuit,Suzuka
-Formula 1,Formula 1 World Championship,Japanese Grand Prix,Practice 2,,,,1774591200,Suzuka Circuit,Suzuka
-Formula 1,Formula 1 World Championship,Japanese Grand Prix,Practice 3,,,,1774665000,Suzuka Circuit,Suzuka
-Formula 1,Formula 1 World Championship,Japanese Grand Prix,Qualifying,,,,1774677600,Suzuka Circuit,Suzuka
-Formula 1,Formula 1 World Championship,Japanese Grand Prix,Race,,,,1774760400,Suzuka Circuit,Suzuka
-Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Practice 1,,,,1775820600,Bahrain International Circuit,Sakhir
-Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Practice 2,,,,1775833200,Bahrain International Circuit,Sakhir
-Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Practice 3,,,,1775910600,Bahrain International Circuit,Sakhir
-Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Qualifying,,,,1775923200,Bahrain International Circuit,Sakhir
-Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Race,,,,1776006000,Bahrain International Circuit,Sakhir
-Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 1,,,,1776432600,Jeddah Corniche Circuit,Jeddah
-Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 2,,,,1776445200,Jeddah Corniche Circuit,Jeddah
-Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 3,,,,1776519000,Jeddah Corniche Circuit,Jeddah
-Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Qualifying,,,,1776531600,Jeddah Corniche Circuit,Jeddah
-Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Race,,,,1776618000,Jeddah Corniche Circuit,Jeddah
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Practice 1,,,,1777653000,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint Qualifying,,,,1777667400,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint,,,,1777737600,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Qualifying,,,,1777752000,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Race,,,,1777838400,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Canadian Grand Prix,Practice 1,,,,1779467400,Circuit Gilles-Villeneuve,Montreal
-Formula 1,Formula 1 World Championship,Canadian Grand Prix,Sprint Qualifying,,,,1779481800,Circuit Gilles-Villeneuve,Montreal
-Formula 1,Formula 1 World Championship,Canadian Grand Prix,Sprint,,,,1779552000,Circuit Gilles-Villeneuve,Montreal
-Formula 1,Formula 1 World Championship,Canadian Grand Prix,Qualifying,,,,1779566400,Circuit Gilles-Villeneuve,Montreal
-Formula 1,Formula 1 World Championship,Canadian Grand Prix,Race,,,,1779652800,Circuit Gilles-Villeneuve,Montreal
-Formula 1,Formula 1 World Championship,Monaco Grand Prix,Practice 1,,,,1780659000,Circuit de Monaco,Monaco
-Formula 1,Formula 1 World Championship,Monaco Grand Prix,Practice 2,,,,1780671600,Circuit de Monaco,Monaco
-Formula 1,Formula 1 World Championship,Monaco Grand Prix,Practice 3,,,,1780741800,Circuit de Monaco,Monaco
-Formula 1,Formula 1 World Championship,Monaco Grand Prix,Qualifying,,,,1780754400,Circuit de Monaco,Monaco
-Formula 1,Formula 1 World Championship,Monaco Grand Prix,Race,,,,1780837200,Circuit de Monaco,Monaco
-Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Practice 1,,,,1781263800,Circuit de Barcelona-Catalunya,Barcelona
-Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Practice 2,,,,1781276400,Circuit de Barcelona-Catalunya,Barcelona
-Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Practice 3,,,,1781346600,Circuit de Barcelona-Catalunya,Barcelona
-Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Qualifying,,,,1781359200,Circuit de Barcelona-Catalunya,Barcelona
-Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Race,,,,1781442000,Circuit de Barcelona-Catalunya,Barcelona
-Formula 1,Formula 1 World Championship,Austrian Grand Prix,Practice 1,,,,1782473400,Red Bull Ring,Spielberg
-Formula 1,Formula 1 World Championship,Austrian Grand Prix,Practice 2,,,,1782486000,Red Bull Ring,Spielberg
-Formula 1,Formula 1 World Championship,Austrian Grand Prix,Practice 3,,,,1782556200,Red Bull Ring,Spielberg
-Formula 1,Formula 1 World Championship,Austrian Grand Prix,Qualifying,,,,1782568800,Red Bull Ring,Spielberg
-Formula 1,Formula 1 World Championship,Austrian Grand Prix,Race,,,,1782651600,Red Bull Ring,Spielberg
-Formula 1,Formula 1 World Championship,British Grand Prix,Practice 1,,,,1783078200,Silverstone Circuit,Silverstone
-Formula 1,Formula 1 World Championship,British Grand Prix,Practice 2,,,,1783092600,Silverstone Circuit,Silverstone
-Formula 1,Formula 1 World Championship,British Grand Prix,Practice 3,,,,1783162800,Silverstone Circuit,Silverstone
-Formula 1,Formula 1 World Championship,British Grand Prix,Qualifying,,,,1783177200,Silverstone Circuit,Silverstone
-Formula 1,Formula 1 World Championship,British Grand Prix,Race,,,,1783260000,Silverstone Circuit,Silverstone
-Formula 1,Formula 1 World Championship,Belgian Grand Prix,Practice 1,,,,1784287800,Circuit de Spa-Francorchamps,Stavelot
-Formula 1,Formula 1 World Championship,Belgian Grand Prix,Practice 2,,,,1784300400,Circuit de Spa-Francorchamps,Stavelot
-Formula 1,Formula 1 World Championship,Belgian Grand Prix,Practice 3,,,,1784370600,Circuit de Spa-Francorchamps,Stavelot
-Formula 1,Formula 1 World Championship,Belgian Grand Prix,Qualifying,,,,1784383200,Circuit de Spa-Francorchamps,Stavelot
-Formula 1,Formula 1 World Championship,Belgian Grand Prix,Race,,,,1783861200,Circuit de Spa-Francorchamps,Stavelot
-Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Practice 1,,,,1784892600,Hungaroring,Mogyoród
-Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Practice 2,,,,1784905200,Hungaroring,Mogyoród
-Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Practice 3,,,,1784975400,Hungaroring,Mogyoród
-Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Qualifying,,,,1784988000,Hungaroring,Mogyoród
-Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Race,,,,1785070800,Hungaroring,Mogyoród
-Formula 1,Formula 1 World Championship,Dutch Grand Prix,Practice 1,,,,1787308200,Circuit Zandvoort,Zandvoort
-Formula 1,Formula 1 World Championship,Dutch Grand Prix,Sprint Qualifying,,,,1787322600,Circuit Zandvoort,Zandvoort
-Formula 1,Formula 1 World Championship,Dutch Grand Prix,Sprint,,,,1787392800,Circuit Zandvoort,Zandvoort
-Formula 1,Formula 1 World Championship,Dutch Grand Prix,Qualifying,,,,1787407200,Circuit Zandvoort,Zandvoort
-Formula 1,Formula 1 World Championship,Dutch Grand Prix,Race,,,,1787490000,Circuit Zandvoort,Zandvoort
-Formula 1,Formula 1 World Championship,Italian Grand Prix,Practice 1,,,,1788517800,Autodromo Nazionale Monza,Monza
-Formula 1,Formula 1 World Championship,Italian Grand Prix,Practice 2,,,,1788530400,Autodromo Nazionale Monza,Monza
-Formula 1,Formula 1 World Championship,Italian Grand Prix,Practice 3,,,,1788604200,Autodromo Nazionale Monza,Monza
-Formula 1,Formula 1 World Championship,Italian Grand Prix,Qualifying,,,,1788616800,Autodromo Nazionale Monza,Monza
-Formula 1,Formula 1 World Championship,Italian Grand Prix,Race,,,,1788699600,Autodromo Nazionale Monza,Monza
-Formula 1,Formula 1 World Championship,Spanish Grand Prix,Practice 1,,,,1789126200,Madring,Madrid
-Formula 1,Formula 1 World Championship,Spanish Grand Prix,Practice 2,,,,1789138800,Madring,Madrid
-Formula 1,Formula 1 World Championship,Spanish Grand Prix,Practice 3,,,,1789209000,Madring,Madrid
-Formula 1,Formula 1 World Championship,Spanish Grand Prix,Qualifying,,,,1789221600,Madring,Madrid
-Formula 1,Formula 1 World Championship,Spanish Grand Prix,Race,,,,1789304400,Madring,Madrid
-Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Practice 1,,,,1790238600,Baku City Circuit,Baku
-Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Practice 2,,,,1790251200,Baku City Circuit,Baku
-Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Practice 3,,,,1790325000,Baku City Circuit,Baku
-Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Qualifying,,,,1790337600,Baku City Circuit,Baku
-Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Race,,,,1790420400,Baku City Circuit,Baku
-Formula 1,Formula 1 World Championship,Singapore Grand Prix,Practice 1,,,,1791534600,Marina Bay Street Circuit,Singapore
-Formula 1,Formula 1 World Championship,Singapore Grand Prix,Sprint Qualifying,,,,1791549000,Marina Bay Street Circuit,Singapore
-Formula 1,Formula 1 World Championship,Singapore Grand Prix,Sprint,,,,1791622800,Marina Bay Street Circuit,Singapore
-Formula 1,Formula 1 World Championship,Singapore Grand Prix,Qualifying,,,,1791637200,Marina Bay Street Circuit,Singapore
-Formula 1,Formula 1 World Championship,Singapore Grand Prix,Race,,,,1791720000,Marina Bay Street Circuit,Singapore
-Formula 1,Formula 1 World Championship,United States Grand Prix,Practice 1,,,,1792776600,Circuit of The Americas,Austin
-Formula 1,Formula 1 World Championship,United States Grand Prix,Practice 2,,,,1792789200,Circuit of The Americas,Austin
-Formula 1,Formula 1 World Championship,United States Grand Prix,Practice 3,,,,1792863000,Circuit of The Americas,Austin
-Formula 1,Formula 1 World Championship,United States Grand Prix,Qualifying,,,,1792875600,Circuit of The Americas,Austin
-Formula 1,Formula 1 World Championship,United States Grand Prix,Race,,,,1792958400,Circuit of The Americas,Austin
-Formula 1,Formula 1 World Championship,Mexican Grand Prix,Practice 1,,,,1793385000,Autódromo Hermanos Rodríguez,Mexico City
-Formula 1,Formula 1 World Championship,Mexican Grand Prix,Practice 2,,,,1793397600,Autódromo Hermanos Rodríguez,Mexico City
-Formula 1,Formula 1 World Championship,Mexican Grand Prix,Practice 3,,,,1793467800,Autódromo Hermanos Rodríguez,Mexico City
-Formula 1,Formula 1 World Championship,Mexican Grand Prix,Qualifying,,,,1793480400,Autódromo Hermanos Rodríguez,Mexico City
-Formula 1,Formula 1 World Championship,Mexican Grand Prix,Race,,,,1793563200,Autódromo Hermanos Rodríguez,Mexico City
-Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Practice 1,,,,1793979000,Autódromo José Carlos Pace,São Paulo
-Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Practice 2,,,,1793991600,Autódromo José Carlos Pace,São Paulo
-Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Practice 3,,,,1794061800,Autódromo José Carlos Pace,São Paulo
-Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Qualifying,,,,1794074400,Autódromo José Carlos Pace,São Paulo
-Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Race,,,,1794157200,Autódromo José Carlos Pace,São Paulo
-Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Practice 1,,,,1795134600,Las Vegas Strip Circuit,Las Vegas
-Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Practice 2,,,,1795147200,Las Vegas Strip Circuit,Las Vegas
-Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Practice 3,,,,1795221000,Las Vegas Strip Circuit,Las Vegas
-Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Qualifying,,,,1795233600,Las Vegas Strip Circuit,Las Vegas
-Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Race,,,,1795320000,Las Vegas Strip Circuit,Las Vegas
-Formula 1,Formula 1 World Championship,Qatar Grand Prix,Practice 1,,,,1795786200,Lusail International Circuit,Lusail
-Formula 1,Formula 1 World Championship,Qatar Grand Prix,Practice 2,,,,1795798800,Lusail International Circuit,Lusail
-Formula 1,Formula 1 World Championship,Qatar Grand Prix,Practice 3,,,,1795876200,Lusail International Circuit,Lusail
-Formula 1,Formula 1 World Championship,Qatar Grand Prix,Qualifying,,,,1795888800,Lusail International Circuit,Lusail
-Formula 1,Formula 1 World Championship,Qatar Grand Prix,Race,,,,1795968000,Lusail International Circuit,Lusail
-Cycling,Tour de France,Stage 1,Team time trial,,,04/07/2026,,Barcelona,Barcelona
-Cycling,Tour de France,Stage 2,Hilly stage,,,05/07/2026,,Tarragona,Barcelona
-Cycling,Tour de France,Stage 3,Mountain stage,,,06/07/2026,,Granollers,Les Angles
-Cycling,Tour de France,Stage 4,Hilly stage,,,07/07/2026,,Carcassonne,Foix
-Cycling,Tour de France,Stage 5,Flat stage,,,08/07/2026,,Lannemezan,Pau
-Cycling,Tour de France,Stage 6,Mountain stage,,,09/07/2026,,Pau,Gavarnie-Gèdre
-Cycling,Tour de France,Stage 7,Flat stage,,,10/07/2026,,Hagetmau,Bordeaux
-Cycling,Tour de France,Stage 8,Flat stage,,,11/07/2026,,Périgueux,Bergerac
-Cycling,Tour de France,Stage 9,Hilly stage,,,12/07/2026,,Malemort,Ussel
-Cycling,Tour de France,Stage 10,Mountain stage,,,14/07/2026,,Aurillac,Le Lioran
-Cycling,Tour de France,Stage 11,Flat stage,,,15/07/2026,,Vichy,Nevers
-Cycling,Tour de France,Stage 12,Flat stage,,,16/07/2026,,Circuit de Nevers Magny-Cours,Chalon-sur-Saône
-Cycling,Tour de France,Stage 13,Hilly stage,,,17/07/2026,,Dole,Belfort
-Cycling,Tour de France,Stage 14,Mountain stage,,,18/07/2026,,Mulhouse,Le Markstein Fellering
-Cycling,Tour de France,Stage 15,Mountain stage,,,19/07/2026,,Champagnole,Plateau de Solaison
-Cycling,Tour de France,Stage 16,Individual time trial,,,21/07/2026,,Évian-les-Bains,Thonon-les-Bains
-Cycling,Tour de France,Stage 17,Flat stage,,,22/07/2026,,Chambéry,Voiron
-Cycling,Tour de France,Stage 18,Mountain stage,,,23/07/2026,,Voiron,Orcières-Merlette
-Cycling,Tour de France,Stage 19,Mountain stage,,,24/07/2026,,Gap,Alpe d'Huez
-Cycling,Tour de France,Stage 20,Mountain stage,,,25/07/2026,,Le Bourg-d'Oisans,Alpe d'Huez
-Cycling,Tour de France,Stage 21,Flat stage,,,26/07/2026,,Thoiry,Paris (Champs-Élysées)
+Sport,Competition,Name,Event,Home,Away,Date,End Date,Epoch Time,Primary Location,Secondary Location
+Rugby,Six Nations,,,Wales,France,,,1773587400,Millennium Stadium,Cardiff
+Rugby,Six Nations,,,England,Ireland,,,1771683000,Twickenham,London
+Rugby,Six Nations,,,Wales,Scotland,,,1771692000,Millennium Stadium,Cardiff
+Rugby,Six Nations,,,France,Italy,,,1771773000,Stade Pierre Mauroy,Lille
+Rugby,Six Nations,,,Ireland,Wales,,,1772827800,Aviva Stadium,Dublin
+Rugby,Six Nations,,,Scotland,France,,,1772892600,Murrayfield,Edinburgh
+Rugby,Six Nations,,,Italy,England,,,1772901600,Stadio Olimpico,Rome
+Rugby,Six Nations,,,Ireland,Scotland,,,1773497400,Aviva Stadium,Dublin
+Rugby,Six Nations,,,Wales,Italy,,,1773506400,Millennium Stadium,Cardiff
+Rugby,Six Nations,,,France,England,,,1773519000,Stade de France,Paris
+Football,A-League Men,,,Wellington Phoenix,Auckland FC,,,1771646400,Sky Stadium,Wellington
+Football,A-League Men,,,Wellington Phoenix,Sydney FC,,,1772330400,Hnry Stadium,Wellington
+Football,A-League Men,,,Adelaide United,Wellington Phoenix,,,1772786100,Coopers Stadium,Adelaide
+Football,A-League Men,,,Wellington Phoenix,Perth Glory,,,1773453600,Hnry Stadium,Wellington
+Football,A-League Men,,,Brisbane Roar,Wellington Phoenix,,,1774065600,Suncorp Stadium,Brisbane
+Football,A-League Men,,,Melbourne Victory,Wellington Phoenix,,,1775365200,AAMI Park,Melbourne
+Football,A-League Men,,,Melbourne City,Wellington Phoenix,,,1775970000,AAMI Park,Melbourne
+Football,A-League Men,,,Wellington Phoenix,Western Sydney Wanderers,,,1776484800,Hnry Stadium,Wellington
+Football,A-League Men,,,Wellington Phoenix,Macarthur FC,,,1777023300,Apollo Projects Stadium,Christchurch
+Football,A-League Women,,,Melbourne Victory,Wellington Phoenix,,,1771574400,Home of the Matildas,Melbourne
+Football,A-League Women,,,Wellington Phoenix,Brisbane Roar,,,1773464400,Hnry Stadium,Wellington
+Football,A-League Women,,,Sydney FC,Wellington Phoenix,,,1773993600,Leichhardt Oval,Sydney
+Football,A-League Women,,,Central Coast Mariners,Wellington Phoenix,,,1774425600,Central Coast Stadium,Gosford
+Football,A-League Women,,,Wellington Phoenix,Western Sydney Wanderers,,,1774753200,Porirua Park,Wellington
+Football,A-League Women,,,Adelaide United,Wellington Phoenix,,,1775195400,Coopers Stadium,Adelaide
+Rugby,Super Rugby Pacific,,,Hurricanes,Moana Pasifika,,,1771567500,Sky Stadium,Wellington
+Rugby,Super Rugby Pacific,,,Fijian Drua,Hurricanes,,,1772249700,Churchill Park,Lautoka
+Rugby,Super Rugby Pacific,,,NSW Waratahs,Hurricanes,,,1772786100,Allianz Stadium,Sydney
+Rugby,Super Rugby Pacific,,,Hurricanes,Western Force,,,1773381900,McLean Park,Napier
+Rugby,Super Rugby Pacific,,,Highlanders,Hurricanes,,,1773986700,Forsyth Barr Stadium,Dunedin
+Rugby,Super Rugby Pacific,,,Hurricanes,Queensland Reds,,,1774668900,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,,,Hurricanes,Blues,,,1775891100,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,,,Chiefs,Hurricanes,,,1776495900,Waikato Stadium,Hamilton
+Rugby,Super Rugby Pacific,,,Hurricanes,Brumbies,,,1777093500,One NZ Stadium,Christchurch
+Rugby,Super Rugby Pacific,,,Hurricanes,Crusaders,,,1777619100,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,,,Moana Pasifika,Hurricanes,,,1778310300,North Harbour Stadium,Auckland
+Rugby,Super Rugby Pacific,,,Blues,Hurricanes,,,1778915100,Eden Park,Auckland
+Rugby,Super Rugby Pacific,,,Hurricanes,Highlanders,,,1779519900,Hnry Stadium,Wellington
+Rugby,Super Rugby Pacific,,,Crusaders,Hurricanes,,,1780038300,One NZ Stadium,Christchurch
+Cricket,T20 World Cup,,,Canada,New Zealand,,,1771306200,M. A. Chidambaram Stadium,Chennai
+Cricket,T20 Series,,,New Zealand,South Africa,,,1773555300,Bay Oval,Mount Maunganui
+Cricket,T20 Series,,,New Zealand,South Africa,,,1773641700,Seddon Park,Hamilton
+Cricket,T20 Series,,,New Zealand,South Africa,,,1773728100,Eden Park,Auckland
+Cricket,T20 Series,,,New Zealand,South Africa,,,1773814500,Hnry Stadium,Wellington
+Cricket,T20 Series,,,New Zealand,South Africa,,,1773900900,Hagley Oval,Christchurch
+Football,International Friendly,,,New Zealand,Finland,,,1774591200,Eden Park,Auckland
+Football,International Friendly,,,New Zealand,Chile,,,1774850400,Eden Park,Auckland
+Football,FIFA World Cup,,,Iran,New Zealand,,,1781578800,Los Angeles Stadium,Los Angeles
+Football,FIFA World Cup,,,New Zealand,Egypt,,,1782097200,BC Place,Vancouver
+Football,FIFA World Cup,,,New Zealand,Belgium,,,1782536400,BC Place,Vancouver
+Football,Premier League,,,West Ham,Bournemouth,,,1771695000,London Stadium,London
+Football,Premier League,,,Liverpool,West Ham,,,1772290800,Anfield,Liverpool
+Football,Premier League,,,Fulham,West Ham,,,1772652600,Craven Cottage,London
+Football,Premier League,,,West Ham,Manchester City,,,1773491400,London Stadium,London
+Football,Premier League,,,Aston Villa,West Ham,,,1774188900,Villa Park,Birmingham
+Football,Premier League,,,West Ham,Wolves,,,1775916000,London Stadium,London
+Football,Premier League,,,Crystal Palace,West Ham,,,1776520800,Selhurst Park,London
+Football,Premier League,,,West Ham,Everton,,,1777125600,London Stadium,London
+Football,Premier League,,,Brentford,West Ham,,,1777730400,Gtech Community Stadium,London
+Football,Premier League,,,West Ham,Arsenal,,,1778335200,London Stadium,London
+Football,Premier League,,,Newcastle,West Ham,,,1779026400,St. James' Park,Newcastle
+Football,Premier League,,,West Ham,Leeds United,,,1779634800,London Stadium,London
+Football,FA Cup,,,West Ham,Brentford,,,1772895600,London Stadium,London
+Formula 1,Formula 1 World Championship,Australian Grand Prix,Practice 1,,,,,1772760600,Albert Park Circuit,Melbourne
+Formula 1,Formula 1 World Championship,Australian Grand Prix,Practice 2,,,,,1772773200,Albert Park Circuit,Melbourne
+Formula 1,Formula 1 World Championship,Australian Grand Prix,Practice 3,,,,,1772847000,Albert Park Circuit,Melbourne
+Formula 1,Formula 1 World Championship,Australian Grand Prix,Qualifying,,,,,1772859600,Albert Park Circuit,Melbourne
+Formula 1,Formula 1 World Championship,Australian Grand Prix,Race,,,,,1772942400,Albert Park Circuit,Melbourne
+Formula 1,Formula 1 World Championship,Chinese Grand Prix,Practice 1,,,,,1773372600,Shanghai International Circuit,Shanghai
+Formula 1,Formula 1 World Championship,Chinese Grand Prix,Sprint Qualifying,,,,,1773387000,Shanghai International Circuit,Shanghai
+Formula 1,Formula 1 World Championship,Chinese Grand Prix,Sprint,,,,,1773457200,Shanghai International Circuit,Shanghai
+Formula 1,Formula 1 World Championship,Chinese Grand Prix,Qualifying,,,,,1773471600,Shanghai International Circuit,Shanghai
+Formula 1,Formula 1 World Championship,Chinese Grand Prix,Race,,,,,1773558000,Shanghai International Circuit,Shanghai
+Formula 1,Formula 1 World Championship,Japanese Grand Prix,Practice 1,,,,,1774578600,Suzuka Circuit,Suzuka
+Formula 1,Formula 1 World Championship,Japanese Grand Prix,Practice 2,,,,,1774591200,Suzuka Circuit,Suzuka
+Formula 1,Formula 1 World Championship,Japanese Grand Prix,Practice 3,,,,,1774665000,Suzuka Circuit,Suzuka
+Formula 1,Formula 1 World Championship,Japanese Grand Prix,Qualifying,,,,,1774677600,Suzuka Circuit,Suzuka
+Formula 1,Formula 1 World Championship,Japanese Grand Prix,Race,,,,,1774760400,Suzuka Circuit,Suzuka
+Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Practice 1,,,,,1775820600,Bahrain International Circuit,Sakhir
+Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Practice 2,,,,,1775833200,Bahrain International Circuit,Sakhir
+Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Practice 3,,,,,1775910600,Bahrain International Circuit,Sakhir
+Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Qualifying,,,,,1775923200,Bahrain International Circuit,Sakhir
+Formula 1,Formula 1 World Championship,Bahrain Grand Prix,Race,,,,,1776006000,Bahrain International Circuit,Sakhir
+Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 1,,,,,1776432600,Jeddah Corniche Circuit,Jeddah
+Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 2,,,,,1776445200,Jeddah Corniche Circuit,Jeddah
+Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 3,,,,,1776519000,Jeddah Corniche Circuit,Jeddah
+Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Qualifying,,,,,1776531600,Jeddah Corniche Circuit,Jeddah
+Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Race,,,,,1776618000,Jeddah Corniche Circuit,Jeddah
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Practice 1,,,,,1777653000,Miami International Autodrome,Miami
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint Qualifying,,,,,1777667400,Miami International Autodrome,Miami
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint,,,,,1777737600,Miami International Autodrome,Miami
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Qualifying,,,,,1777752000,Miami International Autodrome,Miami
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Race,,,,,1777838400,Miami International Autodrome,Miami
+Formula 1,Formula 1 World Championship,Canadian Grand Prix,Practice 1,,,,,1779467400,Circuit Gilles-Villeneuve,Montreal
+Formula 1,Formula 1 World Championship,Canadian Grand Prix,Sprint Qualifying,,,,,1779481800,Circuit Gilles-Villeneuve,Montreal
+Formula 1,Formula 1 World Championship,Canadian Grand Prix,Sprint,,,,,1779552000,Circuit Gilles-Villeneuve,Montreal
+Formula 1,Formula 1 World Championship,Canadian Grand Prix,Qualifying,,,,,1779566400,Circuit Gilles-Villeneuve,Montreal
+Formula 1,Formula 1 World Championship,Canadian Grand Prix,Race,,,,,1779652800,Circuit Gilles-Villeneuve,Montreal
+Formula 1,Formula 1 World Championship,Monaco Grand Prix,Practice 1,,,,,1780659000,Circuit de Monaco,Monaco
+Formula 1,Formula 1 World Championship,Monaco Grand Prix,Practice 2,,,,,1780671600,Circuit de Monaco,Monaco
+Formula 1,Formula 1 World Championship,Monaco Grand Prix,Practice 3,,,,,1780741800,Circuit de Monaco,Monaco
+Formula 1,Formula 1 World Championship,Monaco Grand Prix,Qualifying,,,,,1780754400,Circuit de Monaco,Monaco
+Formula 1,Formula 1 World Championship,Monaco Grand Prix,Race,,,,,1780837200,Circuit de Monaco,Monaco
+Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Practice 1,,,,,1781263800,Circuit de Barcelona-Catalunya,Barcelona
+Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Practice 2,,,,,1781276400,Circuit de Barcelona-Catalunya,Barcelona
+Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Practice 3,,,,,1781346600,Circuit de Barcelona-Catalunya,Barcelona
+Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Qualifying,,,,,1781359200,Circuit de Barcelona-Catalunya,Barcelona
+Formula 1,Formula 1 World Championship,Barcelona-Catalunya Grand Prix,Race,,,,,1781442000,Circuit de Barcelona-Catalunya,Barcelona
+Formula 1,Formula 1 World Championship,Austrian Grand Prix,Practice 1,,,,,1782473400,Red Bull Ring,Spielberg
+Formula 1,Formula 1 World Championship,Austrian Grand Prix,Practice 2,,,,,1782486000,Red Bull Ring,Spielberg
+Formula 1,Formula 1 World Championship,Austrian Grand Prix,Practice 3,,,,,1782556200,Red Bull Ring,Spielberg
+Formula 1,Formula 1 World Championship,Austrian Grand Prix,Qualifying,,,,,1782568800,Red Bull Ring,Spielberg
+Formula 1,Formula 1 World Championship,Austrian Grand Prix,Race,,,,,1782651600,Red Bull Ring,Spielberg
+Formula 1,Formula 1 World Championship,British Grand Prix,Practice 1,,,,,1783078200,Silverstone Circuit,Silverstone
+Formula 1,Formula 1 World Championship,British Grand Prix,Practice 2,,,,,1783092600,Silverstone Circuit,Silverstone
+Formula 1,Formula 1 World Championship,British Grand Prix,Practice 3,,,,,1783162800,Silverstone Circuit,Silverstone
+Formula 1,Formula 1 World Championship,British Grand Prix,Qualifying,,,,,1783177200,Silverstone Circuit,Silverstone
+Formula 1,Formula 1 World Championship,British Grand Prix,Race,,,,,1783260000,Silverstone Circuit,Silverstone
+Formula 1,Formula 1 World Championship,Belgian Grand Prix,Practice 1,,,,,1784287800,Circuit de Spa-Francorchamps,Stavelot
+Formula 1,Formula 1 World Championship,Belgian Grand Prix,Practice 2,,,,,1784300400,Circuit de Spa-Francorchamps,Stavelot
+Formula 1,Formula 1 World Championship,Belgian Grand Prix,Practice 3,,,,,1784370600,Circuit de Spa-Francorchamps,Stavelot
+Formula 1,Formula 1 World Championship,Belgian Grand Prix,Qualifying,,,,,1784383200,Circuit de Spa-Francorchamps,Stavelot
+Formula 1,Formula 1 World Championship,Belgian Grand Prix,Race,,,,,1783861200,Circuit de Spa-Francorchamps,Stavelot
+Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Practice 1,,,,,1784892600,Hungaroring,Mogyoród
+Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Practice 2,,,,,1784905200,Hungaroring,Mogyoród
+Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Practice 3,,,,,1784975400,Hungaroring,Mogyoród
+Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Qualifying,,,,,1784988000,Hungaroring,Mogyoród
+Formula 1,Formula 1 World Championship,Hungarian Grand Prix,Race,,,,,1785070800,Hungaroring,Mogyoród
+Formula 1,Formula 1 World Championship,Dutch Grand Prix,Practice 1,,,,,1787308200,Circuit Zandvoort,Zandvoort
+Formula 1,Formula 1 World Championship,Dutch Grand Prix,Sprint Qualifying,,,,,1787322600,Circuit Zandvoort,Zandvoort
+Formula 1,Formula 1 World Championship,Dutch Grand Prix,Sprint,,,,,1787392800,Circuit Zandvoort,Zandvoort
+Formula 1,Formula 1 World Championship,Dutch Grand Prix,Qualifying,,,,,1787407200,Circuit Zandvoort,Zandvoort
+Formula 1,Formula 1 World Championship,Dutch Grand Prix,Race,,,,,1787490000,Circuit Zandvoort,Zandvoort
+Formula 1,Formula 1 World Championship,Italian Grand Prix,Practice 1,,,,,1788517800,Autodromo Nazionale Monza,Monza
+Formula 1,Formula 1 World Championship,Italian Grand Prix,Practice 2,,,,,1788530400,Autodromo Nazionale Monza,Monza
+Formula 1,Formula 1 World Championship,Italian Grand Prix,Practice 3,,,,,1788604200,Autodromo Nazionale Monza,Monza
+Formula 1,Formula 1 World Championship,Italian Grand Prix,Qualifying,,,,,1788616800,Autodromo Nazionale Monza,Monza
+Formula 1,Formula 1 World Championship,Italian Grand Prix,Race,,,,,1788699600,Autodromo Nazionale Monza,Monza
+Formula 1,Formula 1 World Championship,Spanish Grand Prix,Practice 1,,,,,1789126200,Madring,Madrid
+Formula 1,Formula 1 World Championship,Spanish Grand Prix,Practice 2,,,,,1789138800,Madring,Madrid
+Formula 1,Formula 1 World Championship,Spanish Grand Prix,Practice 3,,,,,1789209000,Madring,Madrid
+Formula 1,Formula 1 World Championship,Spanish Grand Prix,Qualifying,,,,,1789221600,Madring,Madrid
+Formula 1,Formula 1 World Championship,Spanish Grand Prix,Race,,,,,1789304400,Madring,Madrid
+Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Practice 1,,,,,1790238600,Baku City Circuit,Baku
+Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Practice 2,,,,,1790251200,Baku City Circuit,Baku
+Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Practice 3,,,,,1790325000,Baku City Circuit,Baku
+Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Qualifying,,,,,1790337600,Baku City Circuit,Baku
+Formula 1,Formula 1 World Championship,Azerbaijan Grand Prix,Race,,,,,1790420400,Baku City Circuit,Baku
+Formula 1,Formula 1 World Championship,Singapore Grand Prix,Practice 1,,,,,1791534600,Marina Bay Street Circuit,Singapore
+Formula 1,Formula 1 World Championship,Singapore Grand Prix,Sprint Qualifying,,,,,1791549000,Marina Bay Street Circuit,Singapore
+Formula 1,Formula 1 World Championship,Singapore Grand Prix,Sprint,,,,,1791622800,Marina Bay Street Circuit,Singapore
+Formula 1,Formula 1 World Championship,Singapore Grand Prix,Qualifying,,,,,1791637200,Marina Bay Street Circuit,Singapore
+Formula 1,Formula 1 World Championship,Singapore Grand Prix,Race,,,,,1791720000,Marina Bay Street Circuit,Singapore
+Formula 1,Formula 1 World Championship,United States Grand Prix,Practice 1,,,,,1792776600,Circuit of The Americas,Austin
+Formula 1,Formula 1 World Championship,United States Grand Prix,Practice 2,,,,,1792789200,Circuit of The Americas,Austin
+Formula 1,Formula 1 World Championship,United States Grand Prix,Practice 3,,,,,1792863000,Circuit of The Americas,Austin
+Formula 1,Formula 1 World Championship,United States Grand Prix,Qualifying,,,,,1792875600,Circuit of The Americas,Austin
+Formula 1,Formula 1 World Championship,United States Grand Prix,Race,,,,,1792958400,Circuit of The Americas,Austin
+Formula 1,Formula 1 World Championship,Mexican Grand Prix,Practice 1,,,,,1793385000,Autódromo Hermanos Rodríguez,Mexico City
+Formula 1,Formula 1 World Championship,Mexican Grand Prix,Practice 2,,,,,1793397600,Autódromo Hermanos Rodríguez,Mexico City
+Formula 1,Formula 1 World Championship,Mexican Grand Prix,Practice 3,,,,,1793467800,Autódromo Hermanos Rodríguez,Mexico City
+Formula 1,Formula 1 World Championship,Mexican Grand Prix,Qualifying,,,,,1793480400,Autódromo Hermanos Rodríguez,Mexico City
+Formula 1,Formula 1 World Championship,Mexican Grand Prix,Race,,,,,1793563200,Autódromo Hermanos Rodríguez,Mexico City
+Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Practice 1,,,,,1793979000,Autódromo José Carlos Pace,São Paulo
+Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Practice 2,,,,,1793991600,Autódromo José Carlos Pace,São Paulo
+Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Practice 3,,,,,1794061800,Autódromo José Carlos Pace,São Paulo
+Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Qualifying,,,,,1794074400,Autódromo José Carlos Pace,São Paulo
+Formula 1,Formula 1 World Championship,São Paulo Grand Prix,Race,,,,,1794157200,Autódromo José Carlos Pace,São Paulo
+Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Practice 1,,,,,1795134600,Las Vegas Strip Circuit,Las Vegas
+Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Practice 2,,,,,1795147200,Las Vegas Strip Circuit,Las Vegas
+Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Practice 3,,,,,1795221000,Las Vegas Strip Circuit,Las Vegas
+Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Qualifying,,,,,1795233600,Las Vegas Strip Circuit,Las Vegas
+Formula 1,Formula 1 World Championship,Las Vegas Grand Prix,Race,,,,,1795320000,Las Vegas Strip Circuit,Las Vegas
+Formula 1,Formula 1 World Championship,Qatar Grand Prix,Practice 1,,,,,1795786200,Lusail International Circuit,Lusail
+Formula 1,Formula 1 World Championship,Qatar Grand Prix,Practice 2,,,,,1795798800,Lusail International Circuit,Lusail
+Formula 1,Formula 1 World Championship,Qatar Grand Prix,Practice 3,,,,,1795876200,Lusail International Circuit,Lusail
+Formula 1,Formula 1 World Championship,Qatar Grand Prix,Qualifying,,,,,1795888800,Lusail International Circuit,Lusail
+Formula 1,Formula 1 World Championship,Qatar Grand Prix,Race,,,,,1795968000,Lusail International Circuit,Lusail
+Cycling,Tour de France,Stage 1,Team time trial,,,04/07/2026,,,Barcelona,Barcelona
+Cycling,Tour de France,Stage 2,Hilly stage,,,05/07/2026,,,Tarragona,Barcelona
+Cycling,Tour de France,Stage 3,Mountain stage,,,06/07/2026,,,Granollers,Les Angles
+Cycling,Tour de France,Stage 4,Hilly stage,,,07/07/2026,,,Carcassonne,Foix
+Cycling,Tour de France,Stage 5,Flat stage,,,08/07/2026,,,Lannemezan,Pau
+Cycling,Tour de France,Stage 6,Mountain stage,,,09/07/2026,,,Pau,Gavarnie-Gèdre
+Cycling,Tour de France,Stage 7,Flat stage,,,10/07/2026,,,Hagetmau,Bordeaux
+Cycling,Tour de France,Stage 8,Flat stage,,,11/07/2026,,,Périgueux,Bergerac
+Cycling,Tour de France,Stage 9,Hilly stage,,,12/07/2026,,,Malemort,Ussel
+Cycling,Tour de France,Stage 10,Mountain stage,,,14/07/2026,,,Aurillac,Le Lioran
+Cycling,Tour de France,Stage 11,Flat stage,,,15/07/2026,,,Vichy,Nevers
+Cycling,Tour de France,Stage 12,Flat stage,,,16/07/2026,,,Circuit de Nevers Magny-Cours,Chalon-sur-Saône
+Cycling,Tour de France,Stage 13,Hilly stage,,,17/07/2026,,,Dole,Belfort
+Cycling,Tour de France,Stage 14,Mountain stage,,,18/07/2026,,,Mulhouse,Le Markstein Fellering
+Cycling,Tour de France,Stage 15,Mountain stage,,,19/07/2026,,,Champagnole,Plateau de Solaison
+Cycling,Tour de France,Stage 16,Individual time trial,,,21/07/2026,,,Évian-les-Bains,Thonon-les-Bains
+Cycling,Tour de France,Stage 17,Flat stage,,,22/07/2026,,,Chambéry,Voiron
+Cycling,Tour de France,Stage 18,Mountain stage,,,23/07/2026,,,Voiron,Orcières-Merlette
+Cycling,Tour de France,Stage 19,Mountain stage,,,24/07/2026,,,Gap,Alpe d'Huez
+Cycling,Tour de France,Stage 20,Mountain stage,,,25/07/2026,,,Le Bourg-d'Oisans,Alpe d'Huez
+Cycling,Tour de France,Stage 21,Flat stage,,,26/07/2026,,,Thoiry,Paris (Champs-Élysées)
+Cricket,Test Series,,,England,New Zealand,04/06/2026,09/06/2026,1780567200,Lord's,London
+Cricket,Test Series,,,England,New Zealand,17/06/2026,22/06/2026,1781690400,The Oval,London
+Cricket,Test Series,,,England,New Zealand,25/06/2026,30/06/2026,1782381600,Trent Bridge,West Bridgford

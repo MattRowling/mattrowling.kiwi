@@ -2013,6 +2013,42 @@ const fixtures: Fixture[] = [
     "timestamp": null,
     "primaryLocation": "Thoiry",
     "secondaryLocation": "Paris (Champs-Élysées)"
+  },
+  {
+    "id": 200,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "England",
+    "away": "New Zealand",
+    "date": "04/06/2026",
+    "endDate": "09/06/2026",
+    "timestamp": 1780567200,
+    "primaryLocation": "Lord's",
+    "secondaryLocation": "London"
+  },
+  {
+    "id": 201,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "England",
+    "away": "New Zealand",
+    "date": "17/06/2026",
+    "endDate": "22/06/2026",
+    "timestamp": 1781690400,
+    "primaryLocation": "The Oval",
+    "secondaryLocation": "London"
+  },
+  {
+    "id": 202,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "England",
+    "away": "New Zealand",
+    "date": "25/06/2026",
+    "endDate": "30/06/2026",
+    "timestamp": 1782381600,
+    "primaryLocation": "Trent Bridge",
+    "secondaryLocation": "West Bridgford"
   }
 ];
 
