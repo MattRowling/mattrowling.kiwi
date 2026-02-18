@@ -5,6 +5,7 @@ import FootballSvg from "./icons/soccer-ball-noto.svg";
 import RugbySvg from "./icons/rugby-football-noto.svg";
 import CricketSvg from "./icons/cricket-game-noto.svg";
 import Formula1Svg from "./icons/racing-car-noto.svg";
+import CyclingSvg from "./icons/person-biking-noto.svg";
 import Contest from "./Contest";
 
 const getSvgForSport = (sport: string) => {
@@ -18,6 +19,8 @@ const getSvgForSport = (sport: string) => {
       return <img src={CricketSvg} style={style} />;
     case "formula 1":
       return <img src={Formula1Svg} style={style} />;
+    case "cycling":
+      return <img src={CyclingSvg} style={style} />;
   }
   return null;
 };
@@ -39,7 +42,31 @@ const getTimeFromTimestamp = (timestamp: number) => {
   });
 };
 
-const sortedFixtures = fixtures.sort((a, b) => a.timestamp - b.timestamp);
+const getFormattedDate = (dateString: string) => {
+  const [day, month, year] = dateString.split("/");
+  const fullYear = `20${year}`; // Assumes 20xx
+  const date = new Date(`${fullYear}-${month}-${day}`);
+
+  return date.toLocaleString("en-AU", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  });
+};
+
+const sortedFixtures = fixtures.sort((a, b) => {
+  const timeA =
+    a.timestamp ??
+    (a.date
+      ? new Date(a.date.split("/").reverse().join("-")).getTime() / 1000
+      : 0);
+  const timeB =
+    b.timestamp ??
+    (b.date
+      ? new Date(b.date.split("/").reverse().join("-")).getTime() / 1000
+      : 0);
+  return timeA - timeB;
+});
 
 function Fixtures() {
   return (
@@ -99,8 +126,14 @@ function Fixtures() {
                 justifyContent: "space-between",
               }}
             >
-              <Box>{getDateFromTimestamp(fixture.timestamp)}</Box>
-              <Box>{getTimeFromTimestamp(fixture.timestamp)}</Box>
+              <Box>
+                {fixture.timestamp
+                  ? getDateFromTimestamp(fixture.timestamp)
+                  : getFormattedDate(fixture.date!)}
+              </Box>
+              {fixture.timestamp && (
+                <Box>{getTimeFromTimestamp(fixture.timestamp)}</Box>
+              )}
             </Box>
 
             {/* Contest */}
@@ -111,7 +144,7 @@ function Fixtures() {
               away={fixture.away}
             />
 
-            {/* Venue & City */}
+            {/* Locations */}
             <Box
               sx={{
                 display: "flex",
@@ -121,8 +154,9 @@ function Fixtures() {
                 justifyContent: "space-between",
               }}
             >
-              <Box>{fixture.venue}</Box>
-              <Box>{fixture.city}</Box>
+              <Box>{fixture.primaryLocation}</Box>
+              {fixture.sport.toLowerCase() === "cycling" && <Box>→</Box>}
+              <Box>{fixture.secondaryLocation}</Box>
             </Box>
           </CardContent>
         </Card>
