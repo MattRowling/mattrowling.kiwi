@@ -10,8 +10,8 @@ const fixtures: Fixture[] = [
     "home": "Wales",
     "away": "France",
     "timestamp": 1773587400,
-    "venue": "Millennium Stadium",
-    "city": "Cardiff"
+    "primaryLocation": "Millennium Stadium",
+    "secondaryLocation": "Cardiff"
   },
   {
     "id": 2,
@@ -20,8 +20,8 @@ const fixtures: Fixture[] = [
     "home": "England",
     "away": "Ireland",
     "timestamp": 1771683000,
-    "venue": "Twickenham",
-    "city": "London"
+    "primaryLocation": "Twickenham",
+    "secondaryLocation": "London"
   },
   {
     "id": 3,
@@ -30,8 +30,8 @@ const fixtures: Fixture[] = [
     "home": "Wales",
     "away": "Scotland",
     "timestamp": 1771692000,
-    "venue": "Millennium Stadium",
-    "city": "Cardiff"
+    "primaryLocation": "Millennium Stadium",
+    "secondaryLocation": "Cardiff"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@ const fixtures: Fixture[] = [
     "home": "France",
     "away": "Italy",
     "timestamp": 1771773000,
-    "venue": "Stade Pierre Mauroy",
-    "city": "Lille"
+    "primaryLocation": "Stade Pierre Mauroy",
+    "secondaryLocation": "Lille"
   },
   {
     "id": 5,
@@ -50,8 +50,8 @@ const fixtures: Fixture[] = [
     "home": "Ireland",
     "away": "Wales",
     "timestamp": 1772827800,
-    "venue": "Aviva Stadium",
-    "city": "Dublin"
+    "primaryLocation": "Aviva Stadium",
+    "secondaryLocation": "Dublin"
   },
   {
     "id": 6,
@@ -60,8 +60,8 @@ const fixtures: Fixture[] = [
     "home": "Scotland",
     "away": "France",
     "timestamp": 1772892600,
-    "venue": "Murrayfield",
-    "city": "Edinburgh"
+    "primaryLocation": "Murrayfield",
+    "secondaryLocation": "Edinburgh"
   },
   {
     "id": 7,
@@ -70,8 +70,8 @@ const fixtures: Fixture[] = [
     "home": "Italy",
     "away": "England",
     "timestamp": 1772901600,
-    "venue": "Stadio Olimpico",
-    "city": "Rome"
+    "primaryLocation": "Stadio Olimpico",
+    "secondaryLocation": "Rome"
   },
   {
     "id": 8,
@@ -80,8 +80,8 @@ const fixtures: Fixture[] = [
     "home": "Ireland",
     "away": "Scotland",
     "timestamp": 1773497400,
-    "venue": "Aviva Stadium",
-    "city": "Dublin"
+    "primaryLocation": "Aviva Stadium",
+    "secondaryLocation": "Dublin"
   },
   {
     "id": 9,
@@ -90,8 +90,8 @@ const fixtures: Fixture[] = [
     "home": "Wales",
     "away": "Italy",
     "timestamp": 1773506400,
-    "venue": "Millennium Stadium",
-    "city": "Cardiff"
+    "primaryLocation": "Millennium Stadium",
+    "secondaryLocation": "Cardiff"
   },
   {
     "id": 10,
@@ -100,8 +100,8 @@ const fixtures: Fixture[] = [
     "home": "France",
     "away": "England",
     "timestamp": 1773519000,
-    "venue": "Stade de France",
-    "city": "Paris"
+    "primaryLocation": "Stade de France",
+    "secondaryLocation": "Paris"
   },
   {
     "id": 11,
@@ -110,8 +110,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Auckland FC",
     "timestamp": 1771646400,
-    "venue": "Sky Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Sky Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 12,
@@ -120,8 +120,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Sydney FC",
     "timestamp": 1772330400,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 13,
@@ -130,8 +130,8 @@ const fixtures: Fixture[] = [
     "home": "Adelaide United",
     "away": "Wellington Phoenix",
     "timestamp": 1772786100,
-    "venue": "Coopers Stadium",
-    "city": "Adelaide"
+    "primaryLocation": "Coopers Stadium",
+    "secondaryLocation": "Adelaide"
   },
   {
     "id": 14,
@@ -140,8 +140,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Perth Glory",
     "timestamp": 1773453600,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 15,
@@ -150,8 +150,8 @@ const fixtures: Fixture[] = [
     "home": "Brisbane Roar",
     "away": "Wellington Phoenix",
     "timestamp": 1774065600,
-    "venue": "Suncorp Stadium",
-    "city": "Brisbane"
+    "primaryLocation": "Suncorp Stadium",
+    "secondaryLocation": "Brisbane"
   },
   {
     "id": 16,
@@ -160,8 +160,8 @@ const fixtures: Fixture[] = [
     "home": "Melbourne Victory",
     "away": "Wellington Phoenix",
     "timestamp": 1775365200,
-    "venue": "AAMI Park",
-    "city": "Melbourne"
+    "primaryLocation": "AAMI Park",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 17,
@@ -170,8 +170,8 @@ const fixtures: Fixture[] = [
     "home": "Melbourne City",
     "away": "Wellington Phoenix",
     "timestamp": 1775970000,
-    "venue": "AAMI Park",
-    "city": "Melbourne"
+    "primaryLocation": "AAMI Park",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 18,
@@ -180,8 +180,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Western Sydney Wanderers",
     "timestamp": 1776484800,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 19,
@@ -190,8 +190,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Macarthur FC",
     "timestamp": 1777023300,
-    "venue": "Apollo Projects Stadium",
-    "city": "Christchurch"
+    "primaryLocation": "Apollo Projects Stadium",
+    "secondaryLocation": "Christchurch"
   },
   {
     "id": 20,
@@ -200,8 +200,8 @@ const fixtures: Fixture[] = [
     "home": "Melbourne Victory",
     "away": "Wellington Phoenix",
     "timestamp": 1771574400,
-    "venue": "Home of the Matildas",
-    "city": "Melbourne"
+    "primaryLocation": "Home of the Matildas",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 21,
@@ -210,8 +210,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Brisbane Roar",
     "timestamp": 1773464400,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 22,
@@ -220,8 +220,8 @@ const fixtures: Fixture[] = [
     "home": "Sydney FC",
     "away": "Wellington Phoenix",
     "timestamp": 1773993600,
-    "venue": "Leichhardt Oval",
-    "city": "Sydney"
+    "primaryLocation": "Leichhardt Oval",
+    "secondaryLocation": "Sydney"
   },
   {
     "id": 23,
@@ -230,8 +230,8 @@ const fixtures: Fixture[] = [
     "home": "Central Coast Mariners",
     "away": "Wellington Phoenix",
     "timestamp": 1774425600,
-    "venue": "Central Coast Stadium",
-    "city": "Gosford"
+    "primaryLocation": "Central Coast Stadium",
+    "secondaryLocation": "Gosford"
   },
   {
     "id": 24,
@@ -240,8 +240,8 @@ const fixtures: Fixture[] = [
     "home": "Wellington Phoenix",
     "away": "Western Sydney Wanderers",
     "timestamp": 1774753200,
-    "venue": "Porirua Park",
-    "city": "Wellington"
+    "primaryLocation": "Porirua Park",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 25,
@@ -250,8 +250,8 @@ const fixtures: Fixture[] = [
     "home": "Adelaide United",
     "away": "Wellington Phoenix",
     "timestamp": 1775195400,
-    "venue": "Coopers Stadium",
-    "city": "Adelaide"
+    "primaryLocation": "Coopers Stadium",
+    "secondaryLocation": "Adelaide"
   },
   {
     "id": 26,
@@ -260,8 +260,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Moana Pasifika",
     "timestamp": 1771567500,
-    "venue": "Sky Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Sky Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 27,
@@ -270,8 +270,8 @@ const fixtures: Fixture[] = [
     "home": "Fijian Drua",
     "away": "Hurricanes",
     "timestamp": 1772249700,
-    "venue": "Churchill Park",
-    "city": "Lautoka"
+    "primaryLocation": "Churchill Park",
+    "secondaryLocation": "Lautoka"
   },
   {
     "id": 28,
@@ -280,8 +280,8 @@ const fixtures: Fixture[] = [
     "home": "NSW Waratahs",
     "away": "Hurricanes",
     "timestamp": 1772786100,
-    "venue": "Allianz Stadium",
-    "city": "Sydney"
+    "primaryLocation": "Allianz Stadium",
+    "secondaryLocation": "Sydney"
   },
   {
     "id": 29,
@@ -290,8 +290,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Western Force",
     "timestamp": 1773381900,
-    "venue": "McLean Park",
-    "city": "Napier"
+    "primaryLocation": "McLean Park",
+    "secondaryLocation": "Napier"
   },
   {
     "id": 30,
@@ -300,8 +300,8 @@ const fixtures: Fixture[] = [
     "home": "Highlanders",
     "away": "Hurricanes",
     "timestamp": 1773986700,
-    "venue": "Forsyth Barr Stadium",
-    "city": "Dunedin"
+    "primaryLocation": "Forsyth Barr Stadium",
+    "secondaryLocation": "Dunedin"
   },
   {
     "id": 31,
@@ -310,8 +310,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Queensland Reds",
     "timestamp": 1774668900,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 32,
@@ -320,8 +320,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Blues",
     "timestamp": 1775891100,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 33,
@@ -330,8 +330,8 @@ const fixtures: Fixture[] = [
     "home": "Chiefs",
     "away": "Hurricanes",
     "timestamp": 1776495900,
-    "venue": "Waikato Stadium",
-    "city": "Hamilton"
+    "primaryLocation": "Waikato Stadium",
+    "secondaryLocation": "Hamilton"
   },
   {
     "id": 34,
@@ -340,8 +340,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Brumbies",
     "timestamp": 1777093500,
-    "venue": "One NZ Stadium",
-    "city": "Christchurch"
+    "primaryLocation": "One NZ Stadium",
+    "secondaryLocation": "Christchurch"
   },
   {
     "id": 35,
@@ -350,8 +350,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Crusaders",
     "timestamp": 1777619100,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 36,
@@ -360,8 +360,8 @@ const fixtures: Fixture[] = [
     "home": "Moana Pasifika",
     "away": "Hurricanes",
     "timestamp": 1778310300,
-    "venue": "North Harbour Stadium",
-    "city": "Auckland"
+    "primaryLocation": "North Harbour Stadium",
+    "secondaryLocation": "Auckland"
   },
   {
     "id": 37,
@@ -370,8 +370,8 @@ const fixtures: Fixture[] = [
     "home": "Blues",
     "away": "Hurricanes",
     "timestamp": 1778915100,
-    "venue": "Eden Park",
-    "city": "Auckland"
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
   },
   {
     "id": 38,
@@ -380,8 +380,8 @@ const fixtures: Fixture[] = [
     "home": "Hurricanes",
     "away": "Highlanders",
     "timestamp": 1779519900,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 39,
@@ -390,8 +390,8 @@ const fixtures: Fixture[] = [
     "home": "Crusaders",
     "away": "Hurricanes",
     "timestamp": 1780038300,
-    "venue": "One NZ Stadium",
-    "city": "Christchurch"
+    "primaryLocation": "One NZ Stadium",
+    "secondaryLocation": "Christchurch"
   },
   {
     "id": 40,
@@ -400,8 +400,8 @@ const fixtures: Fixture[] = [
     "home": "Canada",
     "away": "New Zealand",
     "timestamp": 1771306200,
-    "venue": "M. A. Chidambaram Stadium",
-    "city": "Chennai"
+    "primaryLocation": "M. A. Chidambaram Stadium",
+    "secondaryLocation": "Chennai"
   },
   {
     "id": 41,
@@ -410,8 +410,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "South Africa",
     "timestamp": 1773555300,
-    "venue": "Bay Oval",
-    "city": "Mount Maunganui"
+    "primaryLocation": "Bay Oval",
+    "secondaryLocation": "Mount Maunganui"
   },
   {
     "id": 42,
@@ -420,8 +420,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "South Africa",
     "timestamp": 1773641700,
-    "venue": "Seddon Park",
-    "city": "Hamilton"
+    "primaryLocation": "Seddon Park",
+    "secondaryLocation": "Hamilton"
   },
   {
     "id": 43,
@@ -430,8 +430,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "South Africa",
     "timestamp": 1773728100,
-    "venue": "Eden Park",
-    "city": "Auckland"
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
   },
   {
     "id": 44,
@@ -440,8 +440,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "South Africa",
     "timestamp": 1773814500,
-    "venue": "Hnry Stadium",
-    "city": "Wellington"
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
   },
   {
     "id": 45,
@@ -450,8 +450,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "South Africa",
     "timestamp": 1773900900,
-    "venue": "Hagley Oval",
-    "city": "Christchurch"
+    "primaryLocation": "Hagley Oval",
+    "secondaryLocation": "Christchurch"
   },
   {
     "id": 46,
@@ -460,8 +460,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "Finland",
     "timestamp": 1774591200,
-    "venue": "Eden Park",
-    "city": "Auckland"
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
   },
   {
     "id": 47,
@@ -470,8 +470,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "Chile",
     "timestamp": 1774850400,
-    "venue": "Eden Park",
-    "city": "Auckland"
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
   },
   {
     "id": 48,
@@ -480,8 +480,8 @@ const fixtures: Fixture[] = [
     "home": "Iran",
     "away": "New Zealand",
     "timestamp": 1781578800,
-    "venue": "Los Angeles Stadium",
-    "city": "Los Angeles"
+    "primaryLocation": "Los Angeles Stadium",
+    "secondaryLocation": "Los Angeles"
   },
   {
     "id": 49,
@@ -490,8 +490,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "Egypt",
     "timestamp": 1782097200,
-    "venue": "BC Place",
-    "city": "Vancouver"
+    "primaryLocation": "BC Place",
+    "secondaryLocation": "Vancouver"
   },
   {
     "id": 50,
@@ -500,8 +500,8 @@ const fixtures: Fixture[] = [
     "home": "New Zealand",
     "away": "Belgium",
     "timestamp": 1782536400,
-    "venue": "BC Place",
-    "city": "Vancouver"
+    "primaryLocation": "BC Place",
+    "secondaryLocation": "Vancouver"
   },
   {
     "id": 51,
@@ -510,8 +510,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Bournemouth",
     "timestamp": 1771695000,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 52,
@@ -520,8 +520,8 @@ const fixtures: Fixture[] = [
     "home": "Liverpool",
     "away": "West Ham",
     "timestamp": 1772290800,
-    "venue": "Anfield",
-    "city": "Liverpool"
+    "primaryLocation": "Anfield",
+    "secondaryLocation": "Liverpool"
   },
   {
     "id": 53,
@@ -530,8 +530,8 @@ const fixtures: Fixture[] = [
     "home": "Fulham",
     "away": "West Ham",
     "timestamp": 1772652600,
-    "venue": "Craven Cottage",
-    "city": "London"
+    "primaryLocation": "Craven Cottage",
+    "secondaryLocation": "London"
   },
   {
     "id": 54,
@@ -540,8 +540,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Manchester City",
     "timestamp": 1773491400,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 55,
@@ -550,8 +550,8 @@ const fixtures: Fixture[] = [
     "home": "Aston Villa",
     "away": "West Ham",
     "timestamp": 1774188900,
-    "venue": "Villa Park",
-    "city": "Birmingham"
+    "primaryLocation": "Villa Park",
+    "secondaryLocation": "Birmingham"
   },
   {
     "id": 56,
@@ -560,8 +560,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Wolves",
     "timestamp": 1775916000,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 57,
@@ -570,8 +570,8 @@ const fixtures: Fixture[] = [
     "home": "Crystal Palace",
     "away": "West Ham",
     "timestamp": 1776520800,
-    "venue": "Selhurst Park",
-    "city": "London"
+    "primaryLocation": "Selhurst Park",
+    "secondaryLocation": "London"
   },
   {
     "id": 58,
@@ -580,8 +580,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Everton",
     "timestamp": 1777125600,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 59,
@@ -590,8 +590,8 @@ const fixtures: Fixture[] = [
     "home": "Brentford",
     "away": "West Ham",
     "timestamp": 1777730400,
-    "venue": "Gtech Community Stadium",
-    "city": "London"
+    "primaryLocation": "Gtech Community Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 60,
@@ -600,8 +600,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Arsenal",
     "timestamp": 1778335200,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 61,
@@ -610,8 +610,8 @@ const fixtures: Fixture[] = [
     "home": "Newcastle",
     "away": "West Ham",
     "timestamp": 1779026400,
-    "venue": "St. James' Park",
-    "city": "Newcastle"
+    "primaryLocation": "St. James' Park",
+    "secondaryLocation": "Newcastle"
   },
   {
     "id": 62,
@@ -620,8 +620,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Leeds United",
     "timestamp": 1779634800,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 63,
@@ -630,8 +630,8 @@ const fixtures: Fixture[] = [
     "home": "West Ham",
     "away": "Brentford",
     "timestamp": 1772895600,
-    "venue": "London Stadium",
-    "city": "London"
+    "primaryLocation": "London Stadium",
+    "secondaryLocation": "London"
   },
   {
     "id": 64,
@@ -640,8 +640,8 @@ const fixtures: Fixture[] = [
     "name": "Australian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1772760600,
-    "venue": "Albert Park Circuit",
-    "city": "Melbourne"
+    "primaryLocation": "Albert Park Circuit",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 65,
@@ -650,8 +650,8 @@ const fixtures: Fixture[] = [
     "name": "Australian Grand Prix",
     "event": "Practice 2",
     "timestamp": 1772773200,
-    "venue": "Albert Park Circuit",
-    "city": "Melbourne"
+    "primaryLocation": "Albert Park Circuit",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 66,
@@ -660,8 +660,8 @@ const fixtures: Fixture[] = [
     "name": "Australian Grand Prix",
     "event": "Practice 3",
     "timestamp": 1772847000,
-    "venue": "Albert Park Circuit",
-    "city": "Melbourne"
+    "primaryLocation": "Albert Park Circuit",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 67,
@@ -670,8 +670,8 @@ const fixtures: Fixture[] = [
     "name": "Australian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1772859600,
-    "venue": "Albert Park Circuit",
-    "city": "Melbourne"
+    "primaryLocation": "Albert Park Circuit",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 68,
@@ -680,8 +680,8 @@ const fixtures: Fixture[] = [
     "name": "Australian Grand Prix",
     "event": "Race",
     "timestamp": 1772942400,
-    "venue": "Albert Park Circuit",
-    "city": "Melbourne"
+    "primaryLocation": "Albert Park Circuit",
+    "secondaryLocation": "Melbourne"
   },
   {
     "id": 69,
@@ -690,8 +690,8 @@ const fixtures: Fixture[] = [
     "name": "Chinese Grand Prix",
     "event": "Practice 1",
     "timestamp": 1773372600,
-    "venue": "Shanghai International Circuit",
-    "city": "Shanghai"
+    "primaryLocation": "Shanghai International Circuit",
+    "secondaryLocation": "Shanghai"
   },
   {
     "id": 70,
@@ -700,8 +700,8 @@ const fixtures: Fixture[] = [
     "name": "Chinese Grand Prix",
     "event": "Sprint Qualifying",
     "timestamp": 1773387000,
-    "venue": "Shanghai International Circuit",
-    "city": "Shanghai"
+    "primaryLocation": "Shanghai International Circuit",
+    "secondaryLocation": "Shanghai"
   },
   {
     "id": 71,
@@ -710,8 +710,8 @@ const fixtures: Fixture[] = [
     "name": "Chinese Grand Prix",
     "event": "Sprint",
     "timestamp": 1773457200,
-    "venue": "Shanghai International Circuit",
-    "city": "Shanghai"
+    "primaryLocation": "Shanghai International Circuit",
+    "secondaryLocation": "Shanghai"
   },
   {
     "id": 72,
@@ -720,8 +720,8 @@ const fixtures: Fixture[] = [
     "name": "Chinese Grand Prix",
     "event": "Qualifying",
     "timestamp": 1773471600,
-    "venue": "Shanghai International Circuit",
-    "city": "Shanghai"
+    "primaryLocation": "Shanghai International Circuit",
+    "secondaryLocation": "Shanghai"
   },
   {
     "id": 73,
@@ -730,8 +730,8 @@ const fixtures: Fixture[] = [
     "name": "Chinese Grand Prix",
     "event": "Race",
     "timestamp": 1773558000,
-    "venue": "Shanghai International Circuit",
-    "city": "Shanghai"
+    "primaryLocation": "Shanghai International Circuit",
+    "secondaryLocation": "Shanghai"
   },
   {
     "id": 74,
@@ -740,8 +740,8 @@ const fixtures: Fixture[] = [
     "name": "Japanese Grand Prix",
     "event": "Practice 1",
     "timestamp": 1774578600,
-    "venue": "Suzuka Circuit",
-    "city": "Suzuka"
+    "primaryLocation": "Suzuka Circuit",
+    "secondaryLocation": "Suzuka"
   },
   {
     "id": 75,
@@ -750,8 +750,8 @@ const fixtures: Fixture[] = [
     "name": "Japanese Grand Prix",
     "event": "Practice 2",
     "timestamp": 1774591200,
-    "venue": "Suzuka Circuit",
-    "city": "Suzuka"
+    "primaryLocation": "Suzuka Circuit",
+    "secondaryLocation": "Suzuka"
   },
   {
     "id": 76,
@@ -760,8 +760,8 @@ const fixtures: Fixture[] = [
     "name": "Japanese Grand Prix",
     "event": "Practice 3",
     "timestamp": 1774665000,
-    "venue": "Suzuka Circuit",
-    "city": "Suzuka"
+    "primaryLocation": "Suzuka Circuit",
+    "secondaryLocation": "Suzuka"
   },
   {
     "id": 77,
@@ -770,8 +770,8 @@ const fixtures: Fixture[] = [
     "name": "Japanese Grand Prix",
     "event": "Qualifying",
     "timestamp": 1774677600,
-    "venue": "Suzuka Circuit",
-    "city": "Suzuka"
+    "primaryLocation": "Suzuka Circuit",
+    "secondaryLocation": "Suzuka"
   },
   {
     "id": 78,
@@ -780,8 +780,8 @@ const fixtures: Fixture[] = [
     "name": "Japanese Grand Prix",
     "event": "Race",
     "timestamp": 1774760400,
-    "venue": "Suzuka Circuit",
-    "city": "Suzuka"
+    "primaryLocation": "Suzuka Circuit",
+    "secondaryLocation": "Suzuka"
   },
   {
     "id": 79,
@@ -790,8 +790,8 @@ const fixtures: Fixture[] = [
     "name": "Bahrain Grand Prix",
     "event": "Practice 1",
     "timestamp": 1775820600,
-    "venue": "Bahrain International Circuit",
-    "city": "Sakhir"
+    "primaryLocation": "Bahrain International Circuit",
+    "secondaryLocation": "Sakhir"
   },
   {
     "id": 80,
@@ -800,8 +800,8 @@ const fixtures: Fixture[] = [
     "name": "Bahrain Grand Prix",
     "event": "Practice 2",
     "timestamp": 1775833200,
-    "venue": "Bahrain International Circuit",
-    "city": "Sakhir"
+    "primaryLocation": "Bahrain International Circuit",
+    "secondaryLocation": "Sakhir"
   },
   {
     "id": 81,
@@ -810,8 +810,8 @@ const fixtures: Fixture[] = [
     "name": "Bahrain Grand Prix",
     "event": "Practice 3",
     "timestamp": 1775910600,
-    "venue": "Bahrain International Circuit",
-    "city": "Sakhir"
+    "primaryLocation": "Bahrain International Circuit",
+    "secondaryLocation": "Sakhir"
   },
   {
     "id": 82,
@@ -820,8 +820,8 @@ const fixtures: Fixture[] = [
     "name": "Bahrain Grand Prix",
     "event": "Qualifying",
     "timestamp": 1775923200,
-    "venue": "Bahrain International Circuit",
-    "city": "Sakhir"
+    "primaryLocation": "Bahrain International Circuit",
+    "secondaryLocation": "Sakhir"
   },
   {
     "id": 83,
@@ -830,8 +830,8 @@ const fixtures: Fixture[] = [
     "name": "Bahrain Grand Prix",
     "event": "Race",
     "timestamp": 1776006000,
-    "venue": "Bahrain International Circuit",
-    "city": "Sakhir"
+    "primaryLocation": "Bahrain International Circuit",
+    "secondaryLocation": "Sakhir"
   },
   {
     "id": 84,
@@ -840,8 +840,8 @@ const fixtures: Fixture[] = [
     "name": "Saudi Arabian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1776432600,
-    "venue": "Jeddah Corniche Circuit",
-    "city": "Jeddah"
+    "primaryLocation": "Jeddah Corniche Circuit",
+    "secondaryLocation": "Jeddah"
   },
   {
     "id": 85,
@@ -850,8 +850,8 @@ const fixtures: Fixture[] = [
     "name": "Saudi Arabian Grand Prix",
     "event": "Practice 2",
     "timestamp": 1776445200,
-    "venue": "Jeddah Corniche Circuit",
-    "city": "Jeddah"
+    "primaryLocation": "Jeddah Corniche Circuit",
+    "secondaryLocation": "Jeddah"
   },
   {
     "id": 86,
@@ -860,8 +860,8 @@ const fixtures: Fixture[] = [
     "name": "Saudi Arabian Grand Prix",
     "event": "Practice 3",
     "timestamp": 1776519000,
-    "venue": "Jeddah Corniche Circuit",
-    "city": "Jeddah"
+    "primaryLocation": "Jeddah Corniche Circuit",
+    "secondaryLocation": "Jeddah"
   },
   {
     "id": 87,
@@ -870,8 +870,8 @@ const fixtures: Fixture[] = [
     "name": "Saudi Arabian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1776531600,
-    "venue": "Jeddah Corniche Circuit",
-    "city": "Jeddah"
+    "primaryLocation": "Jeddah Corniche Circuit",
+    "secondaryLocation": "Jeddah"
   },
   {
     "id": 88,
@@ -880,8 +880,8 @@ const fixtures: Fixture[] = [
     "name": "Saudi Arabian Grand Prix",
     "event": "Race",
     "timestamp": 1776618000,
-    "venue": "Jeddah Corniche Circuit",
-    "city": "Jeddah"
+    "primaryLocation": "Jeddah Corniche Circuit",
+    "secondaryLocation": "Jeddah"
   },
   {
     "id": 89,
@@ -890,8 +890,8 @@ const fixtures: Fixture[] = [
     "name": "Miami Grand Prix",
     "event": "Practice 1",
     "timestamp": 1777653000,
-    "venue": "Miami International Autodrome",
-    "city": "Miami"
+    "primaryLocation": "Miami International Autodrome",
+    "secondaryLocation": "Miami"
   },
   {
     "id": 90,
@@ -900,8 +900,8 @@ const fixtures: Fixture[] = [
     "name": "Miami Grand Prix",
     "event": "Sprint Qualifying",
     "timestamp": 1777667400,
-    "venue": "Miami International Autodrome",
-    "city": "Miami"
+    "primaryLocation": "Miami International Autodrome",
+    "secondaryLocation": "Miami"
   },
   {
     "id": 91,
@@ -910,8 +910,8 @@ const fixtures: Fixture[] = [
     "name": "Miami Grand Prix",
     "event": "Sprint",
     "timestamp": 1777737600,
-    "venue": "Miami International Autodrome",
-    "city": "Miami"
+    "primaryLocation": "Miami International Autodrome",
+    "secondaryLocation": "Miami"
   },
   {
     "id": 92,
@@ -920,8 +920,8 @@ const fixtures: Fixture[] = [
     "name": "Miami Grand Prix",
     "event": "Qualifying",
     "timestamp": 1777752000,
-    "venue": "Miami International Autodrome",
-    "city": "Miami"
+    "primaryLocation": "Miami International Autodrome",
+    "secondaryLocation": "Miami"
   },
   {
     "id": 93,
@@ -930,8 +930,8 @@ const fixtures: Fixture[] = [
     "name": "Miami Grand Prix",
     "event": "Race",
     "timestamp": 1777838400,
-    "venue": "Miami International Autodrome",
-    "city": "Miami"
+    "primaryLocation": "Miami International Autodrome",
+    "secondaryLocation": "Miami"
   },
   {
     "id": 94,
@@ -940,8 +940,8 @@ const fixtures: Fixture[] = [
     "name": "Canadian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1779467400,
-    "venue": "Circuit Gilles-Villeneuve",
-    "city": "Montreal"
+    "primaryLocation": "Circuit Gilles-Villeneuve",
+    "secondaryLocation": "Montreal"
   },
   {
     "id": 95,
@@ -950,8 +950,8 @@ const fixtures: Fixture[] = [
     "name": "Canadian Grand Prix",
     "event": "Sprint Qualifying",
     "timestamp": 1779481800,
-    "venue": "Circuit Gilles-Villeneuve",
-    "city": "Montreal"
+    "primaryLocation": "Circuit Gilles-Villeneuve",
+    "secondaryLocation": "Montreal"
   },
   {
     "id": 96,
@@ -960,8 +960,8 @@ const fixtures: Fixture[] = [
     "name": "Canadian Grand Prix",
     "event": "Sprint",
     "timestamp": 1779552000,
-    "venue": "Circuit Gilles-Villeneuve",
-    "city": "Montreal"
+    "primaryLocation": "Circuit Gilles-Villeneuve",
+    "secondaryLocation": "Montreal"
   },
   {
     "id": 97,
@@ -970,8 +970,8 @@ const fixtures: Fixture[] = [
     "name": "Canadian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1779566400,
-    "venue": "Circuit Gilles-Villeneuve",
-    "city": "Montreal"
+    "primaryLocation": "Circuit Gilles-Villeneuve",
+    "secondaryLocation": "Montreal"
   },
   {
     "id": 98,
@@ -980,8 +980,8 @@ const fixtures: Fixture[] = [
     "name": "Canadian Grand Prix",
     "event": "Race",
     "timestamp": 1779652800,
-    "venue": "Circuit Gilles-Villeneuve",
-    "city": "Montreal"
+    "primaryLocation": "Circuit Gilles-Villeneuve",
+    "secondaryLocation": "Montreal"
   },
   {
     "id": 99,
@@ -990,8 +990,8 @@ const fixtures: Fixture[] = [
     "name": "Monaco Grand Prix",
     "event": "Practice 1",
     "timestamp": 1780659000,
-    "venue": "Circuit de Monaco",
-    "city": "Monaco"
+    "primaryLocation": "Circuit de Monaco",
+    "secondaryLocation": "Monaco"
   },
   {
     "id": 100,
@@ -1000,8 +1000,8 @@ const fixtures: Fixture[] = [
     "name": "Monaco Grand Prix",
     "event": "Practice 2",
     "timestamp": 1780671600,
-    "venue": "Circuit de Monaco",
-    "city": "Monaco"
+    "primaryLocation": "Circuit de Monaco",
+    "secondaryLocation": "Monaco"
   },
   {
     "id": 101,
@@ -1010,8 +1010,8 @@ const fixtures: Fixture[] = [
     "name": "Monaco Grand Prix",
     "event": "Practice 3",
     "timestamp": 1780741800,
-    "venue": "Circuit de Monaco",
-    "city": "Monaco"
+    "primaryLocation": "Circuit de Monaco",
+    "secondaryLocation": "Monaco"
   },
   {
     "id": 102,
@@ -1020,8 +1020,8 @@ const fixtures: Fixture[] = [
     "name": "Monaco Grand Prix",
     "event": "Qualifying",
     "timestamp": 1780754400,
-    "venue": "Circuit de Monaco",
-    "city": "Monaco"
+    "primaryLocation": "Circuit de Monaco",
+    "secondaryLocation": "Monaco"
   },
   {
     "id": 103,
@@ -1030,8 +1030,8 @@ const fixtures: Fixture[] = [
     "name": "Monaco Grand Prix",
     "event": "Race",
     "timestamp": 1780837200,
-    "venue": "Circuit de Monaco",
-    "city": "Monaco"
+    "primaryLocation": "Circuit de Monaco",
+    "secondaryLocation": "Monaco"
   },
   {
     "id": 104,
@@ -1040,8 +1040,8 @@ const fixtures: Fixture[] = [
     "name": "Barcelona-Catalunya Grand Prix",
     "event": "Practice 1",
     "timestamp": 1781263800,
-    "venue": "Circuit de Barcelona-Catalunya",
-    "city": "Barcelona"
+    "primaryLocation": "Circuit de Barcelona-Catalunya",
+    "secondaryLocation": "Barcelona"
   },
   {
     "id": 105,
@@ -1050,8 +1050,8 @@ const fixtures: Fixture[] = [
     "name": "Barcelona-Catalunya Grand Prix",
     "event": "Practice 2",
     "timestamp": 1781276400,
-    "venue": "Circuit de Barcelona-Catalunya",
-    "city": "Barcelona"
+    "primaryLocation": "Circuit de Barcelona-Catalunya",
+    "secondaryLocation": "Barcelona"
   },
   {
     "id": 106,
@@ -1060,8 +1060,8 @@ const fixtures: Fixture[] = [
     "name": "Barcelona-Catalunya Grand Prix",
     "event": "Practice 3",
     "timestamp": 1781346600,
-    "venue": "Circuit de Barcelona-Catalunya",
-    "city": "Barcelona"
+    "primaryLocation": "Circuit de Barcelona-Catalunya",
+    "secondaryLocation": "Barcelona"
   },
   {
     "id": 107,
@@ -1070,8 +1070,8 @@ const fixtures: Fixture[] = [
     "name": "Barcelona-Catalunya Grand Prix",
     "event": "Qualifying",
     "timestamp": 1781359200,
-    "venue": "Circuit de Barcelona-Catalunya",
-    "city": "Barcelona"
+    "primaryLocation": "Circuit de Barcelona-Catalunya",
+    "secondaryLocation": "Barcelona"
   },
   {
     "id": 108,
@@ -1080,8 +1080,8 @@ const fixtures: Fixture[] = [
     "name": "Barcelona-Catalunya Grand Prix",
     "event": "Race",
     "timestamp": 1781442000,
-    "venue": "Circuit de Barcelona-Catalunya",
-    "city": "Barcelona"
+    "primaryLocation": "Circuit de Barcelona-Catalunya",
+    "secondaryLocation": "Barcelona"
   },
   {
     "id": 109,
@@ -1090,8 +1090,8 @@ const fixtures: Fixture[] = [
     "name": "Austrian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1782473400,
-    "venue": "Red Bull Ring",
-    "city": "Spielberg"
+    "primaryLocation": "Red Bull Ring",
+    "secondaryLocation": "Spielberg"
   },
   {
     "id": 110,
@@ -1100,8 +1100,8 @@ const fixtures: Fixture[] = [
     "name": "Austrian Grand Prix",
     "event": "Practice 2",
     "timestamp": 1782486000,
-    "venue": "Red Bull Ring",
-    "city": "Spielberg"
+    "primaryLocation": "Red Bull Ring",
+    "secondaryLocation": "Spielberg"
   },
   {
     "id": 111,
@@ -1110,8 +1110,8 @@ const fixtures: Fixture[] = [
     "name": "Austrian Grand Prix",
     "event": "Practice 3",
     "timestamp": 1782556200,
-    "venue": "Red Bull Ring",
-    "city": "Spielberg"
+    "primaryLocation": "Red Bull Ring",
+    "secondaryLocation": "Spielberg"
   },
   {
     "id": 112,
@@ -1120,8 +1120,8 @@ const fixtures: Fixture[] = [
     "name": "Austrian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1782568800,
-    "venue": "Red Bull Ring",
-    "city": "Spielberg"
+    "primaryLocation": "Red Bull Ring",
+    "secondaryLocation": "Spielberg"
   },
   {
     "id": 113,
@@ -1130,8 +1130,8 @@ const fixtures: Fixture[] = [
     "name": "Austrian Grand Prix",
     "event": "Race",
     "timestamp": 1782651600,
-    "venue": "Red Bull Ring",
-    "city": "Spielberg"
+    "primaryLocation": "Red Bull Ring",
+    "secondaryLocation": "Spielberg"
   },
   {
     "id": 114,
@@ -1140,8 +1140,8 @@ const fixtures: Fixture[] = [
     "name": "British Grand Prix",
     "event": "Practice 1",
     "timestamp": 1783078200,
-    "venue": "Silverstone Circuit",
-    "city": "Silverstone"
+    "primaryLocation": "Silverstone Circuit",
+    "secondaryLocation": "Silverstone"
   },
   {
     "id": 115,
@@ -1150,8 +1150,8 @@ const fixtures: Fixture[] = [
     "name": "British Grand Prix",
     "event": "Practice 2",
     "timestamp": 1783092600,
-    "venue": "Silverstone Circuit",
-    "city": "Silverstone"
+    "primaryLocation": "Silverstone Circuit",
+    "secondaryLocation": "Silverstone"
   },
   {
     "id": 116,
@@ -1160,8 +1160,8 @@ const fixtures: Fixture[] = [
     "name": "British Grand Prix",
     "event": "Practice 3",
     "timestamp": 1783162800,
-    "venue": "Silverstone Circuit",
-    "city": "Silverstone"
+    "primaryLocation": "Silverstone Circuit",
+    "secondaryLocation": "Silverstone"
   },
   {
     "id": 117,
@@ -1170,8 +1170,8 @@ const fixtures: Fixture[] = [
     "name": "British Grand Prix",
     "event": "Qualifying",
     "timestamp": 1783177200,
-    "venue": "Silverstone Circuit",
-    "city": "Silverstone"
+    "primaryLocation": "Silverstone Circuit",
+    "secondaryLocation": "Silverstone"
   },
   {
     "id": 118,
@@ -1180,8 +1180,8 @@ const fixtures: Fixture[] = [
     "name": "British Grand Prix",
     "event": "Race",
     "timestamp": 1783260000,
-    "venue": "Silverstone Circuit",
-    "city": "Silverstone"
+    "primaryLocation": "Silverstone Circuit",
+    "secondaryLocation": "Silverstone"
   },
   {
     "id": 119,
@@ -1190,8 +1190,8 @@ const fixtures: Fixture[] = [
     "name": "Belgian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1784287800,
-    "venue": "Circuit de Spa-Francorchamps",
-    "city": "Stavelot"
+    "primaryLocation": "Circuit de Spa-Francorchamps",
+    "secondaryLocation": "Stavelot"
   },
   {
     "id": 120,
@@ -1200,8 +1200,8 @@ const fixtures: Fixture[] = [
     "name": "Belgian Grand Prix",
     "event": "Practice 2",
     "timestamp": 1784300400,
-    "venue": "Circuit de Spa-Francorchamps",
-    "city": "Stavelot"
+    "primaryLocation": "Circuit de Spa-Francorchamps",
+    "secondaryLocation": "Stavelot"
   },
   {
     "id": 121,
@@ -1210,8 +1210,8 @@ const fixtures: Fixture[] = [
     "name": "Belgian Grand Prix",
     "event": "Practice 3",
     "timestamp": 1784370600,
-    "venue": "Circuit de Spa-Francorchamps",
-    "city": "Stavelot"
+    "primaryLocation": "Circuit de Spa-Francorchamps",
+    "secondaryLocation": "Stavelot"
   },
   {
     "id": 122,
@@ -1220,8 +1220,8 @@ const fixtures: Fixture[] = [
     "name": "Belgian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1784383200,
-    "venue": "Circuit de Spa-Francorchamps",
-    "city": "Stavelot"
+    "primaryLocation": "Circuit de Spa-Francorchamps",
+    "secondaryLocation": "Stavelot"
   },
   {
     "id": 123,
@@ -1230,8 +1230,8 @@ const fixtures: Fixture[] = [
     "name": "Belgian Grand Prix",
     "event": "Race",
     "timestamp": 1783861200,
-    "venue": "Circuit de Spa-Francorchamps",
-    "city": "Stavelot"
+    "primaryLocation": "Circuit de Spa-Francorchamps",
+    "secondaryLocation": "Stavelot"
   },
   {
     "id": 124,
@@ -1240,8 +1240,8 @@ const fixtures: Fixture[] = [
     "name": "Hungarian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1784892600,
-    "venue": "Hungaroring",
-    "city": "Mogyoród"
+    "primaryLocation": "Hungaroring",
+    "secondaryLocation": "Mogyoród"
   },
   {
     "id": 125,
@@ -1250,8 +1250,8 @@ const fixtures: Fixture[] = [
     "name": "Hungarian Grand Prix",
     "event": "Practice 2",
     "timestamp": 1784905200,
-    "venue": "Hungaroring",
-    "city": "Mogyoród"
+    "primaryLocation": "Hungaroring",
+    "secondaryLocation": "Mogyoród"
   },
   {
     "id": 126,
@@ -1260,8 +1260,8 @@ const fixtures: Fixture[] = [
     "name": "Hungarian Grand Prix",
     "event": "Practice 3",
     "timestamp": 1784975400,
-    "venue": "Hungaroring",
-    "city": "Mogyoród"
+    "primaryLocation": "Hungaroring",
+    "secondaryLocation": "Mogyoród"
   },
   {
     "id": 127,
@@ -1270,8 +1270,8 @@ const fixtures: Fixture[] = [
     "name": "Hungarian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1784988000,
-    "venue": "Hungaroring",
-    "city": "Mogyoród"
+    "primaryLocation": "Hungaroring",
+    "secondaryLocation": "Mogyoród"
   },
   {
     "id": 128,
@@ -1280,8 +1280,8 @@ const fixtures: Fixture[] = [
     "name": "Hungarian Grand Prix",
     "event": "Race",
     "timestamp": 1785070800,
-    "venue": "Hungaroring",
-    "city": "Mogyoród"
+    "primaryLocation": "Hungaroring",
+    "secondaryLocation": "Mogyoród"
   },
   {
     "id": 129,
@@ -1290,8 +1290,8 @@ const fixtures: Fixture[] = [
     "name": "Dutch Grand Prix",
     "event": "Practice 1",
     "timestamp": 1787308200,
-    "venue": "Circuit Zandvoort",
-    "city": "Zandvoort"
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
   },
   {
     "id": 130,
@@ -1300,8 +1300,8 @@ const fixtures: Fixture[] = [
     "name": "Dutch Grand Prix",
     "event": "Sprint Qualifying",
     "timestamp": 1787322600,
-    "venue": "Circuit Zandvoort",
-    "city": "Zandvoort"
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
   },
   {
     "id": 131,
@@ -1310,8 +1310,8 @@ const fixtures: Fixture[] = [
     "name": "Dutch Grand Prix",
     "event": "Sprint",
     "timestamp": 1787392800,
-    "venue": "Circuit Zandvoort",
-    "city": "Zandvoort"
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
   },
   {
     "id": 132,
@@ -1320,8 +1320,8 @@ const fixtures: Fixture[] = [
     "name": "Dutch Grand Prix",
     "event": "Qualifying",
     "timestamp": 1787407200,
-    "venue": "Circuit Zandvoort",
-    "city": "Zandvoort"
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
   },
   {
     "id": 133,
@@ -1330,8 +1330,8 @@ const fixtures: Fixture[] = [
     "name": "Dutch Grand Prix",
     "event": "Race",
     "timestamp": 1787490000,
-    "venue": "Circuit Zandvoort",
-    "city": "Zandvoort"
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
   },
   {
     "id": 134,
@@ -1340,8 +1340,8 @@ const fixtures: Fixture[] = [
     "name": "Italian Grand Prix",
     "event": "Practice 1",
     "timestamp": 1788517800,
-    "venue": "Autodromo Nazionale Monza",
-    "city": "Monza"
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
   },
   {
     "id": 135,
@@ -1350,8 +1350,8 @@ const fixtures: Fixture[] = [
     "name": "Italian Grand Prix",
     "event": "Practice 2",
     "timestamp": 1788530400,
-    "venue": "Autodromo Nazionale Monza",
-    "city": "Monza"
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
   },
   {
     "id": 136,
@@ -1360,8 +1360,8 @@ const fixtures: Fixture[] = [
     "name": "Italian Grand Prix",
     "event": "Practice 3",
     "timestamp": 1788604200,
-    "venue": "Autodromo Nazionale Monza",
-    "city": "Monza"
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
   },
   {
     "id": 137,
@@ -1370,8 +1370,8 @@ const fixtures: Fixture[] = [
     "name": "Italian Grand Prix",
     "event": "Qualifying",
     "timestamp": 1788616800,
-    "venue": "Autodromo Nazionale Monza",
-    "city": "Monza"
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
   },
   {
     "id": 138,
@@ -1380,8 +1380,8 @@ const fixtures: Fixture[] = [
     "name": "Italian Grand Prix",
     "event": "Race",
     "timestamp": 1788699600,
-    "venue": "Autodromo Nazionale Monza",
-    "city": "Monza"
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
   },
   {
     "id": 139,
@@ -1390,8 +1390,8 @@ const fixtures: Fixture[] = [
     "name": "Spanish Grand Prix",
     "event": "Practice 1",
     "timestamp": 1789126200,
-    "venue": "Madring",
-    "city": "Madrid"
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
   },
   {
     "id": 140,
@@ -1400,8 +1400,8 @@ const fixtures: Fixture[] = [
     "name": "Spanish Grand Prix",
     "event": "Practice 2",
     "timestamp": 1789138800,
-    "venue": "Madring",
-    "city": "Madrid"
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
   },
   {
     "id": 141,
@@ -1410,8 +1410,8 @@ const fixtures: Fixture[] = [
     "name": "Spanish Grand Prix",
     "event": "Practice 3",
     "timestamp": 1789209000,
-    "venue": "Madring",
-    "city": "Madrid"
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
   },
   {
     "id": 142,
@@ -1420,8 +1420,8 @@ const fixtures: Fixture[] = [
     "name": "Spanish Grand Prix",
     "event": "Qualifying",
     "timestamp": 1789221600,
-    "venue": "Madring",
-    "city": "Madrid"
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
   },
   {
     "id": 143,
@@ -1430,8 +1430,8 @@ const fixtures: Fixture[] = [
     "name": "Spanish Grand Prix",
     "event": "Race",
     "timestamp": 1789304400,
-    "venue": "Madring",
-    "city": "Madrid"
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
   },
   {
     "id": 144,
@@ -1440,8 +1440,8 @@ const fixtures: Fixture[] = [
     "name": "Azerbaijan Grand Prix",
     "event": "Practice 1",
     "timestamp": 1790238600,
-    "venue": "Baku City Circuit",
-    "city": "Baku"
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
   },
   {
     "id": 145,
@@ -1450,8 +1450,8 @@ const fixtures: Fixture[] = [
     "name": "Azerbaijan Grand Prix",
     "event": "Practice 2",
     "timestamp": 1790251200,
-    "venue": "Baku City Circuit",
-    "city": "Baku"
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
   },
   {
     "id": 146,
@@ -1460,8 +1460,8 @@ const fixtures: Fixture[] = [
     "name": "Azerbaijan Grand Prix",
     "event": "Practice 3",
     "timestamp": 1790325000,
-    "venue": "Baku City Circuit",
-    "city": "Baku"
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
   },
   {
     "id": 147,
@@ -1470,8 +1470,8 @@ const fixtures: Fixture[] = [
     "name": "Azerbaijan Grand Prix",
     "event": "Qualifying",
     "timestamp": 1790337600,
-    "venue": "Baku City Circuit",
-    "city": "Baku"
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
   },
   {
     "id": 148,
@@ -1480,8 +1480,8 @@ const fixtures: Fixture[] = [
     "name": "Azerbaijan Grand Prix",
     "event": "Race",
     "timestamp": 1790420400,
-    "venue": "Baku City Circuit",
-    "city": "Baku"
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
   },
   {
     "id": 149,
@@ -1490,8 +1490,8 @@ const fixtures: Fixture[] = [
     "name": "Singapore Grand Prix",
     "event": "Practice 1",
     "timestamp": 1791534600,
-    "venue": "Marina Bay Street Circuit",
-    "city": "Singapore"
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
   },
   {
     "id": 150,
@@ -1500,8 +1500,8 @@ const fixtures: Fixture[] = [
     "name": "Singapore Grand Prix",
     "event": "Sprint Qualifying",
     "timestamp": 1791549000,
-    "venue": "Marina Bay Street Circuit",
-    "city": "Singapore"
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
   },
   {
     "id": 151,
@@ -1510,8 +1510,8 @@ const fixtures: Fixture[] = [
     "name": "Singapore Grand Prix",
     "event": "Sprint",
     "timestamp": 1791622800,
-    "venue": "Marina Bay Street Circuit",
-    "city": "Singapore"
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
   },
   {
     "id": 152,
@@ -1520,8 +1520,8 @@ const fixtures: Fixture[] = [
     "name": "Singapore Grand Prix",
     "event": "Qualifying",
     "timestamp": 1791637200,
-    "venue": "Marina Bay Street Circuit",
-    "city": "Singapore"
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
   },
   {
     "id": 153,
@@ -1530,8 +1530,8 @@ const fixtures: Fixture[] = [
     "name": "Singapore Grand Prix",
     "event": "Race",
     "timestamp": 1791720000,
-    "venue": "Marina Bay Street Circuit",
-    "city": "Singapore"
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
   },
   {
     "id": 154,
@@ -1540,8 +1540,8 @@ const fixtures: Fixture[] = [
     "name": "United States Grand Prix",
     "event": "Practice 1",
     "timestamp": 1792776600,
-    "venue": "Circuit of The Americas",
-    "city": "Austin"
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
   },
   {
     "id": 155,
@@ -1550,8 +1550,8 @@ const fixtures: Fixture[] = [
     "name": "United States Grand Prix",
     "event": "Practice 2",
     "timestamp": 1792789200,
-    "venue": "Circuit of The Americas",
-    "city": "Austin"
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
   },
   {
     "id": 156,
@@ -1560,8 +1560,8 @@ const fixtures: Fixture[] = [
     "name": "United States Grand Prix",
     "event": "Practice 3",
     "timestamp": 1792863000,
-    "venue": "Circuit of The Americas",
-    "city": "Austin"
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
   },
   {
     "id": 157,
@@ -1570,8 +1570,8 @@ const fixtures: Fixture[] = [
     "name": "United States Grand Prix",
     "event": "Qualifying",
     "timestamp": 1792875600,
-    "venue": "Circuit of The Americas",
-    "city": "Austin"
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
   },
   {
     "id": 158,
@@ -1580,8 +1580,8 @@ const fixtures: Fixture[] = [
     "name": "United States Grand Prix",
     "event": "Race",
     "timestamp": 1792958400,
-    "venue": "Circuit of The Americas",
-    "city": "Austin"
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
   },
   {
     "id": 159,
@@ -1590,8 +1590,8 @@ const fixtures: Fixture[] = [
     "name": "Mexican Grand Prix",
     "event": "Practice 1",
     "timestamp": 1793385000,
-    "venue": "Autódromo Hermanos Rodríguez",
-    "city": "Mexico City"
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
   },
   {
     "id": 160,
@@ -1600,8 +1600,8 @@ const fixtures: Fixture[] = [
     "name": "Mexican Grand Prix",
     "event": "Practice 2",
     "timestamp": 1793397600,
-    "venue": "Autódromo Hermanos Rodríguez",
-    "city": "Mexico City"
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
   },
   {
     "id": 161,
@@ -1610,8 +1610,8 @@ const fixtures: Fixture[] = [
     "name": "Mexican Grand Prix",
     "event": "Practice 3",
     "timestamp": 1793467800,
-    "venue": "Autódromo Hermanos Rodríguez",
-    "city": "Mexico City"
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
   },
   {
     "id": 162,
@@ -1620,8 +1620,8 @@ const fixtures: Fixture[] = [
     "name": "Mexican Grand Prix",
     "event": "Qualifying",
     "timestamp": 1793480400,
-    "venue": "Autódromo Hermanos Rodríguez",
-    "city": "Mexico City"
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
   },
   {
     "id": 163,
@@ -1630,8 +1630,8 @@ const fixtures: Fixture[] = [
     "name": "Mexican Grand Prix",
     "event": "Race",
     "timestamp": 1793563200,
-    "venue": "Autódromo Hermanos Rodríguez",
-    "city": "Mexico City"
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
   },
   {
     "id": 164,
@@ -1640,8 +1640,8 @@ const fixtures: Fixture[] = [
     "name": "São Paulo Grand Prix",
     "event": "Practice 1",
     "timestamp": 1793979000,
-    "venue": "Autódromo José Carlos Pace",
-    "city": "São Paulo"
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
   },
   {
     "id": 165,
@@ -1650,8 +1650,8 @@ const fixtures: Fixture[] = [
     "name": "São Paulo Grand Prix",
     "event": "Practice 2",
     "timestamp": 1793991600,
-    "venue": "Autódromo José Carlos Pace",
-    "city": "São Paulo"
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
   },
   {
     "id": 166,
@@ -1660,8 +1660,8 @@ const fixtures: Fixture[] = [
     "name": "São Paulo Grand Prix",
     "event": "Practice 3",
     "timestamp": 1794061800,
-    "venue": "Autódromo José Carlos Pace",
-    "city": "São Paulo"
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
   },
   {
     "id": 167,
@@ -1670,8 +1670,8 @@ const fixtures: Fixture[] = [
     "name": "São Paulo Grand Prix",
     "event": "Qualifying",
     "timestamp": 1794074400,
-    "venue": "Autódromo José Carlos Pace",
-    "city": "São Paulo"
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
   },
   {
     "id": 168,
@@ -1680,8 +1680,8 @@ const fixtures: Fixture[] = [
     "name": "São Paulo Grand Prix",
     "event": "Race",
     "timestamp": 1794157200,
-    "venue": "Autódromo José Carlos Pace",
-    "city": "São Paulo"
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
   },
   {
     "id": 169,
@@ -1690,8 +1690,8 @@ const fixtures: Fixture[] = [
     "name": "Las Vegas Grand Prix",
     "event": "Practice 1",
     "timestamp": 1795134600,
-    "venue": "Las Vegas Strip Circuit",
-    "city": "Las Vegas"
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
   },
   {
     "id": 170,
@@ -1700,8 +1700,8 @@ const fixtures: Fixture[] = [
     "name": "Las Vegas Grand Prix",
     "event": "Practice 2",
     "timestamp": 1795147200,
-    "venue": "Las Vegas Strip Circuit",
-    "city": "Las Vegas"
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
   },
   {
     "id": 171,
@@ -1710,8 +1710,8 @@ const fixtures: Fixture[] = [
     "name": "Las Vegas Grand Prix",
     "event": "Practice 3",
     "timestamp": 1795221000,
-    "venue": "Las Vegas Strip Circuit",
-    "city": "Las Vegas"
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
   },
   {
     "id": 172,
@@ -1720,8 +1720,8 @@ const fixtures: Fixture[] = [
     "name": "Las Vegas Grand Prix",
     "event": "Qualifying",
     "timestamp": 1795233600,
-    "venue": "Las Vegas Strip Circuit",
-    "city": "Las Vegas"
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
   },
   {
     "id": 173,
@@ -1730,8 +1730,8 @@ const fixtures: Fixture[] = [
     "name": "Las Vegas Grand Prix",
     "event": "Race",
     "timestamp": 1795320000,
-    "venue": "Las Vegas Strip Circuit",
-    "city": "Las Vegas"
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
   },
   {
     "id": 174,
@@ -1740,8 +1740,8 @@ const fixtures: Fixture[] = [
     "name": "Qatar Grand Prix",
     "event": "Practice 1",
     "timestamp": 1795786200,
-    "venue": "Lusail International Circuit",
-    "city": "Lusail"
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
   },
   {
     "id": 175,
@@ -1750,8 +1750,8 @@ const fixtures: Fixture[] = [
     "name": "Qatar Grand Prix",
     "event": "Practice 2",
     "timestamp": 1795798800,
-    "venue": "Lusail International Circuit",
-    "city": "Lusail"
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
   },
   {
     "id": 176,
@@ -1760,8 +1760,8 @@ const fixtures: Fixture[] = [
     "name": "Qatar Grand Prix",
     "event": "Practice 3",
     "timestamp": 1795876200,
-    "venue": "Lusail International Circuit",
-    "city": "Lusail"
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
   },
   {
     "id": 177,
@@ -1770,8 +1770,8 @@ const fixtures: Fixture[] = [
     "name": "Qatar Grand Prix",
     "event": "Qualifying",
     "timestamp": 1795888800,
-    "venue": "Lusail International Circuit",
-    "city": "Lusail"
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
   },
   {
     "id": 178,
@@ -1780,8 +1780,239 @@ const fixtures: Fixture[] = [
     "name": "Qatar Grand Prix",
     "event": "Race",
     "timestamp": 1795968000,
-    "venue": "Lusail International Circuit",
-    "city": "Lusail"
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
+  },
+  {
+    "id": 179,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 1",
+    "event": "Team time trial",
+    "date": "04/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Barcelona",
+    "secondaryLocation": "Barcelona"
+  },
+  {
+    "id": 180,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 2",
+    "event": "Hilly stage",
+    "date": "05/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Tarragona",
+    "secondaryLocation": "Barcelona"
+  },
+  {
+    "id": 181,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 3",
+    "event": "Mountain stage",
+    "date": "06/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Granollers",
+    "secondaryLocation": "Les Angles"
+  },
+  {
+    "id": 182,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 4",
+    "event": "Hilly stage",
+    "date": "07/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Carcassonne",
+    "secondaryLocation": "Foix"
+  },
+  {
+    "id": 183,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 5",
+    "event": "Flat stage",
+    "date": "08/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Lannemezan",
+    "secondaryLocation": "Pau"
+  },
+  {
+    "id": 184,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 6",
+    "event": "Mountain stage",
+    "date": "09/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Pau",
+    "secondaryLocation": "Gavarnie-Gèdre"
+  },
+  {
+    "id": 185,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 7",
+    "event": "Flat stage",
+    "date": "10/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Hagetmau",
+    "secondaryLocation": "Bordeaux"
+  },
+  {
+    "id": 186,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 8",
+    "event": "Flat stage",
+    "date": "11/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Périgueux",
+    "secondaryLocation": "Bergerac"
+  },
+  {
+    "id": 187,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 9",
+    "event": "Hilly stage",
+    "date": "12/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Malemort",
+    "secondaryLocation": "Ussel"
+  },
+  {
+    "id": 188,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 10",
+    "event": "Mountain stage",
+    "date": "14/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Aurillac",
+    "secondaryLocation": "Le Lioran"
+  },
+  {
+    "id": 189,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 11",
+    "event": "Flat stage",
+    "date": "15/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Vichy",
+    "secondaryLocation": "Nevers"
+  },
+  {
+    "id": 190,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 12",
+    "event": "Flat stage",
+    "date": "16/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Circuit de Nevers Magny-Cours",
+    "secondaryLocation": "Chalon-sur-Saône"
+  },
+  {
+    "id": 191,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 13",
+    "event": "Hilly stage",
+    "date": "17/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Dole",
+    "secondaryLocation": "Belfort"
+  },
+  {
+    "id": 192,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 14",
+    "event": "Mountain stage",
+    "date": "18/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Mulhouse",
+    "secondaryLocation": "Le Markstein Fellering"
+  },
+  {
+    "id": 193,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 15",
+    "event": "Mountain stage",
+    "date": "19/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Champagnole",
+    "secondaryLocation": "Plateau de Solaison"
+  },
+  {
+    "id": 194,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 16",
+    "event": "Individual time trial",
+    "date": "21/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Évian-les-Bains",
+    "secondaryLocation": "Thonon-les-Bains"
+  },
+  {
+    "id": 195,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 17",
+    "event": "Flat stage",
+    "date": "22/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Chambéry",
+    "secondaryLocation": "Voiron"
+  },
+  {
+    "id": 196,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 18",
+    "event": "Mountain stage",
+    "date": "23/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Voiron",
+    "secondaryLocation": "Orcières-Merlette"
+  },
+  {
+    "id": 197,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 19",
+    "event": "Mountain stage",
+    "date": "24/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Gap",
+    "secondaryLocation": "Alpe d'Huez"
+  },
+  {
+    "id": 198,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 20",
+    "event": "Mountain stage",
+    "date": "25/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Le Bourg-d'Oisans",
+    "secondaryLocation": "Alpe d'Huez"
+  },
+  {
+    "id": 199,
+    "sport": "Cycling",
+    "competition": "Tour de France",
+    "name": "Stage 21",
+    "event": "Flat stage",
+    "date": "26/07/2026",
+    "timestamp": null,
+    "primaryLocation": "Thoiry",
+    "secondaryLocation": "Paris (Champs-Élysées)"
   }
 ];
 

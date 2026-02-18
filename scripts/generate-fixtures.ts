@@ -44,9 +44,10 @@ function generateFixtures() {
         event: values[3] || undefined,
         home: values[4] || undefined,
         away: values[5] || undefined,
-        timestamp: parseInt(values[6]),
-        venue: values[7],
-        city: values[8],
+        date: values[6] || undefined,
+        timestamp: parseInt(values[7]),
+        primaryLocation: values[8],
+        secondaryLocation: values[9],
       });
     }
 
