@@ -1,31 +1,10 @@
-import { Card, CardContent, Box, Chip } from "@mui/material";
+import { Card, CardContent, Box } from "@mui/material";
 
 import fixtures from "./data/fixtures-data";
-import FootballSvg from "./icons/soccer-ball-noto.svg";
-import RugbySvg from "./icons/rugby-football-noto.svg";
-import CricketSvg from "./icons/cricket-game-noto.svg";
-import Formula1Svg from "./icons/racing-car-noto.svg";
-import CyclingSvg from "./icons/person-biking-noto.svg";
+import SportCompetition from "./SportCompetition";
 import DateTime from "./DateTime";
 import Contest from "./Contest";
 import { isFixtureCompleted } from "./utils/fixture-utils";
-
-const getSvgForSport = (sport: string) => {
-  const style = { width: 24, height: 24 };
-  switch (sport.toLowerCase()) {
-    case "football":
-      return <img src={FootballSvg} style={style} />;
-    case "rugby":
-      return <img src={RugbySvg} style={style} />;
-    case "cricket":
-      return <img src={CricketSvg} style={style} />;
-    case "formula 1":
-      return <img src={Formula1Svg} style={style} />;
-    case "cycling":
-      return <img src={CyclingSvg} style={style} />;
-  }
-  return null;
-};
 
 const sortedFixtures = fixtures.sort((a, b) => {
   const timeA =
@@ -78,20 +57,10 @@ function Fixtures() {
             }}
           >
             {/* Sport Icon & Competition */}
-            <Box
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-              }}
-            >
-              {getSvgForSport(fixture.sport)}
-              <Chip
-                label={fixture.competition}
-                size="small"
-                sx={{ fontWeight: "bold" }}
-              />
-            </Box>
+            <SportCompetition
+              sport={fixture.sport}
+              competition={fixture.competition}
+            />
 
             {/* Date & Time */}
             <DateTime
