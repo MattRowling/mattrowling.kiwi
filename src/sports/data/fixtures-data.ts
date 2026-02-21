@@ -2023,7 +2023,7 @@ const fixtures: Fixture[] = [
   {
     "id": 200,
     "sport": "Cricket",
-    "competition": "T20 World Cup",
+    "competition": "T20 World Cup 2026",
     "home": "New Zealand",
     "away": "Pakistan",
     "timestamp": 1771680600,
@@ -2033,7 +2033,7 @@ const fixtures: Fixture[] = [
   {
     "id": 201,
     "sport": "Cricket",
-    "competition": "T20 World Cup",
+    "competition": "T20 World Cup 2026",
     "home": "Sri Lanka",
     "away": "New Zealand",
     "timestamp": 1772026200,
@@ -2043,7 +2043,7 @@ const fixtures: Fixture[] = [
   {
     "id": 202,
     "sport": "Cricket",
-    "competition": "T20 World Cup",
+    "competition": "T20 World Cup 2026",
     "home": "England",
     "away": "New Zealand",
     "timestamp": 1772199000,

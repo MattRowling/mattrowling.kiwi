@@ -1,4 +1,4 @@
-import { Box, Chip } from "@mui/material";
+import { Box } from "@mui/material";
 
 import FootballSvg from "./icons/sports/soccer-ball-noto.svg";
 import RugbySvg from "./icons/sports/rugby-football-noto.svg";
@@ -6,7 +6,7 @@ import CricketSvg from "./icons/sports/cricket-game-noto.svg";
 import Formula1Svg from "./icons/sports/racing-car-noto.svg";
 import CyclingSvg from "./icons/sports/person-biking-noto.svg";
 
-import ALeagueMenSvg from "./icons/competitions/ALeagueMen_2021-IsuzuHori.svg";
+import ALeagueMenSvg from "./icons/competitions/a-league-men.svg";
 import T20WorldCupSvg from "./icons/competitions/t20-world-cup-2026.svg";
 import SixNationsSvg from "./icons/competitions/six-nations.svg";
 import PremierLeagueSvg from "./icons/competitions/premier-league.svg";
@@ -39,7 +39,7 @@ const getCompetitionLogo = (competition: string) => {
   switch (competition.toLowerCase()) {
     case "a-league men":
       return <img src={ALeagueMenSvg} style={style} />;
-    case "t20 world cup":
+    case "t20 world cup 2026":
       return <img src={T20WorldCupSvg} style={style} />;
     case "six nations":
       return <img src={SixNationsSvg} style={style} />;
@@ -73,13 +73,12 @@ function SportCompetition({ sport, competition }: SportCompetitionProps) {
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
+        zIndex: 1,
       }}
     >
       {getSvgForSport(sport)}
       <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-        {getCompetitionLogo(competition) || (
-          <Chip label={competition} size="small" sx={{ fontWeight: "bold" }} />
-        )}
+        {getCompetitionLogo(competition) || <Box>{competition}</Box>}
       </Box>
     </Box>
   );

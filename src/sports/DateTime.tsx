@@ -30,6 +30,7 @@ function DateTime({ timestamp, date, endDate }: DateTimeProps) {
         fontSize: "0.875rem",
         color: "text.secondary",
         justifyContent: "space-between",
+        zIndex: 1,
       }}
     >
       <Box>
