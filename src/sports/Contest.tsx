@@ -6,7 +6,13 @@ type ContestProps = Pick<Fixture, "name" | "event" | "home" | "away">;
 function Contest({ name, event, home, away }: ContestProps) {
   return (
     <Box
-      sx={{ display: "flex", flexDirection: "column", flex: 1, minHeight: 0 }}
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        flex: 1,
+        minHeight: 0,
+        zIndex: 1,
+      }}
     >
       {home && away ? (
         <Box

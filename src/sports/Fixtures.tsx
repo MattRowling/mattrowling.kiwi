@@ -4,6 +4,7 @@ import fixtures from "./data/fixtures-data";
 import SportCompetition from "./SportCompetition";
 import DateTime from "./DateTime";
 import Contest from "./Contest";
+import TeamHighlight from "./TeamHighlight";
 import { isFixtureCompleted } from "./utils/fixture-utils";
 
 const sortedFixtures = fixtures.sort((a, b) => {
@@ -35,6 +36,8 @@ function Fixtures() {
         },
         gap: 3,
         justifyContent: "center",
+        WebkitTextStroke: "0.35em white",
+        paintOrder: "stroke fill",
       }}
     >
       {activeFixtures.map((fixture) => (
@@ -46,8 +49,14 @@ function Fixtures() {
             display: "flex",
             flexDirection: "column",
             height: "13rem",
+            position: "relative",
           }}
         >
+          <TeamHighlight
+            sport={fixture.sport}
+            home={fixture.home}
+            away={fixture.away}
+          />
           <CardContent
             sx={{
               flex: 1,
@@ -89,7 +98,16 @@ function Fixtures() {
             >
               <Box>{fixture.primaryLocation}</Box>
               {fixture.sport.toLowerCase() === "cycling" && <Box>→</Box>}
-              <Box>{fixture.secondaryLocation}</Box>
+              <Box
+                component="span"
+                sx={{
+                  fontSize: "0.875rem",
+                  color: "text.secondary",
+                  zIndex: 1,
+                }}
+              >
+                {fixture.secondaryLocation}
+              </Box>
             </Box>
           </CardContent>
         </Card>
