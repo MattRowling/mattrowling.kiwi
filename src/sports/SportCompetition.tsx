@@ -5,6 +5,7 @@ import RugbySvg from "./icons/sports/rugby-football-noto.svg";
 import CricketSvg from "./icons/sports/cricket-game-noto.svg";
 import Formula1Svg from "./icons/sports/racing-car-noto.svg";
 import CyclingSvg from "./icons/sports/person-biking-noto.svg";
+import BaseballSvg from "./icons/sports/baseball-noto.svg";
 
 import ALeagueMenSvg from "./icons/competitions/a-league-men.svg";
 import T20WorldCupSvg from "./icons/competitions/t20-world-cup-2026.svg";
@@ -16,6 +17,7 @@ import FifaWorldCupSvg from "./icons/competitions/fifa-world-cup.svg";
 import ALeagueWomenSvg from "./icons/competitions/a-league-women.svg";
 import TourDeFranceSvg from "./icons/competitions/tour-de-france.svg";
 import FACupSvg from "./icons/competitions/fa-cup.svg";
+import MlbSvg from "./icons/competitions/mlb.svg";
 
 const getSvgForSport = (sport: string) => {
   const style = { height: 24 };
@@ -30,6 +32,8 @@ const getSvgForSport = (sport: string) => {
       return <img src={Formula1Svg} style={style} />;
     case "cycling":
       return <img src={CyclingSvg} style={style} />;
+    case "baseball":
+      return <img src={BaseballSvg} style={style} />;
   }
   return null;
 };
@@ -57,6 +61,8 @@ const getCompetitionLogo = (competition: string) => {
       return <img src={TourDeFranceSvg} style={style} />;
     case "fa cup":
       return <img src={FACupSvg} style={style} />;
+    case "mlb":
+      return <img src={MlbSvg} style={style} />;
   }
   return null;
 };

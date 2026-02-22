@@ -87,11 +87,11 @@ Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 2,,,,,1
 Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Practice 3,,,,,1776519000,Jeddah Corniche Circuit,Jeddah
 Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Qualifying,,,,,1776531600,Jeddah Corniche Circuit,Jeddah
 Formula 1,Formula 1 World Championship,Saudi Arabian Grand Prix,Race,,,,,1776618000,Jeddah Corniche Circuit,Jeddah
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Practice 1,,,,,1777653000,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint Qualifying,,,,,1777667400,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint,,,,,1777737600,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Qualifying,,,,,1777752000,Miami International Autodrome,Miami
-Formula 1,Formula 1 World Championship,Miami Grand Prix,Race,,,,,1777838400,Miami International Autodrome,Miami
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Practice 1,,,,,1777653000,Miami International Autodrome,Miami Marlins
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint Qualifying,,,,,1777667400,Miami International Autodrome,Miami Marlins
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Sprint,,,,,1777737600,Miami International Autodrome,Miami Marlins
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Qualifying,,,,,1777752000,Miami International Autodrome,Miami Marlins
+Formula 1,Formula 1 World Championship,Miami Grand Prix,Race,,,,,1777838400,Miami International Autodrome,Miami Marlins
 Formula 1,Formula 1 World Championship,Canadian Grand Prix,Practice 1,,,,,1779467400,Circuit Gilles-Villeneuve,Montreal
 Formula 1,Formula 1 World Championship,Canadian Grand Prix,Sprint Qualifying,,,,,1779481800,Circuit Gilles-Villeneuve,Montreal
 Formula 1,Formula 1 World Championship,Canadian Grand Prix,Sprint,,,,,1779552000,Circuit Gilles-Villeneuve,Montreal
@@ -204,3 +204,165 @@ Cricket,Test Series,,,England,New Zealand,25/06/2026,30/06/2026,1782381600,Trent
 Cricket,T20 World Cup 2026,,,New Zealand,Pakistan,,,1771680600,R. Premadasa Stadium,Colombo
 Cricket,T20 World Cup 2026,,,Sri Lanka,New Zealand,,,1772026200,R. Premadasa Stadium,Colombo
 Cricket,T20 World Cup 2026,,,England,New Zealand,,,1772199000,R. Premadasa Stadium,Colombo
+Baseball,MLB,,,Toronto Blue Jays,Athletics,,,1774652820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Athletics,,,1774724820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Athletics,,,1774805820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Colorado Rockies,,,1774912020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Colorado Rockies,,,1774998420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Colorado Rockies,,,1775063220,Rogers Centre,Toronto
+Baseball,MLB,,,Chicago White Sox,Toronto Blue Jays,,,1775160600,Rate Field,Chicago
+Baseball,MLB,,,Chicago White Sox,Toronto Blue Jays,,,1775326200,Rate Field,Chicago
+Baseball,MLB,,,Chicago White Sox,Toronto Blue Jays,,,1775412600,Rate Field,Chicago
+Baseball,MLB,,,Toronto Blue Jays,Los Angeles Dodgers,,,1775516820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Los Angeles Dodgers,,,1775603220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Los Angeles Dodgers,,,1775675220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Minnesota Twins,,,1775862420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Minnesota Twins,,,1775934420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Minnesota Twins,,,1776015420,Rogers Centre,Toronto
+Baseball,MLB,,,Milwaukee Brewers,Toronto Blue Jays,,,1776210000,American Family Field,Milwaukee
+Baseball,MLB,,,Milwaukee Brewers,Toronto Blue Jays,,,1776296400,American Family Field,Milwaukee
+Baseball,MLB,,,Milwaukee Brewers,Toronto Blue Jays,,,1776361200,American Family Field,Milwaukee
+Baseball,MLB,,,Arizona Diamondbacks,Toronto Blue Jays,,,1776476400,Chase Field,Phoenix
+Baseball,MLB,,,Arizona Diamondbacks,Toronto Blue Jays,,,1776557400,Chase Field,Phoenix
+Baseball,MLB,,,Arizona Diamondbacks,Toronto Blue Jays,,,1776629400,Chase Field,Phoenix
+Baseball,MLB,,,Los Angeles Angles,Toronto Blue Jays,,,1776735480,Angel Stadium,Los Angeles
+Baseball,MLB,,,Los Angeles Angles,Toronto Blue Jays,,,1776821880,Angel Stadium,Los Angeles
+Baseball,MLB,,,Los Angeles Angles,Toronto Blue Jays,,,1776884820,Angel Stadium,Los Angeles
+Baseball,MLB,,,Toronto Blue Jays,Cleveland Guardians,,,1777072020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Cleveland Guardians,,,1777144020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Cleveland Guardians,,,1777225020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1777331220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1777417620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1777489620,Rogers Centre,Toronto
+Baseball,MLB,,,Minnesota Twins,Toronto Blue Jays,,,1777592400,Target Field,Minneapolis
+Baseball,MLB,,,Minnesota Twins,Toronto Blue Jays,,,1777680600,Target Field,Minneapolis
+Baseball,MLB,,,Minnesota Twins,Toronto Blue Jays,,,1777745400,Target Field,Minneapolis
+Baseball,MLB,,,Minnesota Twins,Toronto Blue Jays,,,1777826100,Target Field,Minneapolis
+Baseball,MLB,,,Tampa Bay Rays,Toronto Blue Jays,,,1777934400,Tropicana Field,Saint Petersburg
+Baseball,MLB,,,Tampa Bay Rays,Toronto Blue Jays,,,1778020800,Tropicana Field,Saint Petersburg
+Baseball,MLB,,,Tampa Bay Rays,Toronto Blue Jays,,,1778087400,Tropicana Field,Saint Petersburg
+Baseball,MLB,,,Toronto Blue Jays,Los Angeles Angels,,,1778281620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Los Angeles Angels,,,1778353620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Los Angeles Angels,,,1778434620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1778540820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1778627220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1778713620,Rogers Centre,Toronto
+Baseball,MLB,,,Detroit Tigers,Toronto Blue Jays,,,1778884800,Comerica Park,Detroit
+Baseball,MLB,,,Detroit Tigers,Toronto Blue Jays,,,1778951400,Comerica Park,Detroit
+Baseball,MLB,,,Detroit Tigers,Toronto Blue Jays,,,1779039600,Comerica Park,Detroit
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1779145500,Yankee Stadium,New York City
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1779231900,Yankee Stadium,New York City
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1779318300,Yankee Stadium,New York City
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1779404700,Yankee Stadium,New York City
+Baseball,MLB,,,Toronto Blue Jays,Pittsburgh Pirates,,,1779491220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Pittsburgh Pirates,,,1779563220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Pittsburgh Pirates,,,1779639300,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Miami Marlins,,,1779750420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Miami Marlins,,,1779836820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Miami Marlins,,,1779901620,Rogers Centre,Toronto
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1780007700,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1780095900,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1780171500,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1780244100,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Atlanta Braves,Toronto Blue Jays,,,1780442100,Truist Park,Atlanta
+Baseball,MLB,,,Atlanta Braves,Toronto Blue Jays,,,1780528500,Truist Park,Atlanta
+Baseball,MLB,,,Atlanta Braves,Toronto Blue Jays,,,1780614900,Truist Park,Atlanta
+Baseball,MLB,,,Toronto Blue Jays,Baltimore Orioles,,,1780700820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Baltimore Orioles,,,1780772820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Baltimore Orioles,,,1780853820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Philadelphia Phillies,,,1780960020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Philadelphia Phillies,,,1781046420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Philadelphia Phillies,,,1781132820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Yankees,,,1781307420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Yankees,,,1781377620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Yankees,,,1781458620,Rogers Centre,Toronto
+Baseball,MLB,,,Boston Red Sox,Toronto Blue Jays,,,1781649900,Fenway Park,Boston
+Baseball,MLB,,,Boston Red Sox,Toronto Blue Jays,,,1781736300,Fenway Park,Boston
+Baseball,MLB,,,Boston Red Sox,Toronto Blue Jays,,,1781804100,Fenway Park,Boston
+Baseball,MLB,,,Chicago Cubs,Toronto Blue Jays,,,1781893200,Wrigley Field,Chicago
+Baseball,MLB,,,Chicago Cubs,Toronto Blue Jays,,,1781979600,Wrigley Field,Chicago
+Baseball,MLB,,,Chicago Cubs,Toronto Blue Jays,,,1782066000,Wrigley Field,Chicago
+Baseball,MLB,,,Toronto Blue Jays,Houston Astros,,,1782169620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Houston Astros,,,1782256020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Houston Astros,,,1782342420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Texas Rangers,,,1782428820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Texas Rangers,,,1782515220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Texas Rangers,,,1782587220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Texas Rangers,,,1782668220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Mets,,,1782774420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Mets,,,1782860820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Mets,,,1782932820,Rogers Centre,Toronto
+Baseball,MLB,,,Seattle Mariners,Toronto Blue Jays,,,1783131000,T-Mobile Park,Seattle
+Baseball,MLB,,,Seattle Mariners,Toronto Blue Jays,,,1783195800,T-Mobile Park,Seattle
+Baseball,MLB,,,Seattle Mariners,Toronto Blue Jays,,,1783285200,T-Mobile Park,Seattle
+Baseball,MLB,,,San Francisco Giants,Toronto Blue Jays,,,1783388700,Oracle Park,San Francisco
+Baseball,MLB,,,San Francisco Giants,Toronto Blue Jays,,,1783475100,Oracle Park,San Francisco
+Baseball,MLB,,,San Francisco Giants,Toronto Blue Jays,,,1783539900,Oracle Park,San Francisco
+Baseball,MLB,,,San Diego Padres,Toronto Blue Jays,,,1783734000,Petco Park,San Diego
+Baseball,MLB,,,San Diego Padres,Toronto Blue Jays,,,1783816800,Petco Park,San Diego
+Baseball,MLB,,,San Diego Padres,Toronto Blue Jays,,,1783887000,Petco Park,San Diego
+Baseball,MLB,,,Toronto Blue Jays,Chicago White Sox,,,1784329620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Chicago White Sox,,,1784401620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Chicago White Sox,,,1784477400,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1784588820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1784675220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1784761620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Tampa Bay Rays,,,1784833620,Rogers Centre,Toronto
+Baseball,MLB,,,Boston Red Sox,Toronto Blue Jays,,,1784934600,Fenway Park,Boston
+Baseball,MLB,,,Boston Red Sox,Toronto Blue Jays,,,1785010200,Fenway Park,Boston
+Baseball,MLB,,,Boston Red Sox,Toronto Blue Jays,,,1785087300,Fenway Park,Boston
+Baseball,MLB,,,Washington Nationals,Toronto Blue Jays,,,1785192300,Nationals Park,Washington D.C.
+Baseball,MLB,,,Washington Nationals,Toronto Blue Jays,,,1785278700,Nationals Park,Washington D.C.
+Baseball,MLB,,,Washington Nationals,Toronto Blue Jays,,,1785344700,Nationals Park,Washington D.C.
+Baseball,MLB,,,Toronto Blue Jays,St. Louis Cardinals,,,1785539220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,St. Louis Cardinals,,,1785611220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,St. Louis Cardinals,,,1785692220,Rogers Centre,Toronto
+Baseball,MLB,,,Houston Astros,Toronto Blue Jays,,,1785802200,Daikin Park,Houston
+Baseball,MLB,,,Houston Astros,Toronto Blue Jays,,,1785888600,Daikin Park,Houston
+Baseball,MLB,,,Houston Astros,Toronto Blue Jays,,,1785953400,Daikin Park,Houston
+Baseball,MLB,,,Philadelphia Phillies,Toronto Blue Jays,,,1786142400,Citizens Bank Park,Philadelphia
+Baseball,MLB,,,Philadelphia Phillies,Toronto Blue Jays,,,1786226700,Citizens Bank Park,Philadelphia
+Baseball,MLB,,,Philadelphia Phillies,Toronto Blue Jays,,,1786296900,Citizens Bank Park,Philadelphia
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1786403220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1786489620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1786576020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Boston Red Sox,,,1786648020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Yankees,,,1786748820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Yankees,,,1786820820,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,New York Yankees,,,1786901820,Rogers Centre,Toronto
+Baseball,MLB,,,Tampa Bay Rays,Toronto Blue Jays,,,1787092800,Tropicana Field,Saint Petersburg
+Baseball,MLB,,,Tampa Bay Rays,Toronto Blue Jays,,,1787179200,Tropicana Field,Saint Petersburg
+Baseball,MLB,,,Tampa Bay Rays,Toronto Blue Jays,,,1787245800,Tropicana Field,Saint Petersburg
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1787353500,Yankee Stadium,New York City
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1787420100,Yankee Stadium,New York City
+Baseball,MLB,,,New York Yankees,Toronto Blue Jays,,,1787506500,Yankee Stadium,New York City
+Baseball,MLB,,,Toronto Blue Jays,Kansas City Royals,,,1787699220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Kansas City Royals,,,1787785620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Kansas City Royals,,,1787872020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Seattle Mariners,,,1787958420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Seattle Mariners,,,1788030420,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Seattle Mariners,,,1788111420,Rogers Centre,Toronto
+Baseball,MLB,,,Cleveland Guardians,Toronto Blue Jays,,,1788302400,Progressive Field,Cleveland
+Baseball,MLB,,,Cleveland Guardians,Toronto Blue Jays,,,1788388800,Progressive Field,Cleveland
+Baseball,MLB,,,Cleveland Guardians,Toronto Blue Jays,,,1788455400,Progressive Field,Cleveland
+Baseball,MLB,,,Kansas City Royals,Toronto Blue Jays,,,1788567000,Kauffman Stadium,Kansas City
+Baseball,MLB,,,Kansas City Royals,Toronto Blue Jays,,,1788649800,Kauffman Stadium,Kansas City
+Baseball,MLB,,,Kansas City Royals,Toronto Blue Jays,,,1788736800,Kauffman Stadium,Kansas City
+Baseball,MLB,,,Athletics,Toronto Blue Jays,,,1788833100,Sutter Health Park,West Sacramento
+Baseball,MLB,,,Athletics,Toronto Blue Jays,,,1788918000,Sutter Health Park,West Sacramento
+Baseball,MLB,,,Athletics,Toronto Blue Jays,,,1788980700,Sutter Health Park,West Sacramento
+Baseball,MLB,,,Toronto Blue Jays,Baltimore Orioles,,,1789168020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Baltimore Orioles,,,1789240020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Baltimore Orioles,,,1789321020,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Detroit Tigers,,,1789427220,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Detroit Tigers,,,1789513620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Detroit Tigers,,,1789585620,Rogers Centre,Toronto
+Baseball,MLB,,,Texas Rangers,Toronto Blue Jays,,,1789776300,Globe Life Field,Arlington
+Baseball,MLB,,,Texas Rangers,Toronto Blue Jays,,,1789859100,Globe Life Field,Arlington
+Baseball,MLB,,,Texas Rangers,Toronto Blue Jays,,,1789929300,Globe Life Field,Arlington
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1790030100,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1790116500,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Baltimore Orioles,Toronto Blue Jays,,,1790202900,Oriole Park at Camden Yards,Baltimore
+Baseball,MLB,,,Toronto Blue Jays,Cincinnati Reds,,,1790377620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Cincinnati Reds,,,1790449620,Rogers Centre,Toronto
+Baseball,MLB,,,Toronto Blue Jays,Cincinnati Reds,,,1790536020,Rogers Centre,Toronto

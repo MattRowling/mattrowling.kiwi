@@ -5,6 +5,7 @@ import HurricanesSvg from "./icons/teams/hurricanes.svg";
 import WestHamSvg from "./icons/teams/west-ham.svg";
 import NewZealandCricketSvg from "./icons/teams/new-zealand-cricket.svg";
 import NewZealandFootballSvg from "./icons/teams/new-zealand-football.svg";
+import BlueJaysSvg from "./icons/teams/blue-jays.svg";
 
 interface TeamHighlightProps {
   sport: string;
@@ -30,10 +31,13 @@ const TEAM_HIGHLIGHTS: Record<
     },
   },
   rugby: {
-    hurricanes: { svg: HurricanesSvg, bottom: "-15%", right: "-20%" },
+    hurricanes: { svg: HurricanesSvg, bottom: "-15%", right: "-25%" },
   },
   cricket: {
     "new zealand": { svg: NewZealandCricketSvg, bottom: "-5%", right: "-5%" },
+  },
+  baseball: {
+    "toronto blue jays": { svg: BlueJaysSvg, bottom: "-8%", right: "-8%" },
   },
 };
 
