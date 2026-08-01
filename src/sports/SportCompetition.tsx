@@ -18,6 +18,9 @@ import ALeagueWomenSvg from "./icons/competitions/a-league-women.svg";
 import TourDeFranceSvg from "./icons/competitions/tour-de-france.svg";
 import FACupSvg from "./icons/competitions/fa-cup.svg";
 import MlbSvg from "./icons/competitions/mlb.svg";
+import Npc2026Png from "./icons/competitions/npc-2026.png";
+import RugbysGreatestRivalrySvg from "./icons/competitions/rugby's-greatest-rivalry.svg";
+import NationsChampionshipSvg from "./icons/competitions/nations-championship.svg";
 
 const getSvgForSport = (sport: string) => {
   const style = { height: 24 };
@@ -63,6 +66,12 @@ const getCompetitionLogo = (competition: string) => {
       return <img src={FACupSvg} style={style} />;
     case "mlb":
       return <img src={MlbSvg} style={style} />;
+    case "national provincial championship":
+      return <img src={Npc2026Png} style={style} />;
+    case "rugby's greatest rivalry":
+      return <img src={RugbysGreatestRivalrySvg} style={style} />;
+    case "nations championship":
+      return <img src={NationsChampionshipSvg} style={style} />;
   }
   return null;
 };

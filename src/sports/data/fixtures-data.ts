@@ -5,1693 +5,6 @@ import type { Fixture } from "./../types";
 const fixtures: Fixture[] = [
   {
     "id": 1,
-    "sport": "Rugby",
-    "competition": "Super Rugby Pacific",
-    "home": "Crusaders",
-    "away": "Hurricanes",
-    "timestamp": 1780038300,
-    "primaryLocation": "One NZ Stadium",
-    "secondaryLocation": "Christchurch"
-  },
-  {
-    "id": 2,
-    "sport": "Football",
-    "competition": "FIFA World Cup",
-    "home": "Iran",
-    "away": "New Zealand",
-    "timestamp": 1781578800,
-    "primaryLocation": "Los Angeles Stadium",
-    "secondaryLocation": "Los Angeles"
-  },
-  {
-    "id": 3,
-    "sport": "Football",
-    "competition": "FIFA World Cup",
-    "home": "New Zealand",
-    "away": "Egypt",
-    "timestamp": 1782097200,
-    "primaryLocation": "BC Place",
-    "secondaryLocation": "Vancouver"
-  },
-  {
-    "id": 4,
-    "sport": "Football",
-    "competition": "FIFA World Cup",
-    "home": "New Zealand",
-    "away": "Belgium",
-    "timestamp": 1782536400,
-    "primaryLocation": "BC Place",
-    "secondaryLocation": "Vancouver"
-  },
-  {
-    "id": 5,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Monaco Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1780659000,
-    "primaryLocation": "Circuit de Monaco",
-    "secondaryLocation": "Monaco"
-  },
-  {
-    "id": 6,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Monaco Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1780671600,
-    "primaryLocation": "Circuit de Monaco",
-    "secondaryLocation": "Monaco"
-  },
-  {
-    "id": 7,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Monaco Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1780741800,
-    "primaryLocation": "Circuit de Monaco",
-    "secondaryLocation": "Monaco"
-  },
-  {
-    "id": 8,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Monaco Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1780754400,
-    "primaryLocation": "Circuit de Monaco",
-    "secondaryLocation": "Monaco"
-  },
-  {
-    "id": 9,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Monaco Grand Prix",
-    "event": "Race",
-    "timestamp": 1780837200,
-    "primaryLocation": "Circuit de Monaco",
-    "secondaryLocation": "Monaco"
-  },
-  {
-    "id": 10,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Barcelona-Catalunya Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1781263800,
-    "primaryLocation": "Circuit de Barcelona-Catalunya",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 11,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Barcelona-Catalunya Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1781276400,
-    "primaryLocation": "Circuit de Barcelona-Catalunya",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 12,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Barcelona-Catalunya Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1781346600,
-    "primaryLocation": "Circuit de Barcelona-Catalunya",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 13,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Barcelona-Catalunya Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1781359200,
-    "primaryLocation": "Circuit de Barcelona-Catalunya",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 14,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Barcelona-Catalunya Grand Prix",
-    "event": "Race",
-    "timestamp": 1781442000,
-    "primaryLocation": "Circuit de Barcelona-Catalunya",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 15,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Austrian Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1782473400,
-    "primaryLocation": "Red Bull Ring",
-    "secondaryLocation": "Spielberg"
-  },
-  {
-    "id": 16,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Austrian Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1782486000,
-    "primaryLocation": "Red Bull Ring",
-    "secondaryLocation": "Spielberg"
-  },
-  {
-    "id": 17,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Austrian Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1782556200,
-    "primaryLocation": "Red Bull Ring",
-    "secondaryLocation": "Spielberg"
-  },
-  {
-    "id": 18,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Austrian Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1782568800,
-    "primaryLocation": "Red Bull Ring",
-    "secondaryLocation": "Spielberg"
-  },
-  {
-    "id": 19,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Austrian Grand Prix",
-    "event": "Race",
-    "timestamp": 1782651600,
-    "primaryLocation": "Red Bull Ring",
-    "secondaryLocation": "Spielberg"
-  },
-  {
-    "id": 20,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "British Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1783078200,
-    "primaryLocation": "Silverstone Circuit",
-    "secondaryLocation": "Silverstone"
-  },
-  {
-    "id": 21,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "British Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1783092600,
-    "primaryLocation": "Silverstone Circuit",
-    "secondaryLocation": "Silverstone"
-  },
-  {
-    "id": 22,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "British Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1783162800,
-    "primaryLocation": "Silverstone Circuit",
-    "secondaryLocation": "Silverstone"
-  },
-  {
-    "id": 23,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "British Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1783177200,
-    "primaryLocation": "Silverstone Circuit",
-    "secondaryLocation": "Silverstone"
-  },
-  {
-    "id": 24,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "British Grand Prix",
-    "event": "Race",
-    "timestamp": 1783260000,
-    "primaryLocation": "Silverstone Circuit",
-    "secondaryLocation": "Silverstone"
-  },
-  {
-    "id": 25,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Belgian Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1784287800,
-    "primaryLocation": "Circuit de Spa-Francorchamps",
-    "secondaryLocation": "Stavelot"
-  },
-  {
-    "id": 26,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Belgian Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1784300400,
-    "primaryLocation": "Circuit de Spa-Francorchamps",
-    "secondaryLocation": "Stavelot"
-  },
-  {
-    "id": 27,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Belgian Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1784370600,
-    "primaryLocation": "Circuit de Spa-Francorchamps",
-    "secondaryLocation": "Stavelot"
-  },
-  {
-    "id": 28,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Belgian Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1784383200,
-    "primaryLocation": "Circuit de Spa-Francorchamps",
-    "secondaryLocation": "Stavelot"
-  },
-  {
-    "id": 29,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Belgian Grand Prix",
-    "event": "Race",
-    "timestamp": 1783861200,
-    "primaryLocation": "Circuit de Spa-Francorchamps",
-    "secondaryLocation": "Stavelot"
-  },
-  {
-    "id": 30,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Hungarian Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1784892600,
-    "primaryLocation": "Hungaroring",
-    "secondaryLocation": "Mogyoród"
-  },
-  {
-    "id": 31,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Hungarian Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1784905200,
-    "primaryLocation": "Hungaroring",
-    "secondaryLocation": "Mogyoród"
-  },
-  {
-    "id": 32,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Hungarian Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1784975400,
-    "primaryLocation": "Hungaroring",
-    "secondaryLocation": "Mogyoród"
-  },
-  {
-    "id": 33,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Hungarian Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1784988000,
-    "primaryLocation": "Hungaroring",
-    "secondaryLocation": "Mogyoród"
-  },
-  {
-    "id": 34,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Hungarian Grand Prix",
-    "event": "Race",
-    "timestamp": 1785070800,
-    "primaryLocation": "Hungaroring",
-    "secondaryLocation": "Mogyoród"
-  },
-  {
-    "id": 35,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Dutch Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1787308200,
-    "primaryLocation": "Circuit Zandvoort",
-    "secondaryLocation": "Zandvoort"
-  },
-  {
-    "id": 36,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Dutch Grand Prix",
-    "event": "Sprint Qualifying",
-    "timestamp": 1787322600,
-    "primaryLocation": "Circuit Zandvoort",
-    "secondaryLocation": "Zandvoort"
-  },
-  {
-    "id": 37,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Dutch Grand Prix",
-    "event": "Sprint",
-    "timestamp": 1787392800,
-    "primaryLocation": "Circuit Zandvoort",
-    "secondaryLocation": "Zandvoort"
-  },
-  {
-    "id": 38,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Dutch Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1787407200,
-    "primaryLocation": "Circuit Zandvoort",
-    "secondaryLocation": "Zandvoort"
-  },
-  {
-    "id": 39,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Dutch Grand Prix",
-    "event": "Race",
-    "timestamp": 1787490000,
-    "primaryLocation": "Circuit Zandvoort",
-    "secondaryLocation": "Zandvoort"
-  },
-  {
-    "id": 40,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Italian Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1788517800,
-    "primaryLocation": "Autodromo Nazionale Monza",
-    "secondaryLocation": "Monza"
-  },
-  {
-    "id": 41,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Italian Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1788530400,
-    "primaryLocation": "Autodromo Nazionale Monza",
-    "secondaryLocation": "Monza"
-  },
-  {
-    "id": 42,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Italian Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1788604200,
-    "primaryLocation": "Autodromo Nazionale Monza",
-    "secondaryLocation": "Monza"
-  },
-  {
-    "id": 43,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Italian Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1788616800,
-    "primaryLocation": "Autodromo Nazionale Monza",
-    "secondaryLocation": "Monza"
-  },
-  {
-    "id": 44,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Italian Grand Prix",
-    "event": "Race",
-    "timestamp": 1788699600,
-    "primaryLocation": "Autodromo Nazionale Monza",
-    "secondaryLocation": "Monza"
-  },
-  {
-    "id": 45,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Spanish Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1789126200,
-    "primaryLocation": "Madring",
-    "secondaryLocation": "Madrid"
-  },
-  {
-    "id": 46,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Spanish Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1789138800,
-    "primaryLocation": "Madring",
-    "secondaryLocation": "Madrid"
-  },
-  {
-    "id": 47,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Spanish Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1789209000,
-    "primaryLocation": "Madring",
-    "secondaryLocation": "Madrid"
-  },
-  {
-    "id": 48,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Spanish Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1789221600,
-    "primaryLocation": "Madring",
-    "secondaryLocation": "Madrid"
-  },
-  {
-    "id": 49,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Spanish Grand Prix",
-    "event": "Race",
-    "timestamp": 1789304400,
-    "primaryLocation": "Madring",
-    "secondaryLocation": "Madrid"
-  },
-  {
-    "id": 50,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Azerbaijan Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1790238600,
-    "primaryLocation": "Baku City Circuit",
-    "secondaryLocation": "Baku"
-  },
-  {
-    "id": 51,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Azerbaijan Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1790251200,
-    "primaryLocation": "Baku City Circuit",
-    "secondaryLocation": "Baku"
-  },
-  {
-    "id": 52,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Azerbaijan Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1790325000,
-    "primaryLocation": "Baku City Circuit",
-    "secondaryLocation": "Baku"
-  },
-  {
-    "id": 53,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Azerbaijan Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1790337600,
-    "primaryLocation": "Baku City Circuit",
-    "secondaryLocation": "Baku"
-  },
-  {
-    "id": 54,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Azerbaijan Grand Prix",
-    "event": "Race",
-    "timestamp": 1790420400,
-    "primaryLocation": "Baku City Circuit",
-    "secondaryLocation": "Baku"
-  },
-  {
-    "id": 55,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Singapore Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1791534600,
-    "primaryLocation": "Marina Bay Street Circuit",
-    "secondaryLocation": "Singapore"
-  },
-  {
-    "id": 56,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Singapore Grand Prix",
-    "event": "Sprint Qualifying",
-    "timestamp": 1791549000,
-    "primaryLocation": "Marina Bay Street Circuit",
-    "secondaryLocation": "Singapore"
-  },
-  {
-    "id": 57,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Singapore Grand Prix",
-    "event": "Sprint",
-    "timestamp": 1791622800,
-    "primaryLocation": "Marina Bay Street Circuit",
-    "secondaryLocation": "Singapore"
-  },
-  {
-    "id": 58,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Singapore Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1791637200,
-    "primaryLocation": "Marina Bay Street Circuit",
-    "secondaryLocation": "Singapore"
-  },
-  {
-    "id": 59,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Singapore Grand Prix",
-    "event": "Race",
-    "timestamp": 1791720000,
-    "primaryLocation": "Marina Bay Street Circuit",
-    "secondaryLocation": "Singapore"
-  },
-  {
-    "id": 60,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "United States Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1792776600,
-    "primaryLocation": "Circuit of The Americas",
-    "secondaryLocation": "Austin"
-  },
-  {
-    "id": 61,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "United States Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1792789200,
-    "primaryLocation": "Circuit of The Americas",
-    "secondaryLocation": "Austin"
-  },
-  {
-    "id": 62,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "United States Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1792863000,
-    "primaryLocation": "Circuit of The Americas",
-    "secondaryLocation": "Austin"
-  },
-  {
-    "id": 63,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "United States Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1792875600,
-    "primaryLocation": "Circuit of The Americas",
-    "secondaryLocation": "Austin"
-  },
-  {
-    "id": 64,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "United States Grand Prix",
-    "event": "Race",
-    "timestamp": 1792958400,
-    "primaryLocation": "Circuit of The Americas",
-    "secondaryLocation": "Austin"
-  },
-  {
-    "id": 65,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Mexican Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1793385000,
-    "primaryLocation": "Autódromo Hermanos Rodríguez",
-    "secondaryLocation": "Mexico City"
-  },
-  {
-    "id": 66,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Mexican Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1793397600,
-    "primaryLocation": "Autódromo Hermanos Rodríguez",
-    "secondaryLocation": "Mexico City"
-  },
-  {
-    "id": 67,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Mexican Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1793467800,
-    "primaryLocation": "Autódromo Hermanos Rodríguez",
-    "secondaryLocation": "Mexico City"
-  },
-  {
-    "id": 68,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Mexican Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1793480400,
-    "primaryLocation": "Autódromo Hermanos Rodríguez",
-    "secondaryLocation": "Mexico City"
-  },
-  {
-    "id": 69,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Mexican Grand Prix",
-    "event": "Race",
-    "timestamp": 1793563200,
-    "primaryLocation": "Autódromo Hermanos Rodríguez",
-    "secondaryLocation": "Mexico City"
-  },
-  {
-    "id": 70,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "São Paulo Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1793979000,
-    "primaryLocation": "Autódromo José Carlos Pace",
-    "secondaryLocation": "São Paulo"
-  },
-  {
-    "id": 71,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "São Paulo Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1793991600,
-    "primaryLocation": "Autódromo José Carlos Pace",
-    "secondaryLocation": "São Paulo"
-  },
-  {
-    "id": 72,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "São Paulo Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1794061800,
-    "primaryLocation": "Autódromo José Carlos Pace",
-    "secondaryLocation": "São Paulo"
-  },
-  {
-    "id": 73,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "São Paulo Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1794074400,
-    "primaryLocation": "Autódromo José Carlos Pace",
-    "secondaryLocation": "São Paulo"
-  },
-  {
-    "id": 74,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "São Paulo Grand Prix",
-    "event": "Race",
-    "timestamp": 1794157200,
-    "primaryLocation": "Autódromo José Carlos Pace",
-    "secondaryLocation": "São Paulo"
-  },
-  {
-    "id": 75,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Las Vegas Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1795134600,
-    "primaryLocation": "Las Vegas Strip Circuit",
-    "secondaryLocation": "Las Vegas"
-  },
-  {
-    "id": 76,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Las Vegas Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1795147200,
-    "primaryLocation": "Las Vegas Strip Circuit",
-    "secondaryLocation": "Las Vegas"
-  },
-  {
-    "id": 77,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Las Vegas Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1795221000,
-    "primaryLocation": "Las Vegas Strip Circuit",
-    "secondaryLocation": "Las Vegas"
-  },
-  {
-    "id": 78,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Las Vegas Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1795233600,
-    "primaryLocation": "Las Vegas Strip Circuit",
-    "secondaryLocation": "Las Vegas"
-  },
-  {
-    "id": 79,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Las Vegas Grand Prix",
-    "event": "Race",
-    "timestamp": 1795320000,
-    "primaryLocation": "Las Vegas Strip Circuit",
-    "secondaryLocation": "Las Vegas"
-  },
-  {
-    "id": 80,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Qatar Grand Prix",
-    "event": "Practice 1",
-    "timestamp": 1795786200,
-    "primaryLocation": "Lusail International Circuit",
-    "secondaryLocation": "Lusail"
-  },
-  {
-    "id": 81,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Qatar Grand Prix",
-    "event": "Practice 2",
-    "timestamp": 1795798800,
-    "primaryLocation": "Lusail International Circuit",
-    "secondaryLocation": "Lusail"
-  },
-  {
-    "id": 82,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Qatar Grand Prix",
-    "event": "Practice 3",
-    "timestamp": 1795876200,
-    "primaryLocation": "Lusail International Circuit",
-    "secondaryLocation": "Lusail"
-  },
-  {
-    "id": 83,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Qatar Grand Prix",
-    "event": "Qualifying",
-    "timestamp": 1795888800,
-    "primaryLocation": "Lusail International Circuit",
-    "secondaryLocation": "Lusail"
-  },
-  {
-    "id": 84,
-    "sport": "Formula 1",
-    "competition": "Formula 1 World Championship",
-    "name": "Qatar Grand Prix",
-    "event": "Race",
-    "timestamp": 1795968000,
-    "primaryLocation": "Lusail International Circuit",
-    "secondaryLocation": "Lusail"
-  },
-  {
-    "id": 85,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 1",
-    "event": "Team time trial",
-    "date": "04/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Barcelona",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 86,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 2",
-    "event": "Hilly stage",
-    "date": "05/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Tarragona",
-    "secondaryLocation": "Barcelona"
-  },
-  {
-    "id": 87,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 3",
-    "event": "Mountain stage",
-    "date": "06/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Granollers",
-    "secondaryLocation": "Les Angles"
-  },
-  {
-    "id": 88,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 4",
-    "event": "Hilly stage",
-    "date": "07/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Carcassonne",
-    "secondaryLocation": "Foix"
-  },
-  {
-    "id": 89,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 5",
-    "event": "Flat stage",
-    "date": "08/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Lannemezan",
-    "secondaryLocation": "Pau"
-  },
-  {
-    "id": 90,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 6",
-    "event": "Mountain stage",
-    "date": "09/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Pau",
-    "secondaryLocation": "Gavarnie-Gèdre"
-  },
-  {
-    "id": 91,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 7",
-    "event": "Flat stage",
-    "date": "10/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Hagetmau",
-    "secondaryLocation": "Bordeaux"
-  },
-  {
-    "id": 92,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 8",
-    "event": "Flat stage",
-    "date": "11/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Périgueux",
-    "secondaryLocation": "Bergerac"
-  },
-  {
-    "id": 93,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 9",
-    "event": "Hilly stage",
-    "date": "12/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Malemort",
-    "secondaryLocation": "Ussel"
-  },
-  {
-    "id": 94,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 10",
-    "event": "Mountain stage",
-    "date": "14/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Aurillac",
-    "secondaryLocation": "Le Lioran"
-  },
-  {
-    "id": 95,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 11",
-    "event": "Flat stage",
-    "date": "15/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Vichy",
-    "secondaryLocation": "Nevers"
-  },
-  {
-    "id": 96,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 12",
-    "event": "Flat stage",
-    "date": "16/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Circuit de Nevers Magny-Cours",
-    "secondaryLocation": "Chalon-sur-Saône"
-  },
-  {
-    "id": 97,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 13",
-    "event": "Hilly stage",
-    "date": "17/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Dole",
-    "secondaryLocation": "Belfort"
-  },
-  {
-    "id": 98,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 14",
-    "event": "Mountain stage",
-    "date": "18/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Mulhouse",
-    "secondaryLocation": "Le Markstein Fellering"
-  },
-  {
-    "id": 99,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 15",
-    "event": "Mountain stage",
-    "date": "19/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Champagnole",
-    "secondaryLocation": "Plateau de Solaison"
-  },
-  {
-    "id": 100,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 16",
-    "event": "Individual time trial",
-    "date": "21/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Évian-les-Bains",
-    "secondaryLocation": "Thonon-les-Bains"
-  },
-  {
-    "id": 101,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 17",
-    "event": "Flat stage",
-    "date": "22/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Chambéry",
-    "secondaryLocation": "Voiron"
-  },
-  {
-    "id": 102,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 18",
-    "event": "Mountain stage",
-    "date": "23/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Voiron",
-    "secondaryLocation": "Orcières-Merlette"
-  },
-  {
-    "id": 103,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 19",
-    "event": "Mountain stage",
-    "date": "24/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Gap",
-    "secondaryLocation": "Alpe d'Huez"
-  },
-  {
-    "id": 104,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 20",
-    "event": "Mountain stage",
-    "date": "25/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Le Bourg-d'Oisans",
-    "secondaryLocation": "Alpe d'Huez"
-  },
-  {
-    "id": 105,
-    "sport": "Cycling",
-    "competition": "Tour de France",
-    "name": "Stage 21",
-    "event": "Flat stage",
-    "date": "26/07/2026",
-    "timestamp": null,
-    "primaryLocation": "Thoiry",
-    "secondaryLocation": "Paris (Champs-Élysées)"
-  },
-  {
-    "id": 106,
-    "sport": "Cricket",
-    "competition": "Test Series",
-    "home": "England",
-    "away": "New Zealand",
-    "date": "04/06/2026",
-    "endDate": "09/06/2026",
-    "timestamp": 1780567200,
-    "primaryLocation": "Lord's",
-    "secondaryLocation": "London"
-  },
-  {
-    "id": 107,
-    "sport": "Cricket",
-    "competition": "Test Series",
-    "home": "England",
-    "away": "New Zealand",
-    "date": "17/06/2026",
-    "endDate": "22/06/2026",
-    "timestamp": 1781690400,
-    "primaryLocation": "The Oval",
-    "secondaryLocation": "London"
-  },
-  {
-    "id": 108,
-    "sport": "Cricket",
-    "competition": "Test Series",
-    "home": "England",
-    "away": "New Zealand",
-    "date": "25/06/2026",
-    "endDate": "30/06/2026",
-    "timestamp": 1782381600,
-    "primaryLocation": "Trent Bridge",
-    "secondaryLocation": "West Bridgford"
-  },
-  {
-    "id": 109,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Miami Marlins",
-    "timestamp": 1779750420,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 110,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Miami Marlins",
-    "timestamp": 1779836820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 111,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Miami Marlins",
-    "timestamp": 1779901620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 112,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Baltimore Orioles",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780007700,
-    "primaryLocation": "Oriole Park at Camden Yards",
-    "secondaryLocation": "Baltimore"
-  },
-  {
-    "id": 113,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Baltimore Orioles",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780095900,
-    "primaryLocation": "Oriole Park at Camden Yards",
-    "secondaryLocation": "Baltimore"
-  },
-  {
-    "id": 114,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Baltimore Orioles",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780171500,
-    "primaryLocation": "Oriole Park at Camden Yards",
-    "secondaryLocation": "Baltimore"
-  },
-  {
-    "id": 115,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Baltimore Orioles",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780244100,
-    "primaryLocation": "Oriole Park at Camden Yards",
-    "secondaryLocation": "Baltimore"
-  },
-  {
-    "id": 116,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Atlanta Braves",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780442100,
-    "primaryLocation": "Truist Park",
-    "secondaryLocation": "Atlanta"
-  },
-  {
-    "id": 117,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Atlanta Braves",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780528500,
-    "primaryLocation": "Truist Park",
-    "secondaryLocation": "Atlanta"
-  },
-  {
-    "id": 118,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Atlanta Braves",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1780614900,
-    "primaryLocation": "Truist Park",
-    "secondaryLocation": "Atlanta"
-  },
-  {
-    "id": 119,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Baltimore Orioles",
-    "timestamp": 1780700820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 120,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Baltimore Orioles",
-    "timestamp": 1780772820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 121,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Baltimore Orioles",
-    "timestamp": 1780853820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 122,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Philadelphia Phillies",
-    "timestamp": 1780960020,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 123,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Philadelphia Phillies",
-    "timestamp": 1781046420,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 124,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Philadelphia Phillies",
-    "timestamp": 1781132820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 125,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Yankees",
-    "timestamp": 1781307420,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 126,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Yankees",
-    "timestamp": 1781377620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 127,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Yankees",
-    "timestamp": 1781458620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 128,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Boston Red Sox",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1781649900,
-    "primaryLocation": "Fenway Park",
-    "secondaryLocation": "Boston"
-  },
-  {
-    "id": 129,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Boston Red Sox",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1781736300,
-    "primaryLocation": "Fenway Park",
-    "secondaryLocation": "Boston"
-  },
-  {
-    "id": 130,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Boston Red Sox",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1781804100,
-    "primaryLocation": "Fenway Park",
-    "secondaryLocation": "Boston"
-  },
-  {
-    "id": 131,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Chicago Cubs",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1781893200,
-    "primaryLocation": "Wrigley Field",
-    "secondaryLocation": "Chicago"
-  },
-  {
-    "id": 132,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Chicago Cubs",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1781979600,
-    "primaryLocation": "Wrigley Field",
-    "secondaryLocation": "Chicago"
-  },
-  {
-    "id": 133,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Chicago Cubs",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1782066000,
-    "primaryLocation": "Wrigley Field",
-    "secondaryLocation": "Chicago"
-  },
-  {
-    "id": 134,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Houston Astros",
-    "timestamp": 1782169620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 135,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Houston Astros",
-    "timestamp": 1782256020,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 136,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Houston Astros",
-    "timestamp": 1782342420,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 137,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Texas Rangers",
-    "timestamp": 1782428820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 138,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Texas Rangers",
-    "timestamp": 1782515220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 139,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Texas Rangers",
-    "timestamp": 1782587220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 140,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Texas Rangers",
-    "timestamp": 1782668220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 141,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Mets",
-    "timestamp": 1782774420,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 142,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Mets",
-    "timestamp": 1782860820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 143,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Mets",
-    "timestamp": 1782932820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 144,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Seattle Mariners",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783131000,
-    "primaryLocation": "T-Mobile Park",
-    "secondaryLocation": "Seattle"
-  },
-  {
-    "id": 145,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Seattle Mariners",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783195800,
-    "primaryLocation": "T-Mobile Park",
-    "secondaryLocation": "Seattle"
-  },
-  {
-    "id": 146,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Seattle Mariners",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783285200,
-    "primaryLocation": "T-Mobile Park",
-    "secondaryLocation": "Seattle"
-  },
-  {
-    "id": 147,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "San Francisco Giants",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783388700,
-    "primaryLocation": "Oracle Park",
-    "secondaryLocation": "San Francisco"
-  },
-  {
-    "id": 148,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "San Francisco Giants",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783475100,
-    "primaryLocation": "Oracle Park",
-    "secondaryLocation": "San Francisco"
-  },
-  {
-    "id": 149,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "San Francisco Giants",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783539900,
-    "primaryLocation": "Oracle Park",
-    "secondaryLocation": "San Francisco"
-  },
-  {
-    "id": 150,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "San Diego Padres",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783734000,
-    "primaryLocation": "Petco Park",
-    "secondaryLocation": "San Diego"
-  },
-  {
-    "id": 151,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "San Diego Padres",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783816800,
-    "primaryLocation": "Petco Park",
-    "secondaryLocation": "San Diego"
-  },
-  {
-    "id": 152,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "San Diego Padres",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1783887000,
-    "primaryLocation": "Petco Park",
-    "secondaryLocation": "San Diego"
-  },
-  {
-    "id": 153,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Chicago White Sox",
-    "timestamp": 1784329620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 154,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Chicago White Sox",
-    "timestamp": 1784401620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 155,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Chicago White Sox",
-    "timestamp": 1784477400,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 156,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Tampa Bay Rays",
-    "timestamp": 1784588820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 157,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Tampa Bay Rays",
-    "timestamp": 1784675220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 158,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Tampa Bay Rays",
-    "timestamp": 1784761620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 159,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Tampa Bay Rays",
-    "timestamp": 1784833620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 160,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Boston Red Sox",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1784934600,
-    "primaryLocation": "Fenway Park",
-    "secondaryLocation": "Boston"
-  },
-  {
-    "id": 161,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Boston Red Sox",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785010200,
-    "primaryLocation": "Fenway Park",
-    "secondaryLocation": "Boston"
-  },
-  {
-    "id": 162,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Boston Red Sox",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785087300,
-    "primaryLocation": "Fenway Park",
-    "secondaryLocation": "Boston"
-  },
-  {
-    "id": 163,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Washington Nationals",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785192300,
-    "primaryLocation": "Nationals Park",
-    "secondaryLocation": "Washington D.C."
-  },
-  {
-    "id": 164,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Washington Nationals",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785278700,
-    "primaryLocation": "Nationals Park",
-    "secondaryLocation": "Washington D.C."
-  },
-  {
-    "id": 165,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Washington Nationals",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785344700,
-    "primaryLocation": "Nationals Park",
-    "secondaryLocation": "Washington D.C."
-  },
-  {
-    "id": 166,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "St. Louis Cardinals",
-    "timestamp": 1785539220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 167,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1701,7 +14,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 168,
+    "id": 2,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Wellington Lions",
+    "away": "Hawke's Bay Magpies",
+    "timestamp": 1785647100,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 3,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1711,7 +34,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 169,
+    "id": 4,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Houston Astros",
@@ -1721,7 +44,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Houston"
   },
   {
-    "id": 170,
+    "id": 5,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Houston Astros",
@@ -1731,7 +54,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Houston"
   },
   {
-    "id": 171,
+    "id": 6,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Houston Astros",
@@ -1741,7 +64,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Houston"
   },
   {
-    "id": 172,
+    "id": 7,
+    "sport": "Baseball",
+    "competition": "MLB",
+    "home": "Chicago Cubs",
+    "away": "Toronto Blue Jays",
+    "timestamp": 1786040400,
+    "primaryLocation": "Wrigley Field",
+    "secondaryLocation": "Chicago"
+  },
+  {
+    "id": 8,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "Stormers",
+    "away": "New Zealand",
+    "timestamp": 1786119000,
+    "primaryLocation": "DHL Stadium",
+    "secondaryLocation": "Cape Town"
+  },
+  {
+    "id": 9,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Philadelphia Phillies",
@@ -1751,7 +94,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Philadelphia"
   },
   {
-    "id": 173,
+    "id": 10,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Auckland",
+    "away": "Wellington Lions",
+    "timestamp": 1786154700,
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 11,
+    "sport": "Rugby",
+    "competition": "Men's Internationals",
+    "home": "Australia",
+    "away": "Japan",
+    "timestamp": 1786183500,
+    "primaryLocation": "Hanazono Rugby Stadium",
+    "secondaryLocation": "Osaka"
+  },
+  {
+    "id": 12,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Philadelphia Phillies",
@@ -1761,7 +124,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Philadelphia"
   },
   {
-    "id": 174,
+    "id": 13,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Philadelphia Phillies",
@@ -1771,7 +134,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Philadelphia"
   },
   {
-    "id": 175,
+    "id": 14,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1781,7 +144,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 176,
+    "id": 15,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "Sharks",
+    "away": "New Zealand",
+    "timestamp": 1786464600,
+    "primaryLocation": "Hollywoodbets Kings Park",
+    "secondaryLocation": "Durban"
+  },
+  {
+    "id": 16,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1791,7 +164,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 177,
+    "id": 17,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1801,7 +174,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 178,
+    "id": 18,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Wellington Lions",
+    "away": "North Harbour",
+    "timestamp": 1786605000,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 19,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1811,7 +194,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 179,
+    "id": 20,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1821,7 +204,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 180,
+    "id": 21,
+    "sport": "Rugby",
+    "competition": "Men's Internationals",
+    "home": "Australia",
+    "away": "Japan",
+    "timestamp": 1786770000,
+    "primaryLocation": "North Queensland Stadium",
+    "secondaryLocation": "Townsville"
+  },
+  {
+    "id": 22,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "Bulls",
+    "away": "New Zealand",
+    "timestamp": 1786810200,
+    "primaryLocation": "Loftus Versfeld",
+    "secondaryLocation": "Pretoria"
+  },
+  {
+    "id": 23,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1831,7 +234,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 181,
+    "id": 24,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1841,7 +244,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 182,
+    "id": 25,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Tampa Bay Rays",
@@ -1851,7 +254,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Saint Petersburg"
   },
   {
-    "id": 183,
+    "id": 26,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Tampa Bay Rays",
@@ -1861,7 +264,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Saint Petersburg"
   },
   {
-    "id": 184,
+    "id": 27,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Tampa Bay Rays",
@@ -1871,7 +274,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Saint Petersburg"
   },
   {
-    "id": 185,
+    "id": 28,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Dutch Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1787308200,
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
+  },
+  {
+    "id": 29,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Dutch Grand Prix",
+    "event": "Sprint Qualifying",
+    "timestamp": 1787322600,
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
+  },
+  {
+    "id": 30,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "New York Yankees",
@@ -1881,7 +304,37 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New York City"
   },
   {
-    "id": 186,
+    "id": 31,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Dutch Grand Prix",
+    "event": "Sprint",
+    "timestamp": 1787392800,
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
+  },
+  {
+    "id": 32,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Dutch Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1787407200,
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
+  },
+  {
+    "id": 33,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "South Africa",
+    "away": "New Zealand",
+    "timestamp": 1787407800,
+    "primaryLocation": "Ellis Park",
+    "secondaryLocation": "Johannesburg"
+  },
+  {
+    "id": 34,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "New York Yankees",
@@ -1891,7 +344,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New York City"
   },
   {
-    "id": 187,
+    "id": 35,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Otago",
+    "away": "Wellington Lions",
+    "timestamp": 1787461500,
+    "primaryLocation": "Forsyth Barr Stadium",
+    "secondaryLocation": "Dunedin"
+  },
+  {
+    "id": 36,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Dutch Grand Prix",
+    "event": "Race",
+    "timestamp": 1787490000,
+    "primaryLocation": "Circuit Zandvoort",
+    "secondaryLocation": "Zandvoort"
+  },
+  {
+    "id": 37,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "New York Yankees",
@@ -1901,7 +374,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New York City"
   },
   {
-    "id": 188,
+    "id": 38,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "Lions",
+    "away": "New Zealand",
+    "timestamp": 1787674200,
+    "primaryLocation": "Ellis Park",
+    "secondaryLocation": "Johannesburg"
+  },
+  {
+    "id": 39,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1911,7 +394,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 189,
+    "id": 40,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1921,7 +404,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 190,
+    "id": 41,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1931,7 +414,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 191,
+    "id": 42,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1941,7 +424,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 192,
+    "id": 43,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "South Africa",
+    "away": "New Zealand",
+    "timestamp": 1788012600,
+    "primaryLocation": "DHL Stadium",
+    "secondaryLocation": "Cape Town"
+  },
+  {
+    "id": 44,
+    "sport": "Rugby",
+    "competition": "Men's Internationals",
+    "home": "Argentina",
+    "away": "Australia",
+    "timestamp": 1788030000,
+    "primaryLocation": "Estadio 23 de Agosto",
+    "secondaryLocation": "San Salvador de Jujuy"
+  },
+  {
+    "id": 45,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1951,7 +454,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 193,
+    "id": 46,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Wellington Lions",
+    "away": "Counties Manukau",
+    "timestamp": 1788055500,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 47,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -1961,7 +474,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 194,
+    "id": 48,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Cleveland Guardians",
@@ -1971,7 +484,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cleveland"
   },
   {
-    "id": 195,
+    "id": 49,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Cleveland Guardians",
@@ -1981,7 +494,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cleveland"
   },
   {
-    "id": 196,
+    "id": 50,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Cleveland Guardians",
@@ -1991,7 +504,37 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cleveland"
   },
   {
-    "id": 197,
+    "id": 51,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Italian Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1788517800,
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
+  },
+  {
+    "id": 52,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Italian Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1788530400,
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
+  },
+  {
+    "id": 53,
+    "sport": "Rugby",
+    "competition": "Men's Internationals",
+    "home": "Argentina",
+    "away": "Australia",
+    "timestamp": 1788555600,
+    "primaryLocation": "Estadio Malvinas Argentinas",
+    "secondaryLocation": "Mendoza"
+  },
+  {
+    "id": 54,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Kansas City Royals",
@@ -2001,7 +544,47 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Kansas City"
   },
   {
-    "id": 198,
+    "id": 55,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Tasman Mako",
+    "away": "Wellington Lions",
+    "timestamp": 1788584700,
+    "primaryLocation": "Lansdowne Park",
+    "secondaryLocation": "Blenheim"
+  },
+  {
+    "id": 56,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Italian Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1788604200,
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
+  },
+  {
+    "id": 57,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Italian Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1788616800,
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
+  },
+  {
+    "id": 58,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "South Africa",
+    "away": "New Zealand",
+    "timestamp": 1788617400,
+    "primaryLocation": "FNB Stadium",
+    "secondaryLocation": "Johannesburg"
+  },
+  {
+    "id": 59,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Kansas City Royals",
@@ -2011,7 +594,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Kansas City"
   },
   {
-    "id": 199,
+    "id": 60,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Italian Grand Prix",
+    "event": "Race",
+    "timestamp": 1788699600,
+    "primaryLocation": "Autodromo Nazionale Monza",
+    "secondaryLocation": "Monza"
+  },
+  {
+    "id": 61,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Kansas City Royals",
@@ -2021,7 +614,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Kansas City"
   },
   {
-    "id": 200,
+    "id": 62,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Athletics",
@@ -2031,7 +624,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "West Sacramento"
   },
   {
-    "id": 201,
+    "id": 63,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Athletics",
@@ -2041,7 +634,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "West Sacramento"
   },
   {
-    "id": 202,
+    "id": 64,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Athletics",
@@ -2051,7 +644,37 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "West Sacramento"
   },
   {
-    "id": 203,
+    "id": 65,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Spanish Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1789126200,
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
+  },
+  {
+    "id": 66,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Spanish Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1789138800,
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
+  },
+  {
+    "id": 67,
+    "sport": "Rugby",
+    "competition": "Rugby's Greatest Rivalry",
+    "home": "South Africa",
+    "away": "New Zealand",
+    "timestamp": 1789164000,
+    "primaryLocation": "M&T Bank Stadium",
+    "secondaryLocation": "Baltimore"
+  },
+  {
+    "id": 68,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2061,7 +684,37 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 204,
+    "id": 69,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Canterbury",
+    "away": "Wellington Lions",
+    "timestamp": 1789197000,
+    "primaryLocation": "Te Kaha",
+    "secondaryLocation": "Christchurch"
+  },
+  {
+    "id": 70,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Spanish Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1789209000,
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
+  },
+  {
+    "id": 71,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Spanish Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1789221600,
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
+  },
+  {
+    "id": 72,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2071,7 +724,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 205,
+    "id": 73,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Spanish Grand Prix",
+    "event": "Race",
+    "timestamp": 1789304400,
+    "primaryLocation": "Madring",
+    "secondaryLocation": "Madrid"
+  },
+  {
+    "id": 74,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2081,7 +744,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 206,
+    "id": 75,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2091,7 +754,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 207,
+    "id": 76,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2101,7 +764,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 208,
+    "id": 77,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2111,7 +774,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 209,
+    "id": 78,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Texas Rangers",
@@ -2121,7 +784,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Arlington"
   },
   {
-    "id": 210,
+    "id": 79,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Wellington Lions",
+    "away": "Northland Taniwha",
+    "timestamp": 1789801800,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 80,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Texas Rangers",
@@ -2131,7 +804,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Arlington"
   },
   {
-    "id": 211,
+    "id": 81,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Texas Rangers",
@@ -2141,7 +814,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Arlington"
   },
   {
-    "id": 212,
+    "id": 82,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Baltimore Orioles",
@@ -2151,7 +824,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 213,
+    "id": 83,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Baltimore Orioles",
@@ -2161,7 +834,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 214,
+    "id": 84,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Baltimore Orioles",
@@ -2171,7 +844,47 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 215,
+    "id": 85,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Azerbaijan Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1790238600,
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
+  },
+  {
+    "id": 86,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Azerbaijan Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1790251200,
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
+  },
+  {
+    "id": 87,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Azerbaijan Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1790325000,
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
+  },
+  {
+    "id": 88,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Azerbaijan Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1790337600,
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
+  },
+  {
+    "id": 89,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2181,7 +894,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 216,
+    "id": 90,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Azerbaijan Grand Prix",
+    "event": "Race",
+    "timestamp": 1790420400,
+    "primaryLocation": "Baku City Circuit",
+    "secondaryLocation": "Baku"
+  },
+  {
+    "id": 91,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2191,7 +914,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 217,
+    "id": 92,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Wellington Lions",
+    "away": "Waikato Mooloos",
+    "timestamp": 1790467500,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 93,
+    "sport": "Rugby",
+    "competition": "Men's Internationals",
+    "home": "Australia",
+    "away": "South Africa",
+    "timestamp": 1790501400,
+    "primaryLocation": "Perth Stadium",
+    "secondaryLocation": "Perth"
+  },
+  {
+    "id": 94,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -2201,19 +944,761 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 218,
-    "sport": "Cricket",
-    "competition": "One-off Test",
-    "home": "Ireland",
-    "away": "New Zealand",
-    "date": "27/05/2026",
-    "endDate": "31/05/2026",
-    "timestamp": 1779876000,
-    "primaryLocation": "Stormont",
-    "secondaryLocation": "Belfast"
+    "id": 95,
+    "sport": "Rugby",
+    "competition": "National Provincial Championship",
+    "home": "Taranaki",
+    "away": "Wellington Lions",
+    "timestamp": 1791072300,
+    "primaryLocation": "Stadium Taranaki",
+    "secondaryLocation": "New Plymouth"
   },
   {
-    "id": 219,
+    "id": 96,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Singapore Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1791534600,
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
+  },
+  {
+    "id": 97,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Singapore Grand Prix",
+    "event": "Sprint Qualifying",
+    "timestamp": 1791549000,
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
+  },
+  {
+    "id": 98,
+    "sport": "Rugby",
+    "competition": "Bledisloe Cup",
+    "home": "New Zealand",
+    "away": "Australia",
+    "timestamp": 1791616200,
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 99,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Singapore Grand Prix",
+    "event": "Sprint",
+    "timestamp": 1791622800,
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
+  },
+  {
+    "id": 100,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Singapore Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1791637200,
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
+  },
+  {
+    "id": 101,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Singapore Grand Prix",
+    "event": "Race",
+    "timestamp": 1791720000,
+    "primaryLocation": "Marina Bay Street Circuit",
+    "secondaryLocation": "Singapore"
+  },
+  {
+    "id": 102,
+    "sport": "Rugby",
+    "competition": "Bledisloe Cup",
+    "home": "Australia",
+    "away": "New Zealand",
+    "timestamp": 1792215900,
+    "primaryLocation": "Stadium Australia",
+    "secondaryLocation": "Australia"
+  },
+  {
+    "id": 103,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Melbourne Victory",
+    "timestamp": 1792288800,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 104,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1792652400,
+    "primaryLocation": "Hagley Oval",
+    "secondaryLocation": "Christchurch"
+  },
+  {
+    "id": 105,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "United States Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1792776600,
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
+  },
+  {
+    "id": 106,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "United States Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1792789200,
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
+  },
+  {
+    "id": 107,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1792825200,
+    "primaryLocation": "Hagley Oval",
+    "secondaryLocation": "Christchurch"
+  },
+  {
+    "id": 108,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "United States Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1792863000,
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
+  },
+  {
+    "id": 109,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "United States Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1792875600,
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
+  },
+  {
+    "id": 110,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Central Coast Mariners",
+    "timestamp": 1792893600,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 111,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "United States Grand Prix",
+    "event": "Race",
+    "timestamp": 1792958400,
+    "primaryLocation": "Circuit of The Americas",
+    "secondaryLocation": "Austin"
+  },
+  {
+    "id": 112,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1793084400,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 113,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1793343600,
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 114,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Mexican Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1793385000,
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
+  },
+  {
+    "id": 115,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Mexican Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1793397600,
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
+  },
+  {
+    "id": 116,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Newcastle Jets",
+    "away": "Wellington Phoenix",
+    "timestamp": 1793419200,
+    "primaryLocation": "McDonald Jones Stadium",
+    "secondaryLocation": "Newcastle"
+  },
+  {
+    "id": 117,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Mexican Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1793467800,
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
+  },
+  {
+    "id": 118,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Mexican Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1793480400,
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
+  },
+  {
+    "id": 119,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1793516400,
+    "primaryLocation": "Seddon Park",
+    "secondaryLocation": "Hamilton"
+  },
+  {
+    "id": 120,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Mexican Grand Prix",
+    "event": "Race",
+    "timestamp": 1793563200,
+    "primaryLocation": "Autódromo Hermanos Rodríguez",
+    "secondaryLocation": "Mexico City"
+  },
+  {
+    "id": 121,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1793757600,
+    "primaryLocation": "Eden Park",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 122,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Auckland FC",
+    "away": "Wellington Phoenix",
+    "timestamp": 1793970000,
+    "primaryLocation": "Go Media Stadium",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 123,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "São Paulo Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1793979000,
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
+  },
+  {
+    "id": 124,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "São Paulo Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1793991600,
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
+  },
+  {
+    "id": 125,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Ireland",
+    "away": "Argentina",
+    "timestamp": 1793995800,
+    "primaryLocation": "Aviva Stadium",
+    "secondaryLocation": "Dublin"
+  },
+  {
+    "id": 126,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1794016800,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 127,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Italy",
+    "away": "South Africa",
+    "timestamp": 1794051600,
+    "primaryLocation": "Allianz Stadium",
+    "secondaryLocation": "Turin"
+  },
+  {
+    "id": 128,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Scotland",
+    "away": "New Zealand",
+    "timestamp": 1794060600,
+    "primaryLocation": "Murrayfield",
+    "secondaryLocation": "Edinburgh"
+  },
+  {
+    "id": 129,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "São Paulo Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1794061800,
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
+  },
+  {
+    "id": 130,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Wales",
+    "away": "Japan",
+    "timestamp": 1794069600,
+    "primaryLocation": "Millennium Stadium",
+    "secondaryLocation": "Cardiff"
+  },
+  {
+    "id": 131,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "São Paulo Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1794074400,
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
+  },
+  {
+    "id": 132,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "France",
+    "away": "Fiji",
+    "timestamp": 1794082200,
+    "primaryLocation": "Groupama Stadium",
+    "secondaryLocation": "Lyon"
+  },
+  {
+    "id": 133,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "England",
+    "away": "Australia",
+    "timestamp": 1794150600,
+    "primaryLocation": "Twickenham",
+    "secondaryLocation": "London"
+  },
+  {
+    "id": 134,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "São Paulo Grand Prix",
+    "event": "Race",
+    "timestamp": 1794157200,
+    "primaryLocation": "Autódromo José Carlos Pace",
+    "secondaryLocation": "São Paulo"
+  },
+  {
+    "id": 135,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1794276000,
+    "primaryLocation": "Seddon Park",
+    "secondaryLocation": "Hamilton"
+  },
+  {
+    "id": 136,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1794535200,
+    "primaryLocation": "Bay Oval",
+    "secondaryLocation": "Mount Maunganui"
+  },
+  {
+    "id": 137,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "France",
+    "away": "South Africa",
+    "timestamp": 1794600600,
+    "primaryLocation": "Stade de France",
+    "secondaryLocation": "Paris"
+  },
+  {
+    "id": 138,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Italy",
+    "away": "Argentina",
+    "timestamp": 1794656400,
+    "primaryLocation": "Stadio Luigi Ferraris",
+    "secondaryLocation": "Genova"
+  },
+  {
+    "id": 139,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Wales",
+    "away": "New Zealand",
+    "timestamp": 1794665400,
+    "primaryLocation": "Millennium Stadium",
+    "secondaryLocation": "Cardiff"
+  },
+  {
+    "id": 140,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "England",
+    "away": "Japan",
+    "timestamp": 1794674400,
+    "primaryLocation": "Twickenham",
+    "secondaryLocation": "London"
+  },
+  {
+    "id": 141,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Ireland",
+    "away": "Fiji",
+    "timestamp": 1794687000,
+    "primaryLocation": "Aviva Stadium",
+    "secondaryLocation": "Dublin"
+  },
+  {
+    "id": 142,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1794708000,
+    "primaryLocation": "Bay Oval",
+    "secondaryLocation": "Mount Maunganui"
+  },
+  {
+    "id": 143,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Scotland",
+    "away": "Australia",
+    "timestamp": 1794755400,
+    "primaryLocation": "Murrayfield",
+    "secondaryLocation": "Edinburgh"
+  },
+  {
+    "id": 144,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "New Zealand",
+    "away": "India",
+    "date": "19/11/2026",
+    "endDate": "23/11/2026",
+    "timestamp": 1795039200,
+    "primaryLocation": "Basin Reserve",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 145,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Las Vegas Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1795134600,
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
+  },
+  {
+    "id": 146,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Las Vegas Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1795147200,
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
+  },
+  {
+    "id": 147,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Las Vegas Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1795221000,
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
+  },
+  {
+    "id": 148,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Las Vegas Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1795233600,
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
+  },
+  {
+    "id": 149,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "England",
+    "away": "New Zealand",
+    "timestamp": 1795270200,
+    "primaryLocation": "Twickenham",
+    "secondaryLocation": "London"
+  },
+  {
+    "id": 150,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Scotland",
+    "away": "Japan",
+    "timestamp": 1795270200,
+    "primaryLocation": "Murrayfield",
+    "secondaryLocation": "Edinburgh"
+  },
+  {
+    "id": 151,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Ireland",
+    "away": "South Africa",
+    "timestamp": 1795279200,
+    "primaryLocation": "Aviva Stadium",
+    "secondaryLocation": "Dublin"
+  },
+  {
+    "id": 152,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Italy",
+    "away": "Fiji",
+    "timestamp": 1795279200,
+    "primaryLocation": "Bluenergy Stadium",
+    "secondaryLocation": "Udine"
+  },
+  {
+    "id": 153,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "France",
+    "away": "Argentina",
+    "timestamp": 1795291800,
+    "primaryLocation": "Stade de France",
+    "secondaryLocation": "Paris"
+  },
+  {
+    "id": 154,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "Wales",
+    "away": "Australia",
+    "timestamp": 1795291800,
+    "primaryLocation": "Millennium Stadium",
+    "secondaryLocation": "Cardiff"
+  },
+  {
+    "id": 155,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Macarthur FC",
+    "timestamp": 1795312800,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 156,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Las Vegas Grand Prix",
+    "event": "Race",
+    "timestamp": 1795320000,
+    "primaryLocation": "Las Vegas Strip Circuit",
+    "secondaryLocation": "Las Vegas"
+  },
+  {
+    "id": 157,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "New Zealand",
+    "away": "India",
+    "date": "27/11/2026",
+    "endDate": "01/12/2026",
+    "timestamp": 1795730400,
+    "primaryLocation": "Hagley Oval",
+    "secondaryLocation": "Christchurch"
+  },
+  {
+    "id": 158,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Qatar Grand Prix",
+    "event": "Practice 1",
+    "timestamp": 1795786200,
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
+  },
+  {
+    "id": 159,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "NTH6",
+    "away": "STH6",
+    "timestamp": 1795797600,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 160,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Qatar Grand Prix",
+    "event": "Practice 2",
+    "timestamp": 1795798800,
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
+  },
+  {
+    "id": 161,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "NTH3",
+    "away": "STH3",
+    "timestamp": 1795810200,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 162,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "NTH5",
+    "away": "STH5",
+    "timestamp": 1795871400,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 163,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Qatar Grand Prix",
+    "event": "Practice 3",
+    "timestamp": 1795876200,
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
+  },
+  {
+    "id": 164,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "NTH2",
+    "away": "STH2",
+    "timestamp": 1795884000,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 165,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Qatar Grand Prix",
+    "event": "Qualifying",
+    "timestamp": 1795888800,
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
+  },
+  {
+    "id": 166,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Adelaide United",
+    "timestamp": 1795917600,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 167,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "NTH4",
+    "away": "STH4",
+    "timestamp": 1795957800,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 168,
+    "sport": "Formula 1",
+    "competition": "Formula 1 World Championship",
+    "name": "Qatar Grand Prix",
+    "event": "Race",
+    "timestamp": 1795968000,
+    "primaryLocation": "Lusail International Circuit",
+    "secondaryLocation": "Lusail"
+  },
+  {
+    "id": 169,
+    "sport": "Rugby",
+    "competition": "Nations Championship",
+    "home": "NTH1",
+    "away": "STH1",
+    "timestamp": 1795970400,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 170,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -2225,7 +1710,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Perth"
   },
   {
-    "id": 220,
+    "id": 171,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Western Sydney Wanderers",
+    "away": "Wellington Phoenix",
+    "timestamp": 1797141600,
+    "primaryLocation": "CommBank Stadium",
+    "secondaryLocation": "Sydney"
+  },
+  {
+    "id": 172,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -2237,7 +1732,17 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Adelaide"
   },
   {
-    "id": 221,
+    "id": 173,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Auckland FC",
+    "timestamp": 1797652800,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 174,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -2249,7 +1754,27 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 222,
+    "id": 175,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Melbourne Victory",
+    "away": "Wellington Phoenix",
+    "timestamp": 1798531200,
+    "primaryLocation": "AAMI Park",
+    "secondaryLocation": "Melbourne"
+  },
+  {
+    "id": 176,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Newcastle Jets",
+    "timestamp": 1798862400,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 177,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -2259,6 +1784,250 @@ const fixtures: Fixture[] = [
     "timestamp": 1799019000,
     "primaryLocation": "SCG",
     "secondaryLocation": "Sydney"
+  },
+  {
+    "id": 178,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Melbourne City",
+    "away": "Wellington Phoenix",
+    "timestamp": 1799560800,
+    "primaryLocation": "AAMI Park",
+    "secondaryLocation": "Melbourne"
+  },
+  {
+    "id": 179,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Macarthur FC",
+    "away": "Wellington Phoenix",
+    "timestamp": 1799916000,
+    "primaryLocation": "Campbelltown Sports Stadium",
+    "secondaryLocation": "Sydney"
+  },
+  {
+    "id": 180,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "timestamp": 1800050400,
+    "primaryLocation": "McLean Park",
+    "secondaryLocation": "Napier"
+  },
+  {
+    "id": 181,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "timestamp": 1800309600,
+    "primaryLocation": "Basin Reserve",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 182,
+    "sport": "Cricket",
+    "competition": "ODI Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "timestamp": 1800568800,
+    "primaryLocation": "University of Otago Oval",
+    "secondaryLocation": "Dunedin"
+  },
+  {
+    "id": 183,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Brisbane Roar",
+    "away": "Wellington Phoenix",
+    "timestamp": 1800684000,
+    "primaryLocation": "Kayo Stadium",
+    "secondaryLocation": "Brisbane"
+  },
+  {
+    "id": 184,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "timestamp": 1800939600,
+    "primaryLocation": "Hagley Oval",
+    "secondaryLocation": "Christchurch"
+  },
+  {
+    "id": 185,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "timestamp": 1801191600,
+    "primaryLocation": "Saxton Oval",
+    "secondaryLocation": "Nelson"
+  },
+  {
+    "id": 186,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Perth Glory",
+    "timestamp": 1801281600,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 187,
+    "sport": "Cricket",
+    "competition": "T20 Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "timestamp": 1801353600,
+    "primaryLocation": "Saxton Oval",
+    "secondaryLocation": "Nelson"
+  },
+  {
+    "id": 188,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "date": "04/02/2027",
+    "endDate": "08/02/2027",
+    "timestamp": 1801692000,
+    "primaryLocation": "Bay Oval",
+    "secondaryLocation": "Mount Maunganui"
+  },
+  {
+    "id": 189,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Western Sydney Wanderers",
+    "timestamp": 1801886400,
+    "primaryLocation": "",
+    "secondaryLocation": ""
+  },
+  {
+    "id": 190,
+    "sport": "Cricket",
+    "competition": "Test Series",
+    "home": "New Zealand",
+    "away": "Sri Lanka",
+    "date": "12/02/2027",
+    "endDate": "16/02/2027",
+    "timestamp": 1802383200,
+    "primaryLocation": "Seddon Park",
+    "secondaryLocation": "Hamilton"
+  },
+  {
+    "id": 191,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Auckland FC",
+    "away": "Wellington Phoenix",
+    "timestamp": 1802491200,
+    "primaryLocation": "Go Media Stadium",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 192,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Melbourne City",
+    "away": "Wellington Phoenix",
+    "timestamp": 1803790800,
+    "primaryLocation": "AAMI Park",
+    "secondaryLocation": "Melbourne"
+  },
+  {
+    "id": 193,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Sydney FC",
+    "timestamp": 1804305600,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 194,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Central Coast Mariners",
+    "away": "Wellington Phoenix",
+    "timestamp": 1804917600,
+    "primaryLocation": "Central Coast Stadium",
+    "secondaryLocation": "Gosford"
+  },
+  {
+    "id": 195,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Macarthur FC",
+    "timestamp": 1805515200,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 196,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Adelaide United",
+    "away": "Wellington Phoenix",
+    "timestamp": 1806655200,
+    "primaryLocation": "Coopers Stadium",
+    "secondaryLocation": "Adelaide"
+  },
+  {
+    "id": 197,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Newcastle Jets",
+    "timestamp": 1807938000,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 198,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Sydney FC",
+    "away": "Wellington Phoenix",
+    "timestamp": 1809682800,
+    "primaryLocation": "Allianz Stadium",
+    "secondaryLocation": "Sydney"
+  },
+  {
+    "id": 199,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Brisbase Roar",
+    "timestamp": 1825740000,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 200,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Wellington Phoenix",
+    "away": "Melbourne City",
+    "timestamp": 1827028800,
+    "primaryLocation": "Hnry Stadium",
+    "secondaryLocation": "Wellington"
+  },
+  {
+    "id": 201,
+    "sport": "Football",
+    "competition": "A-League Men",
+    "home": "Perth Glory",
+    "away": "Wellington Phoenix",
+    "timestamp": 1827571500,
+    "primaryLocation": "HBF Park",
+    "secondaryLocation": "Perth"
   }
 ];
 
