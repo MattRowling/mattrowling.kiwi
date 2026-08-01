@@ -5,7 +5,9 @@ import HurricanesSvg from "./icons/teams/hurricanes.svg";
 import WestHamSvg from "./icons/teams/west-ham.svg";
 import NewZealandCricketSvg from "./icons/teams/new-zealand-cricket.svg";
 import NewZealandFootballSvg from "./icons/teams/new-zealand-football.svg";
+import NewZealandRugbySvg from "./icons/teams/new-zealand-rugby.svg";
 import BlueJaysSvg from "./icons/teams/blue-jays.svg";
+import WellingtonLionsPng from "./icons/teams/wellington-lions.png";
 
 interface TeamHighlightProps {
   sport: string;
@@ -15,29 +17,35 @@ interface TeamHighlightProps {
 
 const TEAM_HIGHLIGHTS: Record<
   string,
-  Record<string, { svg: string; bottom: string; right: string }>
+  Record<string, { src: string; bottom: string; right: string }>
 > = {
   football: {
     "wellington phoenix": {
-      svg: WellingtonPhoenixSvg,
+      src: WellingtonPhoenixSvg,
       bottom: "-8%",
       right: "-8%",
     },
-    "west ham": { svg: WestHamSvg, bottom: "-8%", right: "-5%" },
+    "west ham": { src: WestHamSvg, bottom: "-8%", right: "-5%" },
     "new zealand": {
-      svg: NewZealandFootballSvg,
+      src: NewZealandFootballSvg,
       bottom: "-10%",
       right: "-10%",
     },
   },
   rugby: {
-    hurricanes: { svg: HurricanesSvg, bottom: "-15%", right: "-25%" },
+    hurricanes: { src: HurricanesSvg, bottom: "-15%", right: "-25%" },
+    "new zealand": { src: NewZealandRugbySvg, bottom: "4%", right: "-5%" },
+    "wellington lions": {
+      src: WellingtonLionsPng,
+      bottom: "2%",
+      right: "-3%",
+    },
   },
   cricket: {
-    "new zealand": { svg: NewZealandCricketSvg, bottom: "-5%", right: "-5%" },
+    "new zealand": { src: NewZealandCricketSvg, bottom: "-5%", right: "-5%" },
   },
   baseball: {
-    "toronto blue jays": { svg: BlueJaysSvg, bottom: "-8%", right: "-8%" },
+    "toronto blue jays": { src: BlueJaysSvg, bottom: "-8%", right: "-8%" },
   },
 };
 
@@ -54,7 +62,7 @@ function TeamHighlight({ sport, home, away }: TeamHighlightProps) {
   return (
     <Box
       component="img"
-      src={match.svg}
+      src={match.src}
       sx={{
         position: "absolute",
         bottom: match.bottom,
