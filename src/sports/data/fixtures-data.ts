@@ -5,206 +5,6 @@ import type { Fixture } from "./../types";
 const fixtures: Fixture[] = [
   {
     "id": 1,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "St. Louis Cardinals",
-    "timestamp": 1785611220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 2,
-    "sport": "Rugby",
-    "competition": "National Provincial Championship",
-    "home": "Wellington Lions",
-    "away": "Hawke's Bay Magpies",
-    "timestamp": 1785647100,
-    "primaryLocation": "Hnry Stadium",
-    "secondaryLocation": "Wellington"
-  },
-  {
-    "id": 3,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "St. Louis Cardinals",
-    "timestamp": 1785692220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 4,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Houston Astros",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785802200,
-    "primaryLocation": "Daikin Park",
-    "secondaryLocation": "Houston"
-  },
-  {
-    "id": 5,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Houston Astros",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785888600,
-    "primaryLocation": "Daikin Park",
-    "secondaryLocation": "Houston"
-  },
-  {
-    "id": 6,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Houston Astros",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1785953400,
-    "primaryLocation": "Daikin Park",
-    "secondaryLocation": "Houston"
-  },
-  {
-    "id": 7,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Chicago Cubs",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1786040400,
-    "primaryLocation": "Wrigley Field",
-    "secondaryLocation": "Chicago"
-  },
-  {
-    "id": 8,
-    "sport": "Rugby",
-    "competition": "Rugby's Greatest Rivalry",
-    "home": "Stormers",
-    "away": "New Zealand",
-    "timestamp": 1786119000,
-    "primaryLocation": "DHL Stadium",
-    "secondaryLocation": "Cape Town"
-  },
-  {
-    "id": 9,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Philadelphia Phillies",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1786142400,
-    "primaryLocation": "Citizens Bank Park",
-    "secondaryLocation": "Philadelphia"
-  },
-  {
-    "id": 10,
-    "sport": "Rugby",
-    "competition": "National Provincial Championship",
-    "home": "Auckland",
-    "away": "Wellington Lions",
-    "timestamp": 1786154700,
-    "primaryLocation": "Eden Park",
-    "secondaryLocation": "Auckland"
-  },
-  {
-    "id": 11,
-    "sport": "Rugby",
-    "competition": "Men's Internationals",
-    "home": "Australia",
-    "away": "Japan",
-    "timestamp": 1786183500,
-    "primaryLocation": "Hanazono Rugby Stadium",
-    "secondaryLocation": "Osaka"
-  },
-  {
-    "id": 12,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Philadelphia Phillies",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1786226700,
-    "primaryLocation": "Citizens Bank Park",
-    "secondaryLocation": "Philadelphia"
-  },
-  {
-    "id": 13,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Philadelphia Phillies",
-    "away": "Toronto Blue Jays",
-    "timestamp": 1786296900,
-    "primaryLocation": "Citizens Bank Park",
-    "secondaryLocation": "Philadelphia"
-  },
-  {
-    "id": 14,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Boston Red Sox",
-    "timestamp": 1786403220,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 15,
-    "sport": "Rugby",
-    "competition": "Rugby's Greatest Rivalry",
-    "home": "Sharks",
-    "away": "New Zealand",
-    "timestamp": 1786464600,
-    "primaryLocation": "Hollywoodbets Kings Park",
-    "secondaryLocation": "Durban"
-  },
-  {
-    "id": 16,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Boston Red Sox",
-    "timestamp": 1786489620,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 17,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Boston Red Sox",
-    "timestamp": 1786576020,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 18,
-    "sport": "Rugby",
-    "competition": "National Provincial Championship",
-    "home": "Wellington Lions",
-    "away": "North Harbour",
-    "timestamp": 1786605000,
-    "primaryLocation": "Hnry Stadium",
-    "secondaryLocation": "Wellington"
-  },
-  {
-    "id": 19,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "Boston Red Sox",
-    "timestamp": 1786648020,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 20,
-    "sport": "Baseball",
-    "competition": "MLB",
-    "home": "Toronto Blue Jays",
-    "away": "New York Yankees",
-    "timestamp": 1786748820,
-    "primaryLocation": "Rogers Centre",
-    "secondaryLocation": "Toronto"
-  },
-  {
-    "id": 21,
     "sport": "Rugby",
     "competition": "Men's Internationals",
     "home": "Australia",
@@ -214,7 +14,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Townsville"
   },
   {
-    "id": 22,
+    "id": 2,
     "sport": "Rugby",
     "competition": "Rugby's Greatest Rivalry",
     "home": "Bulls",
@@ -224,7 +24,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Pretoria"
   },
   {
-    "id": 23,
+    "id": 3,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -234,7 +34,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 24,
+    "id": 4,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -244,7 +44,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 25,
+    "id": 5,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Tampa Bay Rays",
@@ -254,7 +54,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Saint Petersburg"
   },
   {
-    "id": 26,
+    "id": 6,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Tampa Bay Rays",
@@ -264,7 +64,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Saint Petersburg"
   },
   {
-    "id": 27,
+    "id": 7,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Tampa Bay Rays",
@@ -274,7 +74,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Saint Petersburg"
   },
   {
-    "id": 28,
+    "id": 8,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -284,7 +84,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 29,
+    "id": 9,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -294,7 +94,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 30,
+    "id": 10,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "New York Yankees",
@@ -304,7 +104,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New York City"
   },
   {
-    "id": 31,
+    "id": 11,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -314,7 +114,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 32,
+    "id": 12,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -324,7 +124,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 33,
+    "id": 13,
     "sport": "Rugby",
     "competition": "Rugby's Greatest Rivalry",
     "home": "South Africa",
@@ -334,7 +134,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Johannesburg"
   },
   {
-    "id": 34,
+    "id": 14,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "New York Yankees",
@@ -344,7 +144,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New York City"
   },
   {
-    "id": 35,
+    "id": 15,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Otago",
@@ -354,7 +154,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Dunedin"
   },
   {
-    "id": 36,
+    "id": 16,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Dutch Grand Prix",
@@ -364,7 +164,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Zandvoort"
   },
   {
-    "id": 37,
+    "id": 17,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "New York Yankees",
@@ -374,7 +174,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New York City"
   },
   {
-    "id": 38,
+    "id": 18,
     "sport": "Rugby",
     "competition": "Rugby's Greatest Rivalry",
     "home": "Lions",
@@ -384,7 +184,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Johannesburg"
   },
   {
-    "id": 39,
+    "id": 19,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -394,7 +194,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 40,
+    "id": 20,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -404,7 +204,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 41,
+    "id": 21,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -414,7 +214,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 42,
+    "id": 22,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -424,7 +224,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 43,
+    "id": 23,
     "sport": "Rugby",
     "competition": "Rugby's Greatest Rivalry",
     "home": "South Africa",
@@ -434,7 +234,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cape Town"
   },
   {
-    "id": 44,
+    "id": 24,
     "sport": "Rugby",
     "competition": "Men's Internationals",
     "home": "Argentina",
@@ -444,7 +244,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "San Salvador de Jujuy"
   },
   {
-    "id": 45,
+    "id": 25,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -454,7 +254,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 46,
+    "id": 26,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Wellington Lions",
@@ -464,7 +264,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 47,
+    "id": 27,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -474,7 +274,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 48,
+    "id": 28,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Cleveland Guardians",
@@ -484,7 +284,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cleveland"
   },
   {
-    "id": 49,
+    "id": 29,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Cleveland Guardians",
@@ -494,7 +294,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cleveland"
   },
   {
-    "id": 50,
+    "id": 30,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Cleveland Guardians",
@@ -504,7 +304,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cleveland"
   },
   {
-    "id": 51,
+    "id": 31,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -514,7 +314,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 52,
+    "id": 32,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -524,7 +324,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 53,
+    "id": 33,
     "sport": "Rugby",
     "competition": "Men's Internationals",
     "home": "Argentina",
@@ -534,7 +334,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mendoza"
   },
   {
-    "id": 54,
+    "id": 34,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Kansas City Royals",
@@ -544,7 +344,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Kansas City"
   },
   {
-    "id": 55,
+    "id": 35,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Tasman Mako",
@@ -554,7 +354,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Blenheim"
   },
   {
-    "id": 56,
+    "id": 36,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -564,7 +364,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 57,
+    "id": 37,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -574,7 +374,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 58,
+    "id": 38,
     "sport": "Rugby",
     "competition": "Rugby's Greatest Rivalry",
     "home": "South Africa",
@@ -584,7 +384,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Johannesburg"
   },
   {
-    "id": 59,
+    "id": 39,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Kansas City Royals",
@@ -594,7 +394,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Kansas City"
   },
   {
-    "id": 60,
+    "id": 40,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Italian Grand Prix",
@@ -604,7 +404,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Monza"
   },
   {
-    "id": 61,
+    "id": 41,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Kansas City Royals",
@@ -614,7 +414,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Kansas City"
   },
   {
-    "id": 62,
+    "id": 42,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Athletics",
@@ -624,7 +424,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "West Sacramento"
   },
   {
-    "id": 63,
+    "id": 43,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Athletics",
@@ -634,7 +434,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "West Sacramento"
   },
   {
-    "id": 64,
+    "id": 44,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Athletics",
@@ -644,7 +444,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "West Sacramento"
   },
   {
-    "id": 65,
+    "id": 45,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -654,7 +454,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 66,
+    "id": 46,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -664,7 +464,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 67,
+    "id": 47,
     "sport": "Rugby",
     "competition": "Rugby's Greatest Rivalry",
     "home": "South Africa",
@@ -674,7 +474,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 68,
+    "id": 48,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -684,7 +484,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 69,
+    "id": 49,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Canterbury",
@@ -694,7 +494,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Christchurch"
   },
   {
-    "id": 70,
+    "id": 50,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -704,7 +504,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 71,
+    "id": 51,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -714,7 +514,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 72,
+    "id": 52,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -724,7 +524,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 73,
+    "id": 53,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Spanish Grand Prix",
@@ -734,7 +534,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Madrid"
   },
   {
-    "id": 74,
+    "id": 54,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -744,7 +544,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 75,
+    "id": 55,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -754,7 +554,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 76,
+    "id": 56,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -764,7 +564,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 77,
+    "id": 57,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -774,7 +574,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 78,
+    "id": 58,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Texas Rangers",
@@ -784,7 +584,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Arlington"
   },
   {
-    "id": 79,
+    "id": 59,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Wellington Lions",
@@ -794,7 +594,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 80,
+    "id": 60,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Texas Rangers",
@@ -804,7 +604,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Arlington"
   },
   {
-    "id": 81,
+    "id": 61,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Texas Rangers",
@@ -814,7 +614,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Arlington"
   },
   {
-    "id": 82,
+    "id": 62,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Baltimore Orioles",
@@ -824,7 +624,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 83,
+    "id": 63,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Baltimore Orioles",
@@ -834,7 +634,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 84,
+    "id": 64,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Baltimore Orioles",
@@ -844,7 +644,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baltimore"
   },
   {
-    "id": 85,
+    "id": 65,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -854,7 +654,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 86,
+    "id": 66,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -864,7 +664,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 87,
+    "id": 67,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -874,7 +674,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 88,
+    "id": 68,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -884,7 +684,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 89,
+    "id": 69,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -894,7 +694,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 90,
+    "id": 70,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Azerbaijan Grand Prix",
@@ -904,7 +704,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Baku"
   },
   {
-    "id": 91,
+    "id": 71,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -914,7 +714,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 92,
+    "id": 72,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Wellington Lions",
@@ -924,7 +724,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 93,
+    "id": 73,
     "sport": "Rugby",
     "competition": "Men's Internationals",
     "home": "Australia",
@@ -934,7 +734,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Perth"
   },
   {
-    "id": 94,
+    "id": 74,
     "sport": "Baseball",
     "competition": "MLB",
     "home": "Toronto Blue Jays",
@@ -944,7 +744,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Toronto"
   },
   {
-    "id": 95,
+    "id": 75,
     "sport": "Rugby",
     "competition": "National Provincial Championship",
     "home": "Taranaki",
@@ -954,7 +754,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "New Plymouth"
   },
   {
-    "id": 96,
+    "id": 76,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -964,7 +764,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 97,
+    "id": 77,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -974,7 +774,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 98,
+    "id": 78,
     "sport": "Rugby",
     "competition": "Bledisloe Cup",
     "home": "New Zealand",
@@ -984,7 +784,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 99,
+    "id": 79,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -994,7 +794,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 100,
+    "id": 80,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1004,7 +804,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 101,
+    "id": 81,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Singapore Grand Prix",
@@ -1014,7 +814,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Singapore"
   },
   {
-    "id": 102,
+    "id": 82,
     "sport": "Rugby",
     "competition": "Bledisloe Cup",
     "home": "Australia",
@@ -1024,7 +824,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Australia"
   },
   {
-    "id": 103,
+    "id": 83,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1034,7 +834,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 104,
+    "id": 84,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1044,7 +844,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Christchurch"
   },
   {
-    "id": 105,
+    "id": 85,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1054,7 +854,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 106,
+    "id": 86,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1064,7 +864,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 107,
+    "id": 87,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1074,7 +874,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Christchurch"
   },
   {
-    "id": 108,
+    "id": 88,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1084,7 +884,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 109,
+    "id": 89,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1094,7 +894,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 110,
+    "id": 90,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1104,7 +904,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 111,
+    "id": 91,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "United States Grand Prix",
@@ -1114,7 +914,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Austin"
   },
   {
-    "id": 112,
+    "id": 92,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1124,7 +924,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 113,
+    "id": 93,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1134,7 +934,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 114,
+    "id": 94,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1144,7 +944,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 115,
+    "id": 95,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1154,7 +954,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 116,
+    "id": 96,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Newcastle Jets",
@@ -1164,7 +964,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Newcastle"
   },
   {
-    "id": 117,
+    "id": 97,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1174,7 +974,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 118,
+    "id": 98,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1184,7 +984,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 119,
+    "id": 99,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1194,7 +994,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Hamilton"
   },
   {
-    "id": 120,
+    "id": 100,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Mexican Grand Prix",
@@ -1204,7 +1004,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mexico City"
   },
   {
-    "id": 121,
+    "id": 101,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1214,7 +1014,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 122,
+    "id": 102,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Auckland FC",
@@ -1224,7 +1024,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 123,
+    "id": 103,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1234,7 +1034,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 124,
+    "id": 104,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1244,7 +1044,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 125,
+    "id": 105,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Ireland",
@@ -1254,7 +1054,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Dublin"
   },
   {
-    "id": 126,
+    "id": 106,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1264,7 +1064,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 127,
+    "id": 107,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Italy",
@@ -1274,7 +1074,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Turin"
   },
   {
-    "id": 128,
+    "id": 108,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Scotland",
@@ -1284,7 +1084,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Edinburgh"
   },
   {
-    "id": 129,
+    "id": 109,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1294,7 +1094,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 130,
+    "id": 110,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Wales",
@@ -1304,7 +1104,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cardiff"
   },
   {
-    "id": 131,
+    "id": 111,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1314,7 +1114,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 132,
+    "id": 112,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "France",
@@ -1324,7 +1124,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lyon"
   },
   {
-    "id": 133,
+    "id": 113,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "England",
@@ -1334,7 +1134,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 134,
+    "id": 114,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "São Paulo Grand Prix",
@@ -1344,7 +1144,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "São Paulo"
   },
   {
-    "id": 135,
+    "id": 115,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1354,7 +1154,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Hamilton"
   },
   {
-    "id": 136,
+    "id": 116,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1364,7 +1164,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mount Maunganui"
   },
   {
-    "id": 137,
+    "id": 117,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "France",
@@ -1374,7 +1174,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Paris"
   },
   {
-    "id": 138,
+    "id": 118,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Italy",
@@ -1384,7 +1184,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Genova"
   },
   {
-    "id": 139,
+    "id": 119,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Wales",
@@ -1394,7 +1194,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cardiff"
   },
   {
-    "id": 140,
+    "id": 120,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "England",
@@ -1404,7 +1204,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 141,
+    "id": 121,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Ireland",
@@ -1414,7 +1214,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Dublin"
   },
   {
-    "id": 142,
+    "id": 122,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1424,7 +1224,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mount Maunganui"
   },
   {
-    "id": 143,
+    "id": 123,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Scotland",
@@ -1434,7 +1234,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Edinburgh"
   },
   {
-    "id": 144,
+    "id": 124,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "New Zealand",
@@ -1446,7 +1246,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 145,
+    "id": 125,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1456,7 +1256,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 146,
+    "id": 126,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1466,7 +1266,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 147,
+    "id": 127,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1476,7 +1276,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 148,
+    "id": 128,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1486,7 +1286,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 149,
+    "id": 129,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "England",
@@ -1496,7 +1296,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "London"
   },
   {
-    "id": 150,
+    "id": 130,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Scotland",
@@ -1506,7 +1306,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Edinburgh"
   },
   {
-    "id": 151,
+    "id": 131,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Ireland",
@@ -1516,7 +1316,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Dublin"
   },
   {
-    "id": 152,
+    "id": 132,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Italy",
@@ -1526,7 +1326,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Udine"
   },
   {
-    "id": 153,
+    "id": 133,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "France",
@@ -1536,7 +1336,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Paris"
   },
   {
-    "id": 154,
+    "id": 134,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "Wales",
@@ -1546,7 +1346,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Cardiff"
   },
   {
-    "id": 155,
+    "id": 135,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1556,7 +1356,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 156,
+    "id": 136,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Las Vegas Grand Prix",
@@ -1566,7 +1366,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Las Vegas"
   },
   {
-    "id": 157,
+    "id": 137,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "New Zealand",
@@ -1578,7 +1378,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Christchurch"
   },
   {
-    "id": 158,
+    "id": 138,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1588,7 +1388,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 159,
+    "id": 139,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "NTH6",
@@ -1598,7 +1398,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 160,
+    "id": 140,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1608,7 +1408,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 161,
+    "id": 141,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "NTH3",
@@ -1618,7 +1418,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 162,
+    "id": 142,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "NTH5",
@@ -1628,7 +1428,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 163,
+    "id": 143,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1638,7 +1438,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 164,
+    "id": 144,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "NTH2",
@@ -1648,7 +1448,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 165,
+    "id": 145,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1658,7 +1458,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 166,
+    "id": 146,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1668,7 +1468,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 167,
+    "id": 147,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "NTH4",
@@ -1678,7 +1478,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 168,
+    "id": 148,
     "sport": "Formula 1",
     "competition": "Formula 1 World Championship",
     "name": "Qatar Grand Prix",
@@ -1688,7 +1488,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Lusail"
   },
   {
-    "id": 169,
+    "id": 149,
     "sport": "Rugby",
     "competition": "Nations Championship",
     "home": "NTH1",
@@ -1698,7 +1498,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 170,
+    "id": 150,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -1710,7 +1510,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Perth"
   },
   {
-    "id": 171,
+    "id": 151,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Western Sydney Wanderers",
@@ -1720,7 +1520,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sydney"
   },
   {
-    "id": 172,
+    "id": 152,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -1732,7 +1532,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Adelaide"
   },
   {
-    "id": 173,
+    "id": 153,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1742,7 +1542,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 174,
+    "id": 154,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -1754,7 +1554,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 175,
+    "id": 155,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Melbourne Victory",
@@ -1764,7 +1564,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 176,
+    "id": 156,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1774,7 +1574,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 177,
+    "id": 157,
     "sport": "Cricket",
     "competition": "One-off Test",
     "home": "Australia",
@@ -1786,7 +1586,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sydney"
   },
   {
-    "id": 178,
+    "id": 158,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Melbourne City",
@@ -1796,7 +1596,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 179,
+    "id": 159,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Macarthur FC",
@@ -1806,7 +1606,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sydney"
   },
   {
-    "id": 180,
+    "id": 160,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1816,7 +1616,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Napier"
   },
   {
-    "id": 181,
+    "id": 161,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1826,7 +1626,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 182,
+    "id": 162,
     "sport": "Cricket",
     "competition": "ODI Series",
     "home": "New Zealand",
@@ -1836,7 +1636,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Dunedin"
   },
   {
-    "id": 183,
+    "id": 163,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Brisbane Roar",
@@ -1846,7 +1646,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Brisbane"
   },
   {
-    "id": 184,
+    "id": 164,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1856,7 +1656,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Christchurch"
   },
   {
-    "id": 185,
+    "id": 165,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1866,7 +1666,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Nelson"
   },
   {
-    "id": 186,
+    "id": 166,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1876,7 +1676,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 187,
+    "id": 167,
     "sport": "Cricket",
     "competition": "T20 Series",
     "home": "New Zealand",
@@ -1886,7 +1686,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Nelson"
   },
   {
-    "id": 188,
+    "id": 168,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "New Zealand",
@@ -1898,7 +1698,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Mount Maunganui"
   },
   {
-    "id": 189,
+    "id": 169,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1908,7 +1708,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": ""
   },
   {
-    "id": 190,
+    "id": 170,
     "sport": "Cricket",
     "competition": "Test Series",
     "home": "New Zealand",
@@ -1920,7 +1720,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Hamilton"
   },
   {
-    "id": 191,
+    "id": 171,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Auckland FC",
@@ -1930,7 +1730,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Auckland"
   },
   {
-    "id": 192,
+    "id": 172,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Melbourne City",
@@ -1940,7 +1740,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Melbourne"
   },
   {
-    "id": 193,
+    "id": 173,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1950,7 +1750,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 194,
+    "id": 174,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Central Coast Mariners",
@@ -1960,7 +1760,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Gosford"
   },
   {
-    "id": 195,
+    "id": 175,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1970,7 +1770,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 196,
+    "id": 176,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Adelaide United",
@@ -1980,7 +1780,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Adelaide"
   },
   {
-    "id": 197,
+    "id": 177,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -1990,7 +1790,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 198,
+    "id": 178,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Sydney FC",
@@ -2000,7 +1800,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Sydney"
   },
   {
-    "id": 199,
+    "id": 179,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -2010,7 +1810,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 200,
+    "id": 180,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Wellington Phoenix",
@@ -2020,7 +1820,7 @@ const fixtures: Fixture[] = [
     "secondaryLocation": "Wellington"
   },
   {
-    "id": 201,
+    "id": 181,
     "sport": "Football",
     "competition": "A-League Men",
     "home": "Perth Glory",
@@ -2028,6 +1828,26 @@ const fixtures: Fixture[] = [
     "timestamp": 1827571500,
     "primaryLocation": "HBF Park",
     "secondaryLocation": "Perth"
+  },
+  {
+    "id": 182,
+    "sport": "Football",
+    "competition": "International Friendly",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1794463200,
+    "primaryLocation": "Go Media Stadium",
+    "secondaryLocation": "Auckland"
+  },
+  {
+    "id": 183,
+    "sport": "Football",
+    "competition": "International Friendly",
+    "home": "New Zealand",
+    "away": "India",
+    "timestamp": 1794711600,
+    "primaryLocation": "Te Kaha Stadium",
+    "secondaryLocation": "Christchurch"
   }
 ];
 
