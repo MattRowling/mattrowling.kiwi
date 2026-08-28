@@ -21,6 +21,7 @@ import MlbSvg from "./icons/competitions/mlb.svg";
 import Npc2026Png from "./icons/competitions/npc-2026.png";
 import RugbysGreatestRivalrySvg from "./icons/competitions/rugby's-greatest-rivalry.svg";
 import NationsChampionshipSvg from "./icons/competitions/nations-championship.svg";
+import RugbyWorldCupSvg from "./icons/competitions/rugby-world-cup.svg";
 
 const getSvgForSport = (sport: string) => {
   const style = { height: 24 };
@@ -72,6 +73,8 @@ const getCompetitionLogo = (competition: string) => {
       return <img src={RugbysGreatestRivalrySvg} style={style} />;
     case "nations championship":
       return <img src={NationsChampionshipSvg} style={style} />;
+    case "rugby world cup":
+      return <img src={RugbyWorldCupSvg} style={style} />;
   }
   return null;
 };
