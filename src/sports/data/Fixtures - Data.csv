@@ -196,11 +196,11 @@ Football,A-League Men,,,Wellington Phoenix,Sydney FC,,,1804305600,Hnry Stadium,W
 Football,A-League Men,,,Central Coast Mariners,Wellington Phoenix,,,1804917600,Central Coast Stadium,Gosford
 Football,A-League Men,,,Wellington Phoenix,Macarthur FC,,,1805515200,Hnry Stadium,Wellington
 Football,A-League Men,,,Adelaide United,Wellington Phoenix,,,1806655200,Coopers Stadium,Adelaide
+Football,A-League Men,,,Wellington Phoenix,Brisbane Roar,,,1807254000,Hnry Stadium,Wellington
 Football,A-League Men,,,Wellington Phoenix,Newcastle Jets,,,1807938000,Hnry Stadium,Wellington
+Football,A-League Men,,,Wellington Phoenix,Melbourne City,,,1808542800,Hnry Stadium,Wellington
+Football,A-League Men,,,Perth Glory,Wellington Phoenix,,,1809085500,HBF Park,Perth
 Football,A-League Men,,,Sydney FC,Wellington Phoenix,,,1809682800,Allianz Stadium,Sydney
-Football,A-League Men,,,Wellington Phoenix,Brisbase Roar,,,1825740000,Hnry Stadium,Wellington
-Football,A-League Men,,,Wellington Phoenix,Melbourne City,,,1827028800,Hnry Stadium,Wellington
-Football,A-League Men,,,Perth Glory,Wellington Phoenix,,,1827571500,HBF Park,Perth
 Football,International Friendly,,,New Zealand,India,,,1794463200,Go Media Stadium,Auckland
 Football,International Friendly,,,New Zealand,India,,,1794711600,Te Kaha Stadium,Christchurch
 Football,EFL Championship,,,Burnley,West Ham,,,1786892400,Turf Moor,Burnley
@@ -268,3 +268,56 @@ Football,A-League Women,,,Wellington Phoenix,Newcastle Jets,,,1804989600,Porirua
 Football,A-League Women,,,Brisbane Roar,Wellington Phoenix,,,1805443200,Spencer Park,Brisbane
 Football,A-League Women,,,Wellington Phoenix,Canberra United,,,1806199200,Porirua Park,Wellington
 Football,A-League Women,,,Central Coast Mariners,Wellington Phoenix,,,1806732000,Central Coast Stadium,Gosford
+Rugby,Rugby World Cup,,,Australia,Hong Kong China,,,1822387500,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,Wales,Zimbabwe,,,1822445100,Adelaide Oval,Adelaide
+Rugby,Rugby World Cup,,,New Zealand,Chile,,,1822454100,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,France,USA,,,1822463100,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,England,Tonga,,,1822473900,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Japan,Samoa,,,1822526100,Newcastle Stadium,Newcastle
+Rugby,Rugby World Cup,,,South Africa,Italy,,,1822535100,Adelaide Oval,Adelaide
+Rugby,Rugby World Cup,,,Scotland,Uruguay,,,1822544100,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,Georgia,Romania,,,1822558500,North Queensland Stadium,Townsville
+Rugby,Rugby World Cup,,,Fiji,Spain,,,1822619700,Newcastle Stadium,Newcastle
+Rugby,Rugby World Cup,,,Ireland,Portugal,,,1822630500,Sydney Football Stadium,Sydney
+Rugby,Rugby World Cup,,,Argentina,Canada,,,1822639500,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Wales,Tonga,,,1822979700,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,England,Zimbabwe,,,1822988700,Adelaide Oval,Adelaide
+Rugby,Rugby World Cup,,,USA,Samoa,,,1823055300,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,New Zealand,Australia,,,1823062200,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,France,Japan,,,1823071500,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Chile,Hong Kong China,,,1823076900,North Queensland Stadium,Townsville
+Rugby,Rugby World Cup,,,Fiji,Canada,,,1823132700,Adelaide Oval,Adelaide
+Rugby,Rugby World Cup,,,Argentina,Spain,,,1823141700,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,South Africa,Georgia,,,1823150700,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Ireland,Scotland,,,1823161500,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,Uruguay,Portugal,,,1823235300,Newcastle Stadium,Newcastle
+Rugby,Rugby World Cup,,,Italy,Romania,,,1823244300,Sydney Football Stadium,Sydney
+Rugby,Rugby World Cup,,,New Zealand,Hong Kong China,,,1823580900,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,Japan,USA,,,1823592600,Adelaide Oval,Adelaide
+Rugby,Rugby World Cup,,,Tonga,Zimbabwe,,,1823595300,North Queensland Stadium,Townsville
+Rugby,Rugby World Cup,,,Argentina,Fiji,,,1823654700,Adelaide Oval,Adelaide
+Rugby,Rugby World Cup,,,Australia,Chile,,,1823663400,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,England,Wales,,,1823676300,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,Spain,Canada,,,1823681700,North Queensland Stadium,Townsville
+Rugby,Rugby World Cup,,,Italy,Georgia,,,1823735700,Newcastle Stadium,Newcastle
+Rugby,Rugby World Cup,,,Ireland,Uruguay,,,1823744700,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,Scotland,Portugal,,,1823753700,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,France,Samoa,,,1823762700,Sydney Football Stadium,Sydney
+Rugby,Rugby World Cup,,,South Africa,Romania,,,1823771700,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,Pool C Runner-Up,Pool F Runner-Up,,,1824261300,Sydney Football Stadium,Sydney
+Rugby,Rugby World Cup,,,Pool A Winner,Pool C/E/F Best 3RD,,,1824270300,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Pool E Winner,Pool D Runner-Up,,,1824279300,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,Pool B Winner,Pool D/E/F Best 3RD,,,1824288300,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,Pool C Winner,Pool A/E/F Best 3RD,,,1824347700,Sydney Football Stadium,Sydney
+Rugby,Rugby World Cup,,,Pool D Winner,Pool B/E/F Best 3RD,,,1824356700,Docklands Stadium,Melbourne
+Rugby,Rugby World Cup,,,Pool A Runner-Up,Pool E Runner-Up,,,1824365700,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Pool F Winner,Pool B Runner-Up,,,1824374700,Perth Stadium,Perth
+Rugby,Rugby World Cup,,,Winner R16 (2),Winner R16 (4),,,1824875100,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,Winner R16 (1),Winner R16 (3),,,1824885900,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Winner R16 (5),Winner R16 (6),,,1824962400,Brisbane Stadium,Brisbane
+Rugby,Rugby World Cup,,,Winner R16 (7),Winner R16 (8),,,1824973200,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,Winner QF1,Winner QF2,,,1825405200,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,Winner QF3,Winner QF4,,,1825491600,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,Runner-Up SF1,Runner-Up SF2,,,1826009100,Stadium Australia,Sydney
+Rugby,Rugby World Cup,,,Winner SF1,Winner SF2,,,1826096400,Stadium Australia,Sydney
+Football,Kirin Cup,,,New Zealand,Panama,,,1790835000,Nissan Stadium,Yokohama
